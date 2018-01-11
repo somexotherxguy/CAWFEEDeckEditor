@@ -1,0 +1,38 @@
+/*Grid View*/
+* {
+    box-sizing: border-box;
+}
+.row:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+.col-1 {width: 13%;}
+.col-2 {width: 80%;}
+.col-3 {width: 13%;}
+
+
+.header{
+    text-align: center;
+}
+
+.moveCell{
+    margin-left: 30px;
+    padding: 75px;
+    background-color: #c0c6ce;
+    display: inline-block;
+}
+
+.moveCellAlt{
+    margin-left: 65px;
+    padding: 75px;
+    background-color: #c0c6ce;
+    display: inline-block;
+}
+
+.moveString{
+}
