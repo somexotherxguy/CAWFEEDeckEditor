@@ -11,9 +11,8 @@
     float: left;
     padding: 15px;
 }
-.col-1 {width: 13%;}
 .col-2 {width: 80%;}
-.col-3 {width: 13%;}
+.col-3 {width: 15%;}
 
 
 .header{
@@ -21,18 +20,40 @@
 }
 
 .moveCell{
-    margin-left: 30px;
-    padding: 75px;
+    vertical-align: top;
+    margin-left: 70px;
+    margin-bottom: 30px;
+    width: 180px;
+    height: 180px;
     background-color: #c0c6ce;
     display: inline-block;
+    border: 2px solid white;
 }
 
 .moveCellAlt{
-    margin-left: 65px;
-    padding: 75px;
+    vertical-align: top;
+    margin-left: 180px;
+    margin-bottom: 30px;
+    width: 180px;
+    height: 180px;
     background-color: #c0c6ce;
     display: inline-block;
+    border: 2px solid white;
+}
+
+.moveName{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.moveText{
+    padding: 10px;
 }
 
 .moveString{
+}
+
+.selected{
+    border: 2px solid black;
 }

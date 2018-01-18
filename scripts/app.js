@@ -2,7 +2,7 @@ var app = angular.module('app', ['ngRoute']);
 
 app.config(["$routeProvider", function($routeProvider){
     $routeProvider
-        .when('/editor', {
+        .when('/', {
             controller: 'editor',
             templateUrl: 'partials/editor.html'
         })

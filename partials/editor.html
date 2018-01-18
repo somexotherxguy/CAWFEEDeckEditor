@@ -4,39 +4,136 @@
 </div>
 <div class="mdl-layout">   
     <div class="row">
+        <div class="col-2">
+            <div class="moveString">
+                <div ng-class="{'selected':sel=='oneA'}" ng-click="sel='oneA'; setSearch()" class="moveCell">
+                    <div class="moveText">
+                        <div class="moveName">{{deck[0].move.name}}</div>
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+                <div ng-class="{'selected':sel=='oneB'}" ng-click="sel='oneB'; setSearch()" class="moveCell">
+                    <div class="moveText">
+                        <div class="moveName">{{deck[1].move.name}}</div>
+                    </div>
+                </div>
+                <div ng-class="{'selected':sel=='oneC'}" ng-click="sel='oneC'; setSearch()" class="moveCell">
+                    <div class="moveText">
+                        {{deck[2].move.name}}
+                    </div>
+                </div>
+                <div ng-class="{'selected':sel=='oneD'}" ng-click="sel='oneD'; setSearch()" class="moveCellAlt">
+                    <div class="moveText">
+                        {{deck[3].move.name}}
+                    </div>
+                </div>
+            </div>
+            <div class="moveString">
+                <div ng-class="{'selected':sel=='twoA'}" ng-click="sel='twoA'; setSearch()" class="moveCell">
+                    <div class="moveText">
+                        {{deck[4].move.name}}
+                    </div>
+                </div>
+                <div ng-class="{'selected':sel=='twoB'}" ng-click="sel='twoB'; setSearch()" class="moveCell">
+                    <div class="moveText">
+                        {{deck[5].move.name}}
+                    </div>
+                </div>
+                <div ng-class="{'selected':sel=='twoC'}" ng-click="sel='twoC'; setSearch()" class="moveCell">
+                    <div class="moveText">
+                        {{deck[6].move.name}}
+                    </div>
+                </div>
+                <div ng-class="{'selected':sel=='twoD'}" ng-click="sel='twoD'; setSearch()" class="moveCellAlt">
+                    <div class="moveText">
+                        {{deck[7].move.name}}
+                    </div>
+                </div>
+            </div>
+            <div class="moveString">
+                <div ng-class="{'selected':sel=='threeA'}" ng-click="sel='threeA'; setSearch()" class="moveCell">
+                    <div class="moveText">
+                        {{deck[8].move.name}}
+                    </div>
+                </div>
+                <div ng-class="{'selected':sel=='threeB'}" ng-click="sel='threeB'; setSearch()" class="moveCell">
+                    <div class="moveText">
+                        {{deck[9].move.name}}
+                    </div>
+                </div>
+                <div ng-class="{'selected':sel=='threeC'}" ng-click="sel='threeC'; setSearch()" class="moveCell">
+                    <div class="moveText">
+                        {{deck[10].move.name}}
+                    </div>
+                </div>
+                <div ng-class="{'selected':sel=='threeD'}" ng-click="sel='threeD'; setSearch()" class="moveCellAlt">
+                    <div class="moveText">
+                        {{deck[11].move.name}}
+                    </div>
+                </div>
+            </div>
+            <div class="moveString">
+                <div ng-class="{'selected':sel=='fourA'}" ng-click="sel='fourA'; setSearch()" class="moveCell">
+                    <div class="moveText">
+                        {{deck[12].move.name}}
+                    </div>
+                </div>
+                <div ng-class="{'selected':sel=='fourB'}" ng-click="sel='fourB'; setSearch()" class="moveCell">
+                    <div class="moveText">
+                        {{deck[13].move.name}}
+                    </div>
+                </div>
+                <div ng-class="{'selected':sel=='fourC'}" ng-click="sel='fourC'; setSearch()" class="moveCell">
+                    <div class="moveText">
+                        {{deck[14].move.name}}
+                    </div>
+                </div>
+                <div ng-class="{'selected':sel=='fourD'}" ng-click="sel='fourD'; setSearch()" class="moveCellAlt">
+                    <div class="moveText">
+                        {{deck[15].move.name}}
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="col-3">
+            <input type="text" ng-model="key">
+            <div>
+                <li ng-repeat="move in (moves | filter:search)" ng-bind="move" ng-click="addMove(move)"></li>
+            </div>
+        </div>
+    </div>
+    <!--<div class="row">
         <div class="col-1"></div>
-        <div class="col-2 moveString">
-            <div class="moveCell"><input type="text"></div>
-            <div class="moveCell">Test</div>
-            <div class="moveCell">Test</div>
-            <div class="moveCellAlt">Test</div>
+        <div class="col-2">
+            <div ng-class="{'selected':sel=='twoA'}" ng-click="sel='twoA'; setSearch()" class="moveCell"></div>
+            <div ng-class="{'selected':sel=='twoB'}" ng-click="sel='twoB'; setSearch()" class="moveCell"></div>
+            <div ng-class="{'selected':sel=='twoC'}" ng-click="sel='twoC'; setSearch()" class="moveCell"></div>
+            <div ng-class="{'selected':sel=='twoD'}" ng-click="sel='twoD'; setSearch()" class="moveCellAlt"></div>
         </div>
     </div>
     <div class="row">
         <div class="col-1"></div>
         <div class="col-2">
-            <div class="moveCell">Test</div>
-            <div class="moveCell">Test</div>
-            <div class="moveCell">Test</div>
-            <div class="moveCellAlt">Test</div>
+            <div ng-class="{'selected':sel=='threeA'}" ng-click="sel='threeA'; setSearch()" class="moveCell"></div>
+            <div ng-class="{'selected':sel=='threeB'}" ng-click="sel='threeB'; setSearch()" class="moveCell"></div>
+            <div ng-class="{'selected':sel=='threeC'}" ng-click="sel='threeC'; setSearch()" class="moveCell"></div>
+            <div ng-class="{'selected':sel=='threeD'}" ng-click="sel='threeD'; setSearch()" class="moveCellAlt"></div>
         </div>
     </div>
     <div class="row">
         <div class="col-1"></div>
         <div class="col-2">
-            <div class="moveCell">Test</div>
-            <div class="moveCell">Test</div>
-            <div class="moveCell">Test</div>
-            <div class="moveCellAlt">Test</div>
+            <div ng-class="{'selected':sel=='fourA'}" ng-click="sel='fourA'; setSearch()" class="moveCell"></div>
+            <div ng-class="{'selected':sel=='fourB'}" ng-click="sel='fourB'; setSearch()" class="moveCell"></div>
+            <div ng-class="{'selected':sel=='fourC'}" ng-click="sel='fourC'; setSearch()" class="moveCell"></div>
+            <div ng-class="{'selected':sel=='fourD'}" ng-click="sel='fourD'; setSearch()" class="moveCellAlt"></div>
         </div>
-    </div>
-    <div class="row">
-        <div class="col-1"></div>
-        <div class="col-2">
-            <div class="moveCell">Test</div>
-            <div class="moveCell">Test</div>
-            <div class="moveCell">Test</div>
-            <div class="moveCellAlt">Test</div>
-        </div>
-    </div>
+    </div> -->
 </div>
