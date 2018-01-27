@@ -1,139 +1,257 @@
 <!-- editor html content -->
+<div id="bg" style="z-index:-1">
+  <img id="bgimg" class="background" src="images/background.jpg" alt="">
+</div>
 <div class="header">
-    <h2 class="header">CAWFEE Deck Editor</h2>
+    <h2 class="header">Absolver Deck Assistant</h2>
 </div>
 <div class="mdl-layout">   
     <div class="row">
+        <div class="col-1"></div>
         <div class="col-2">
+        <div class="transbarmid">
+            <div class="center midWidth">
             <div class="moveString">
+                <div class="icon"><img ng-src="{{frIcon}}"></div>
                 <div ng-class="{'selected':sel=='oneA'}" ng-click="sel='oneA'; setSearch()" class="moveCell">
                     <div class="moveText">
                         <div class="moveName">{{deck[0].move.name}}</div>
-                        <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
+                        <div class="moveStyle">{{deck[0].move.style}}</div>
+                        <ul class="moveInfo">
+                            <li>{{deck[0].move.vert}}</li>
+                            <li>{{deck[0].move.horiz}}</li>
+                            <li>{{deck[0].move.hit}}</li>
+                            <li>{{deck[0].move.prop}}</li>
                         </ul>
                     </div>
                 </div>
+                <div ng-class="{'icon':deck[0].icon.gray==false, 'iconGray':deck[0].icon.gray==true}"><img ng-src="{{deck[0].icon.image}}"></div>
                 <div ng-class="{'selected':sel=='oneB'}" ng-click="sel='oneB'; setSearch()" class="moveCell">
                     <div class="moveText">
                         <div class="moveName">{{deck[1].move.name}}</div>
+                        <div class="moveStyle">{{deck[1].move.style}}</div>
+                        <ul class="moveInfo">
+                            <li>{{deck[1].move.vert}}</li>
+                            <li>{{deck[1].move.horiz}}</li>
+                            <li>{{deck[1].move.hit}}</li>
+                            <li>{{deck[1].move.prop}}</li>
+                        </ul>
                     </div>
                 </div>
+                <div ng-class="{'icon':deck[1].icon.gray==false, 'iconGray':deck[1].icon.gray==true}"><img ng-src="{{deck[1].icon.image}}"></div>
                 <div ng-class="{'selected':sel=='oneC'}" ng-click="sel='oneC'; setSearch()" class="moveCell">
                     <div class="moveText">
-                        {{deck[2].move.name}}
+                        <div class="moveName">{{deck[2].move.name}}</div>
+                        <div class="moveStyle">{{deck[2].move.style}}</div>
+                        <ul class="moveInfo">
+                            <li>{{deck[2].move.vert}}</li>
+                            <li>{{deck[2].move.horiz}}</li>
+                            <li>{{deck[2].move.hit}}</li>
+                            <li>{{deck[2].move.prop}}</li>
+                        </ul>
                     </div>
                 </div>
+                <div ng-class="{'icon':deck[2].icon.gray==false, 'iconGray':deck[2].icon.gray==true}"><img ng-src="{{deck[2].icon.image}}"></div>
+                <div class="icon altMargin"><img ng-src="{{frIcon}}"></div>
                 <div ng-class="{'selected':sel=='oneD'}" ng-click="sel='oneD'; setSearch()" class="moveCellAlt">
                     <div class="moveText">
-                        {{deck[3].move.name}}
+                        <div class="moveName">{{deck[3].move.name}}</div>
+                        <div class="moveStyle">{{deck[3].move.style}}</div>
+                        <ul class="moveInfo">
+                            <li>{{deck[3].move.vert}}</li>
+                            <li>{{deck[3].move.horiz}}</li>
+                            <li>{{deck[3].move.hit}}</li>
+                            <li>{{deck[3].move.prop}}</li>
+                        </ul>
                     </div>
                 </div>
+                <div ng-class="{'icon':deck[3].icon.gray==false, 'iconGray':deck[3].icon.gray==true}"><img ng-src="{{deck[3].icon.image}}"></div>
             </div>
             <div class="moveString">
+                <div class="icon"><img ng-src="{{flIcon}}"></div>
                 <div ng-class="{'selected':sel=='twoA'}" ng-click="sel='twoA'; setSearch()" class="moveCell">
                     <div class="moveText">
-                        {{deck[4].move.name}}
+                        <div class="moveName">{{deck[4].move.name}}</div>
+                        <div class="moveStyle">{{deck[4].move.style}}</div>
+                        <ul class="moveInfo">
+                            <li>{{deck[4].move.vert}}</li>
+                            <li>{{deck[4].move.horiz}}</li>
+                            <li>{{deck[4].move.hit}}</li>
+                            <li>{{deck[4].move.prop}}</li>
+                        </ul>
                     </div>
                 </div>
+                <div ng-class="{'icon':deck[4].icon.gray==false, 'iconGray':deck[4].icon.gray==true}"><img ng-src="{{deck[4].icon.image}}"></div>
                 <div ng-class="{'selected':sel=='twoB'}" ng-click="sel='twoB'; setSearch()" class="moveCell">
                     <div class="moveText">
-                        {{deck[5].move.name}}
+                        <div class="moveName">{{deck[5].move.name}}</div>
+                        <div class="moveStyle">{{deck[5].move.style}}</div>
+                        <ul class="moveInfo">
+                            <li>{{deck[5].move.vert}}</li>
+                            <li>{{deck[5].move.horiz}}</li>
+                            <li>{{deck[5].move.hit}}</li>
+                            <li>{{deck[5].move.prop}}</li>
+                        </ul>
                     </div>
                 </div>
+                <div ng-class="{'icon':deck[5].icon.gray==false, 'iconGray':deck[5].icon.gray==true}"><img ng-src="{{deck[5].icon.image}}"></div>
                 <div ng-class="{'selected':sel=='twoC'}" ng-click="sel='twoC'; setSearch()" class="moveCell">
                     <div class="moveText">
-                        {{deck[6].move.name}}
+                        <div class="moveName">{{deck[6].move.name}}</div>
+                        <div class="moveStyle">{{deck[6].move.style}}</div>
+                        <ul class="moveInfo">
+                            <li>{{deck[6].move.vert}}</li>
+                            <li>{{deck[6].move.horiz}}</li>
+                            <li>{{deck[6].move.hit}}</li>
+                            <li>{{deck[6].move.prop}}</li>
+                        </ul>
                     </div>
                 </div>
+                <div ng-class="{'icon':deck[6].icon.gray==false, 'iconGray':deck[6].icon.gray==true}"><img ng-src="{{deck[6].icon.image}}"></div>
+                <div class="icon altMargin"><img ng-src="{{flIcon}}"></div>
                 <div ng-class="{'selected':sel=='twoD'}" ng-click="sel='twoD'; setSearch()" class="moveCellAlt">
                     <div class="moveText">
-                        {{deck[7].move.name}}
+                        <div class="moveName">{{deck[7].move.name}}</div>
+                        <div class="moveStyle">{{deck[7].move.style}}</div>
+                        <ul class="moveInfo">
+                            <li>{{deck[7].move.vert}}</li>
+                            <li>{{deck[7].move.horiz}}</li>
+                            <li>{{deck[7].move.hit}}</li>
+                            <li>{{deck[7].move.prop}}</li>
+                        </ul>
                     </div>
                 </div>
+                <div ng-class="{'icon':deck[7].icon.gray==false, 'iconGray':deck[7].icon.gray==true}"><img ng-src="{{deck[7].icon.image}}"></div>
             </div>
             <div class="moveString">
+                <div class="icon"><img ng-src="{{blIcon}}"></div>
                 <div ng-class="{'selected':sel=='threeA'}" ng-click="sel='threeA'; setSearch()" class="moveCell">
                     <div class="moveText">
-                        {{deck[8].move.name}}
+                        <div class="moveName">{{deck[8].move.name}}</div>
+                        <div class="moveStyle">{{deck[8].move.style}}</div>
+                        <ul class="moveInfo">
+                            <li>{{deck[8].move.vert}}</li>
+                            <li>{{deck[8].move.horiz}}</li>
+                            <li>{{deck[8].move.hit}}</li>
+                            <li>{{deck[8].move.prop}}</li>
+                        </ul>
                     </div>
                 </div>
+                <div ng-class="{'icon':deck[8].icon.gray==false, 'iconGray':deck[8].icon.gray==true}"><img ng-src="{{deck[8].icon.image}}"></div>
                 <div ng-class="{'selected':sel=='threeB'}" ng-click="sel='threeB'; setSearch()" class="moveCell">
                     <div class="moveText">
-                        {{deck[9].move.name}}
+                        <div class="moveName">{{deck[9].move.name}}</div>
+                        <div class="moveStyle">{{deck[9].move.style}}</div>
+                        <ul class="moveInfo">
+                            <li>{{deck[9].move.vert}}</li>
+                            <li>{{deck[9].move.horiz}}</li>
+                            <li>{{deck[9].move.hit}}</li>
+                            <li>{{deck[9].move.prop}}</li>
+                        </ul>
                     </div>
                 </div>
+                <div ng-class="{'icon':deck[9].icon.gray==false, 'iconGray':deck[9].icon.gray==true}"><img ng-src="{{deck[9].icon.image}}"></div>
                 <div ng-class="{'selected':sel=='threeC'}" ng-click="sel='threeC'; setSearch()" class="moveCell">
                     <div class="moveText">
-                        {{deck[10].move.name}}
+                        <div class="moveName">{{deck[10].move.name}}</div>
+                        <div class="moveStyle">{{deck[10].move.style}}</div>
+                        <ul class="moveInfo">
+                            <li>{{deck[10].move.vert}}</li>
+                            <li>{{deck[10].move.horiz}}</li>
+                            <li>{{deck[10].move.hit}}</li>
+                            <li>{{deck[10].move.prop}}</li>
+                        </ul>
                     </div>
                 </div>
+                <div ng-class="{'icon':deck[10].icon.gray==false, 'iconGray':deck[10].icon.gray==true}"><img ng-src="{{deck[10].icon.image}}"></div>
+                <div class="icon altMargin"><img ng-src="{{blIcon}}"></div>
                 <div ng-class="{'selected':sel=='threeD'}" ng-click="sel='threeD'; setSearch()" class="moveCellAlt">
                     <div class="moveText">
-                        {{deck[11].move.name}}
+                        <div class="moveName">{{deck[11].move.name}}</div>
+                        <div class="moveStyle">{{deck[11].move.style}}</div>
+                        <ul class="moveInfo">
+                            <li>{{deck[11].move.vert}}</li>
+                            <li>{{deck[11].move.horiz}}</li>
+                            <li>{{deck[11].move.hit}}</li>
+                            <li>{{deck[11].move.prop}}</li>
+                        </ul>
                     </div>
                 </div>
+                <div ng-class="{'icon':deck[11].icon.gray==false, 'iconGray':deck[11].icon.gray==true}"><img ng-src="{{deck[11].icon.image}}"></div>
             </div>
             <div class="moveString">
+                <div class="icon"><img ng-src="{{brIcon}}"></div>
                 <div ng-class="{'selected':sel=='fourA'}" ng-click="sel='fourA'; setSearch()" class="moveCell">
                     <div class="moveText">
-                        {{deck[12].move.name}}
+                        <div class="moveName">{{deck[12].move.name}}</div>
+                        <div class="moveStyle">{{deck[12].move.style}}</div>
+                        <ul class="moveInfo">
+                            <li>{{deck[12].move.vert}}</li>
+                            <li>{{deck[12].move.horiz}}</li>
+                            <li>{{deck[12].move.hit}}</li>
+                            <li>{{deck[12].move.prop}}</li>
+                        </ul>
                     </div>
                 </div>
+                <div ng-class="{'icon':deck[12].icon.gray==false, 'iconGray':deck[12].icon.gray==true}"><img ng-src="{{deck[12].icon.image}}"></div>
                 <div ng-class="{'selected':sel=='fourB'}" ng-click="sel='fourB'; setSearch()" class="moveCell">
                     <div class="moveText">
-                        {{deck[13].move.name}}
+                        <div class="moveName">{{deck[13].move.name}}</div>
+                        <div class="moveStyle">{{deck[13].move.style}}</div>
+                        <ul class="moveInfo">
+                            <li>{{deck[13].move.vert}}</li>
+                            <li>{{deck[13].move.horiz}}</li>
+                            <li>{{deck[13].move.hit}}</li>
+                            <li>{{deck[13].move.prop}}</li>
+                        </ul>
                     </div>
                 </div>
+                <div ng-class="{'icon':deck[13].icon.gray==false, 'iconGray':deck[13].icon.gray==true}"><img ng-src="{{deck[13].icon.image}}"></div>
                 <div ng-class="{'selected':sel=='fourC'}" ng-click="sel='fourC'; setSearch()" class="moveCell">
                     <div class="moveText">
-                        {{deck[14].move.name}}
+                        <div class="moveName">{{deck[14].move.name}}</div>
+                        <div class="moveStyle">{{deck[14].move.style}}</div>
+                        <ul class="moveInfo">
+                            <li>{{deck[14].move.vert}}</li>
+                            <li>{{deck[14].move.horiz}}</li>
+                            <li>{{deck[14].move.hit}}</li>
+                            <li>{{deck[14].move.prop}}</li>
+                        </ul>
                     </div>
                 </div>
+                <div ng-class="{'icon':deck[14].icon.gray==false, 'iconGray':deck[14].icon.gray==true}"><img ng-src="{{deck[14].icon.image}}"></div>
+                <div class="icon altMargin"><img ng-src="{{brIcon}}"></div>
                 <div ng-class="{'selected':sel=='fourD'}" ng-click="sel='fourD'; setSearch()" class="moveCellAlt">
                     <div class="moveText">
-                        {{deck[15].move.name}}
+                        <div class="moveName">{{deck[15].move.name}}</div>
+                        <div class="moveStyle">{{deck[15].move.style}}</div>
+                        <ul class="moveInfo">
+                            <li>{{deck[15].move.vert}}</li>
+                            <li>{{deck[15].move.horiz}}</li>
+                            <li>{{deck[15].move.hit}}</li>
+                            <li>{{deck[15].move.prop}}</li>
+                        </ul>
                     </div>
+                </div>
+                <div ng-class="{'icon':deck[15].icon.gray==false, 'iconGray':deck[15].icon.gray==true}"><img ng-src="{{deck[15].icon.image}}"></div>
+            </div>
+            </div>
+        </div>
+        </div>
+        
+        <div class="col-3">
+            <div class="transbarright">
+                <div class="marginButt">
+                    <button class="buttonStyle" ng-click="clearMove()">Clear move</button>
+                </div>
+                <div class="centText">
+                    <input class="searchStyle" type="text" placeholder="Filter move list" ng-model="key">
+                <div>
+                <div class="searchListHeight">
+                    <li class="search" ng-repeat="move in (moves | filter:search)|limitTo:37" ng-bind="move" ng-click="addMove(move)"></li>
                 </div>
             </div>
         </div>
-        
-        
-        <div class="col-3">
-            <input type="text" ng-model="key">
-            <div>
-                <li ng-repeat="move in (moves | filter:search)" ng-bind="move" ng-click="addMove(move)"></li>
-            </div>
-        </div>
+        <div class="col-4"></div>
     </div>
-    <!--<div class="row">
-        <div class="col-1"></div>
-        <div class="col-2">
-            <div ng-class="{'selected':sel=='twoA'}" ng-click="sel='twoA'; setSearch()" class="moveCell"></div>
-            <div ng-class="{'selected':sel=='twoB'}" ng-click="sel='twoB'; setSearch()" class="moveCell"></div>
-            <div ng-class="{'selected':sel=='twoC'}" ng-click="sel='twoC'; setSearch()" class="moveCell"></div>
-            <div ng-class="{'selected':sel=='twoD'}" ng-click="sel='twoD'; setSearch()" class="moveCellAlt"></div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-1"></div>
-        <div class="col-2">
-            <div ng-class="{'selected':sel=='threeA'}" ng-click="sel='threeA'; setSearch()" class="moveCell"></div>
-            <div ng-class="{'selected':sel=='threeB'}" ng-click="sel='threeB'; setSearch()" class="moveCell"></div>
-            <div ng-class="{'selected':sel=='threeC'}" ng-click="sel='threeC'; setSearch()" class="moveCell"></div>
-            <div ng-class="{'selected':sel=='threeD'}" ng-click="sel='threeD'; setSearch()" class="moveCellAlt"></div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-1"></div>
-        <div class="col-2">
-            <div ng-class="{'selected':sel=='fourA'}" ng-click="sel='fourA'; setSearch()" class="moveCell"></div>
-            <div ng-class="{'selected':sel=='fourB'}" ng-click="sel='fourB'; setSearch()" class="moveCell"></div>
-            <div ng-class="{'selected':sel=='fourC'}" ng-click="sel='fourC'; setSearch()" class="moveCell"></div>
-            <div ng-class="{'selected':sel=='fourD'}" ng-click="sel='fourD'; setSearch()" class="moveCellAlt"></div>
-        </div>
-    </div> -->
 </div>
