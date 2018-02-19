@@ -47,6 +47,10 @@
   min-height: 50%;
 }
 
+.hide{
+    display: none;
+}
+
 .header{
     text-align: center;
     font-family: Droid Sans;
@@ -71,22 +75,25 @@
     margin-left: 5px;
     margin-right: 5px;
     margin-bottom: 10px;
-    width: 180px;
+    width: 150px;
     height: 180px;
-    background-color: #c0c6ce;
+    background-color: #0c0c0c;
     display: inline-block;
-    border: 4px solid #c0c6ce;
+    border: 2px solid #c0c6ce;
+    color: #f1f7aa;
+    text-align: center;
 }
 
 .moveCellAlt{
     font-family: Droid Sans;
     vertical-align: top;
     margin-bottom: 10px;
-    width: 180px;
+    width: 150px;
     height: 180px;
-    background-color: #c0c6ce;
+    background-color: #0c0c0c;
     display: inline-block;
-    border: 4px solid #c0c6ce;
+    border: 2px solid #c0c6ce;
+    color: #f1f7aa;
 }
 
 .moveName{
@@ -109,10 +116,11 @@
 .moveInfo{
     list-style: none;
     padding: 0px;
+    font-size: 16px;
 }
 
 .selected{
-    border: 4px solid #f1f7aa;
+    border: 2px solid #f1f7aa;
 }
 
 .search{
@@ -180,4 +188,21 @@
     height: 800px;
 	background-color: #000000;
 	opacity: 0.8;
+}
+
+.styleIcon{
+    width: 24%;
+    height: 24%;
+}
+
+.moveIcon{
+    width: 30px;
+    height: 30px;
+}
+
+/*mobile*/
+@media (max-width:1200px) {
+  #col2, #col3 {
+    width:100%;
+  }
 }

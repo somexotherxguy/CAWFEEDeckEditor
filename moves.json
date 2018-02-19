@@ -46,7 +46,7 @@
         },
         {
             "name" : "Curled Up Uppercut",
-            "style" : "Khalt",
+            "style" : "Kahlt",
             "vert" : "mid",
             "horiz" : false,
             "stances" : [{"start" : "FR", "end" : "FL", "hit" : "R"},
@@ -82,7 +82,7 @@
         },
         {
             "name" : "Roll Punch",
-            "style" : "Khalt",
+            "style" : "kahlt",
             "vert" : "mid",
             "horiz" : false,
             "stances" : [{"start" : "FR", "end" : "FL", "hit" : "R"},
@@ -91,7 +91,7 @@
         },
         {
             "name" : "MeiaLua",
-            "style" : "Khalt",
+            "style" : "kahlt",
             "vert" : "high",
             "horiz" : true,
             "stances" : [{"start" : "FR", "end" : "FL", "hit" : "R"},
@@ -100,7 +100,7 @@
         },
         {
             "name" : "Leg Breaker",
-            "style" : "Khalt",
+            "style" : "kahlt",
             "vert" : "low",
             "horiz" : true,
             "stances" : [{"start" : "FR", "end" : "FL", "hit" : "R"},
@@ -109,7 +109,7 @@
         },
         {
             "name" : "Side Kick",
-            "style" : "Khalt",
+            "style" : "kahlt",
             "vert" : "high",
             "horiz" : true,
             "stances" : [{"start" : "FR", "end" : "FL", "hit" : "R"},
@@ -118,7 +118,7 @@
         },
         {
             "name" : "Front Kick",
-            "style" : "Khalt",
+            "style" : "kahlt",
             "vert" : "mid",
             "horiz" : false,
             "stances" : [{"start" : "FR", "end" : "FL", "hit" : "R"},
@@ -136,7 +136,7 @@
         },
         {
             "name" : "Charged Haymaker",
-            "style" : "Khalt",
+            "style" : "kahlt",
             "vert" : "high",
             "horiz" : false,
             "stances" : [{"start" : "FR", "end" : "FL", "hit" : "R"},
@@ -285,7 +285,7 @@
             "horiz" : true,
             "stances" : [{"start" : "FR", "end" : "BL", "hit" : "R"},
                         {"start" : "FL", "end" : "BR", "hit" : "L"}],
-            "properties" : ["double"]
+            "properties" : ["jumping"]
         },
         {
             "name" : "Roll Back Fist",
@@ -361,7 +361,7 @@
         },
         {
             "name" : "Crouching Elbow",
-            "style" : "Khalt",
+            "style" : "kahlt",
             "vert" : "mid",
             "horiz" : false,
             "stances" : [{"start" : "FR", "end" : "BR", "hit" : "L"},
@@ -522,7 +522,7 @@
             "properties" : ["jumping"]
         },
         {
-            "name" : "Low Spin Check",
+            "name" : "Low Spin Heel",
             "style" : "Windfall",
             "vert" : "low",
             "horiz" : true,
@@ -640,7 +640,7 @@
         },
         {
             "name" : "Axe Kick",
-            "style" : "Kahlt",
+            "style" : "Forsaken",
             "vert" : "mid",
             "horiz" : false,
             "stances" : [{"start" : "BR", "end" : "FL", "hit" : "R"},

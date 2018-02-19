@@ -1,4 +1,4 @@
-app.controller('editor', ['$scope', '$http', function($scope, $http) {
+app.controller('editor', ['$scope', '$http', '$window', function($scope, $http, $window) {
     var moves;
     $http.get('moves.json').
         then(function onSuccess(data) {
@@ -222,6 +222,7 @@ app.controller('editor', ['$scope', '$http', function($scope, $http) {
                     }
                 }
                 $scope.moves = validMoves;
+                setFocusOnSearch();
             }
             
             $scope.selectMove = function(){
@@ -242,8 +243,11 @@ app.controller('editor', ['$scope', '$http', function($scope, $http) {
                          //Clear the move from a different slot
                         for(y in $scope.deck){
                             if(data.data[x].name === $scope.deck[y].move.name){
+                                $scope.deck[y].move.styleIcon = "";
                                 $scope.deck[y].move = {};
-                                $scope.deck[y].start = [];
+                                if($scope.deck[y].quadrant.slice(-1) !== "A" && $scope.deck[y].quadrant.slice(-1) !== "D"){
+                                    $scope.deck[y].start = [];
+                                }
                                 $scope.deck[y].end = [];
                                 $scope.deck[y].icon.gray = true;
                             }
@@ -251,6 +255,7 @@ app.controller('editor', ['$scope', '$http', function($scope, $http) {
                         
                         $scope.deck[index].move.name = data.data[x].name;
                         $scope.deck[index].move.style = data.data[x].style;
+                        $scope.deck[index].move.styleIcon = "images/" + data.data[x].style.toLowerCase() + "_icon.png";
                         $scope.deck[index].move.vert = data.data[x].vert;
                         if(data.data[x].horiz){
                             $scope.deck[index].move.horiz = "sweep";
@@ -258,6 +263,10 @@ app.controller('editor', ['$scope', '$http', function($scope, $http) {
                             $scope.deck[index].move.horiz = "straight"
                         }
                         $scope.deck[index].move.prop = data.data[x].properties.toString();
+                        $scope.deck[index].move.propIcons = [];
+                        for(y in data.data[x].properties){
+                            $scope.deck[index].move.propIcons.push("images/" + data.data[x].properties[y] + "_move_icon.png");
+                        }
 
                         setHits(data.data[x], index);
                     }
@@ -381,6 +390,11 @@ app.controller('editor', ['$scope', '$http', function($scope, $http) {
                 }
                 
                 $scope.deck[index].icon.gray = false;
+            }
+            
+            function setFocusOnSearch(){
+               $window.document.getElementById("moveSearch").focus();
+               $scope.key = "";
             }
             
             //defer.resolve();
