@@ -204,7 +204,7 @@
             "horiz" : false,
             "stances" : [{"start" : "FR", "end" : "FR", "hit" : "R"},
                         {"start" : "FL", "end" : "FL", "hit" : "L"}],
-            "properties" : ["stopping"]
+            "properties" : []
         },
         {
             "name" : "Cleaver Blow",
@@ -231,7 +231,7 @@
             "horiz" : false,
             "stances" : [{"start" : "FR", "end" : "FR", "hit" : "RL"},
                         {"start" : "FL", "end" : "FL", "hit" : "RL"}],
-            "properties" : ["charged"]
+            "properties" : ["charging"]
         },
         {
             "name" : "Falcon Punch",
