@@ -6,7 +6,7 @@ app.controller('editor', ['$scope', '$http', '$window', function($scope, $http, 
             moves = data;
             $scope.moves = [];
             for(x in data.data){
-                $scope.moves.push(data.data[x].name);
+                $scope.moves.push(data.data[x]);
             }
             
             $scope.frIcon = "images/Startingposition1.png";
@@ -166,7 +166,7 @@ app.controller('editor', ['$scope', '$http', '$window', function($scope, $http, 
             
             $scope.key = '';
             $scope.search = function(value){
-                return value.indexOf($scope.key.replace(/\b[a-z]/g,function(f){return f.toUpperCase();})) !== -1; // just in case i need this again -- $scope.key !== '' && 
+                return value.name.indexOf($scope.key.replace(/\b[a-z]/g,function(f){return f.toUpperCase();})) !== -1; // just in case i need this again -- $scope.key !== '' && 
             }
             
             $scope.setSearch = function(){
@@ -201,16 +201,16 @@ app.controller('editor', ['$scope', '$http', '$window', function($scope, $http, 
                         for(y in data.data[x].stances){
                             if(validMoves.indexOf(data.data[x].name) === -1){
                                 if(start.indexOf(data.data[x].stances[y].start) !== -1 && end.indexOf(data.data[x].stances[y].end) !== -1){
-                                    validMoves.push(data.data[x].name);
+                                    validMoves.push(data.data[x]);
                                 } else if(start.length === 0 && end.indexOf(data.data[x].stances[y].end) !== -1){
-                                    validMoves.push(data.data[x].name);
+                                    validMoves.push(data.data[x]);
                                 } else if(start.indexOf(data.data[x].stances[y].start) !== -1 && end.length === 0){
                                     if(alt){
                                         if(data.data[x].stances[y].start !== data.data[x].stances[y].end){
-                                            validMoves.push(data.data[x].name);
+                                            validMoves.push(data.data[x]);
                                         }
                                     } else {
-                                        validMoves.push(data.data[x].name);
+                                        validMoves.push(data.data[x]);
                                     }
                                 }
                             }
@@ -218,7 +218,7 @@ app.controller('editor', ['$scope', '$http', '$window', function($scope, $http, 
                     }
                 } else {
                     for(x in data.data){
-                        validMoves.push(data.data[x].name);
+                        validMoves.push(data.data[x]);
                     }
                 }
                 $scope.moves = validMoves;

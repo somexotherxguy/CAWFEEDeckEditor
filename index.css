@@ -94,12 +94,13 @@
     display: inline-block;
     border: 2px solid #c0c6ce;
     color: #f1f7aa;
+    text-align: center;
 }
 
 .moveName{
     text-align: center;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 18px;
 }
 .moveStyle{
     text-align: center;
@@ -120,14 +121,22 @@
 }
 
 .selected{
-    border: 2px solid #f1f7aa;
+    border: 4px solid #f1f7aa;
 }
 
 .search{
+    margin-top: 5px;
     list-style: none;
     cursor: pointer;
     font-family: Droid Sans;
     color: #f1f7aa;
+    padding-top:5px;
+    padding-bottom:5px;
+    background-color: #111111;
+    width: 95%;
+    margin: 0 auto;
+    border-top: 5px solid #000000;
+    position: relative;
 }
 
 .search:hover{
@@ -198,6 +207,34 @@
 .moveIcon{
     width: 30px;
     height: 30px;
+}
+
+.moveIconSearch{
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    position: relative;
+}
+
+.movePropSearch{
+    width: 240px;
+    font-size: 13.5px;
+    text-align: center;
+}
+
+.moveNameSearch{
+    text-align: center;
+}
+
+.floatLeft{
+    position: absolute;
+    top: 2px;
+    left: 2px;
+}
+
+.floatRight{
+    position:absolute;
+    float: right;
 }
 
 /*mobile*/
