@@ -280,17 +280,17 @@
                     <input id="moveSearch" class="searchStyle" type="text" placeholder="Filter move list" ng-model="key">
                 <div>
                 <div class="searchListHeight">
-                    <li class="search" ng-repeat="move in (moves | filter:search)|limitTo:12" ng-click="addMove(move.name)">
-                        <div>
-                            <img class="moveIconSearch floatLeft" ng-src="{{'images/' + move.style + '_icon.png'}}">
-                            {{move.name}}
-                            <img class="moveIconSearch floatRight" ng-repeat="x in move.properties" ng-src="{{'images/' + x + '_move_icon.png'}}">
+                    <li class="search" ng-repeat="move in (moves | filter:search)" ng-click="addMove(move.name)">
+                        <div class="row">
+                            <div class="col-7 floatLeft"><img class="moveIconSearch" ng-src="{{'images/' + move.style + '_icon.png'}}"></div>
+                            <div class="moveNameSearch col-5">{{move.name}}</div>
+                            <div class="col-6 floatRight"><img class="moveIconSearch" ng-repeat="x in move.properties" ng-src="{{'images/' + x + '_move_icon.png'}}"></div>
                         </div>
                         <div class="movePropSearch">
                             {{move.vert}}
                             {{move.horiz ? 'sweep' : 'thrust'}}
                         <div>
-                    </li> <!-- ng-bind="move" -->
+                    </li> <!-- ng-bind="move" |limitTo:12 -->
                 </div>
             </div>
         </div>
