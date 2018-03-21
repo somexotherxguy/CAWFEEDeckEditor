@@ -260,7 +260,7 @@ app.controller('editor', ['$scope', '$http', '$window', function($scope, $http, 
                         if(data.data[x].horiz){
                             $scope.deck[index].move.horiz = "sweep";
                         } else {
-                            $scope.deck[index].move.horiz = "straight"
+                            $scope.deck[index].move.horiz = "thrust";
                         }
                         $scope.deck[index].move.prop = data.data[x].properties.toString();
                         $scope.deck[index].move.propIcons = [];

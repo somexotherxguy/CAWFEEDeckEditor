@@ -624,7 +624,7 @@
             "name" : "Uramawashi",
             "style" : "windfall",
             "vert" : "high",
-            "horiz" : false,
+            "horiz" : true,
             "stances" : [{"start" : "BR", "end" : "FL", "hit" : "L"},
                         {"start" : "BL", "end" : "FR", "hit" : "R"}],
             "properties" : []
