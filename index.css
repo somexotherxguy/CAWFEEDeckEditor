@@ -24,7 +24,8 @@
 .col-4 {width: 7%;}
 .col-5 {width: 60%;}
 .col-6 {width: 20%;}
-.col-7 {width: 20%;}
+.col-7 {width: 31%;}
+.col-8 {width: 35%;}
 
 
 .background{
@@ -80,7 +81,7 @@
     margin-bottom: 10px;
     width: 150px;
     height: 180px;
-    background-color: #0c0c0c;
+    /*background-color: #0c0c0c;*/
     display: inline-block;
     border: 2px solid #c0c6ce;
     color: #f1f7aa;
@@ -93,7 +94,7 @@
     margin-bottom: 10px;
     width: 150px;
     height: 180px;
-    background-color: #0c0c0c;
+    /*background-color: #0c0c0c;*/
     display: inline-block;
     border: 2px solid #c0c6ce;
     color: #f1f7aa;
@@ -111,6 +112,7 @@
 }
 
 .moveText{
+    position: relative;
     padding: 10px;
 }
 
@@ -151,6 +153,7 @@
 }
 
 .transbarmid{
+    z-index: -2;
     min-width: 1180px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -227,6 +230,7 @@
 }
 
 .moveNameSearch{
+    width: 100%;
     text-align: center;
     padding: 0px;
 }
@@ -237,6 +241,40 @@
 
 .floatRight{
     padding: 0px;
+    margin-left: 5px;
+}
+
+.backgroundImage{
+   position:absolute;
+   top:0;
+   left:0;
+   z-index:-1;
+   width: 140px;
+   height: 170px;
+   opacity: .2;
+}
+
+.searchMoveIcon{
+    width: 90%;
+    height: 90%;
+}
+
+.searchStyleIcon{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+.marginTop{
+    margin-top: 20px;
+}
+
+.marginTop15{
+    margin-top: 15px;
+}
+
+.marginBot{
+    margin-bottom: 10px;
 }
 
 ::-webkit-scrollbar {

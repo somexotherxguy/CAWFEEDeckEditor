@@ -15,6 +15,7 @@
                 <div class="icon"><img ng-src="{{frIcon}}"></div>
                 <div ng-class="{'selected':sel=='oneA'}" ng-click="sel='oneA'; setSearch()" class="moveCell">
                     <div class="moveText">
+                        <img class="backgroundImage" ng-class="{'hide':deck[0].move.name==null}" ng-src="{{'images/moveicons/' + deck[0].move.name + '.png' | removeSpaces}}">
                         <div class="moveName">{{deck[0].move.name}}</div>
                         <div class="moveStyle">
                             <img class="styleIcon" ng-class="{'hide':deck[0].move.styleIcon==null}" ng-src="{{deck[0].move.styleIcon}}">
@@ -30,6 +31,7 @@
                 <div ng-class="{'icon':deck[0].icon.gray==false, 'iconGray':deck[0].icon.gray==true}"><img ng-src="{{deck[0].icon.image}}"></div>
                 <div ng-class="{'selected':sel=='oneB'}" ng-click="sel='oneB'; setSearch()" class="moveCell">
                     <div class="moveText">
+                        <img class="backgroundImage" ng-class="{'hide':deck[1].move.name==null}" ng-src="{{'images/moveicons/' + deck[1].move.name + '.png' | removeSpaces}}">
                         <div class="moveName">{{deck[1].move.name}}</div>
                         <div class="moveStyle">
                             <img class="styleIcon" ng-class="{'hide':deck[1].move.styleIcon==null}" ng-src="{{deck[1].move.styleIcon}}">
@@ -45,6 +47,7 @@
                 <div ng-class="{'icon':deck[1].icon.gray==false, 'iconGray':deck[1].icon.gray==true}"><img ng-src="{{deck[1].icon.image}}"></div>
                 <div ng-class="{'selected':sel=='oneC'}" ng-click="sel='oneC'; setSearch()" class="moveCell">
                     <div class="moveText">
+                        <img class="backgroundImage" ng-class="{'hide':deck[2].move.name==null}" ng-src="{{'images/moveicons/' + deck[2].move.name + '.png' | removeSpaces}}">
                         <div class="moveName">{{deck[2].move.name}}</div>
                         <div class="moveStyle">
                             <img class="styleIcon" ng-class="{'hide':deck[2].move.styleIcon==null}" ng-src="{{deck[2].move.styleIcon}}">
@@ -61,6 +64,7 @@
                 <div class="icon altMargin"><img ng-src="{{frIcon}}"></div>
                 <div ng-class="{'selected':sel=='oneD'}" ng-click="sel='oneD'; setSearch()" class="moveCellAlt">
                     <div class="moveText">
+                        <img class="backgroundImage" ng-class="{'hide':deck[3].move.name==null}" ng-src="{{'images/moveicons/' + deck[3].move.name + '.png' | removeSpaces}}">
                         <div class="moveName">{{deck[3].move.name}}</div>
                         <div class="moveStyle">
                             <img class="styleIcon" ng-class="{'hide':deck[3].move.styleIcon==null}" ng-src="{{deck[3].move.styleIcon}}">
@@ -79,6 +83,7 @@
                 <div class="icon"><img ng-src="{{flIcon}}"></div>
                 <div ng-class="{'selected':sel=='twoA'}" ng-click="sel='twoA'; setSearch()" class="moveCell">
                     <div class="moveText">
+                        <img class="backgroundImage" ng-class="{'hide':deck[4].move.name==null}" ng-src="{{'images/moveicons/' + deck[4].move.name + '.png' | removeSpaces}}">
                         <div class="moveName">{{deck[4].move.name}}</div>
                         <div class="moveStyle">
                             <img class="styleIcon" ng-class="{'hide':deck[4].move.styleIcon==null}" ng-src="{{deck[4].move.styleIcon}}">
@@ -94,6 +99,7 @@
                 <div ng-class="{'icon':deck[4].icon.gray==false, 'iconGray':deck[4].icon.gray==true}"><img ng-src="{{deck[4].icon.image}}"></div>
                 <div ng-class="{'selected':sel=='twoB'}" ng-click="sel='twoB'; setSearch()" class="moveCell">
                     <div class="moveText">
+                        <img class="backgroundImage" ng-class="{'hide':deck[5].move.name==null}" ng-src="{{'images/moveicons/' + deck[5].move.name + '.png' | removeSpaces}}">
                         <div class="moveName">{{deck[5].move.name}}</div>
                         <div class="moveStyle">
                             <img class="styleIcon" ng-class="{'hide':deck[5].move.styleIcon==null}" ng-src="{{deck[5].move.styleIcon}}">
@@ -109,6 +115,7 @@
                 <div ng-class="{'icon':deck[5].icon.gray==false, 'iconGray':deck[5].icon.gray==true}"><img ng-src="{{deck[5].icon.image}}"></div>
                 <div ng-class="{'selected':sel=='twoC'}" ng-click="sel='twoC'; setSearch()" class="moveCell">
                     <div class="moveText">
+                        <img class="backgroundImage" ng-class="{'hide':deck[6].move.name==null}" ng-src="{{'images/moveicons/' + deck[6].move.name + '.png' | removeSpaces}}">
                         <div class="moveName">{{deck[6].move.name}}</div>
                         <div class="moveStyle">
                             <img class="styleIcon" ng-class="{'hide':deck[6].move.styleIcon==null}" ng-src="{{deck[6].move.styleIcon}}">
@@ -125,6 +132,7 @@
                 <div class="icon altMargin"><img ng-src="{{flIcon}}"></div>
                 <div ng-class="{'selected':sel=='twoD'}" ng-click="sel='twoD'; setSearch()" class="moveCellAlt">
                     <div class="moveText">
+                        <img class="backgroundImage" ng-class="{'hide':deck[7].move.name==null}" ng-src="{{'images/moveicons/' + deck[7].move.name + '.png' | removeSpaces}}">
                         <div class="moveName">{{deck[7].move.name}}</div>
                         <div class="moveStyle">
                             <img class="styleIcon" ng-class="{'hide':deck[7].move.styleIcon==null}" ng-src="{{deck[7].move.styleIcon}}">
@@ -143,6 +151,7 @@
                 <div class="icon"><img ng-src="{{blIcon}}"></div>
                 <div ng-class="{'selected':sel=='threeA'}" ng-click="sel='threeA'; setSearch()" class="moveCell">
                     <div class="moveText">
+                        <img class="backgroundImage" ng-class="{'hide':deck[8].move.name==null}" ng-src="{{'images/moveicons/' + deck[8].move.name + '.png' | removeSpaces}}">
                         <div class="moveName">{{deck[8].move.name}}</div>
                         <div class="moveStyle">
                             <img class="styleIcon" ng-class="{'hide':deck[8].move.styleIcon==null}" ng-src="{{deck[8].move.styleIcon}}">
@@ -158,6 +167,7 @@
                 <div ng-class="{'icon':deck[8].icon.gray==false, 'iconGray':deck[8].icon.gray==true}"><img ng-src="{{deck[8].icon.image}}"></div>
                 <div ng-class="{'selected':sel=='threeB'}" ng-click="sel='threeB'; setSearch()" class="moveCell">
                     <div class="moveText">
+                        <img class="backgroundImage" ng-class="{'hide':deck[9].move.name==null}" ng-src="{{'images/moveicons/' + deck[9].move.name + '.png' | removeSpaces}}">
                         <div class="moveName">{{deck[9].move.name}}</div>
                         <div class="moveStyle">
                             <img class="styleIcon" ng-class="{'hide':deck[9].move.styleIcon==null}" ng-src="{{deck[9].move.styleIcon}}">
@@ -173,6 +183,7 @@
                 <div ng-class="{'icon':deck[9].icon.gray==false, 'iconGray':deck[9].icon.gray==true}"><img ng-src="{{deck[9].icon.image}}"></div>
                 <div ng-class="{'selected':sel=='threeC'}" ng-click="sel='threeC'; setSearch()" class="moveCell">
                     <div class="moveText">
+                        <img class="backgroundImage" ng-class="{'hide':deck[10].move.name==null}" ng-src="{{'images/moveicons/' + deck[10].move.name + '.png' | removeSpaces}}">
                         <div class="moveName">{{deck[10].move.name}}</div>
                         <div class="moveStyle">
                             <img class="styleIcon" ng-class="{'hide':deck[10].move.styleIcon==null}" ng-src="{{deck[10].move.styleIcon}}">
@@ -189,6 +200,7 @@
                 <div class="icon altMargin"><img ng-src="{{blIcon}}"></div>
                 <div ng-class="{'selected':sel=='threeD'}" ng-click="sel='threeD'; setSearch()" class="moveCellAlt">
                     <div class="moveText">
+                        <img class="backgroundImage" ng-class="{'hide':deck[11].move.name==null}" ng-src="{{'images/moveicons/' + deck[11].move.name + '.png' | removeSpaces}}">
                         <div class="moveName">{{deck[11].move.name}}</div>
                         <div class="moveStyle">
                             <img class="styleIcon" ng-class="{'hide':deck[11].move.styleIcon==null}" ng-src="{{deck[11].move.styleIcon}}">
@@ -207,6 +219,7 @@
                 <div class="icon"><img ng-src="{{brIcon}}"></div>
                 <div ng-class="{'selected':sel=='fourA'}" ng-click="sel='fourA'; setSearch()" class="moveCell">
                     <div class="moveText">
+                        <img class="backgroundImage" ng-class="{'hide':deck[12].move.name==null}" ng-src="{{'images/moveicons/' + deck[12].move.name + '.png' | removeSpaces}}">
                         <div class="moveName">{{deck[12].move.name}}</div>
                         <div class="moveStyle">
                             <img class="styleIcon" ng-class="{'hide':deck[12].move.styleIcon==null}" ng-src="{{deck[12].move.styleIcon}}">
@@ -222,6 +235,7 @@
                 <div ng-class="{'icon':deck[12].icon.gray==false, 'iconGray':deck[12].icon.gray==true}"><img ng-src="{{deck[12].icon.image}}"></div>
                 <div ng-class="{'selected':sel=='fourB'}" ng-click="sel='fourB'; setSearch()" class="moveCell">
                     <div class="moveText">
+                        <img class="backgroundImage" ng-class="{'hide':deck[13].move.name==null}" ng-src="{{'images/moveicons/' + deck[13].move.name + '.png' | removeSpaces}}">
                         <div class="moveName">{{deck[13].move.name}}</div>
                         <div class="moveStyle">
                             <img class="styleIcon" ng-class="{'hide':deck[13].move.styleIcon==null}" ng-src="{{deck[13].move.styleIcon}}">
@@ -237,6 +251,7 @@
                 <div ng-class="{'icon':deck[13].icon.gray==false, 'iconGray':deck[13].icon.gray==true}"><img ng-src="{{deck[13].icon.image}}"></div>
                 <div ng-class="{'selected':sel=='fourC'}" ng-click="sel='fourC'; setSearch()" class="moveCell">
                     <div class="moveText">
+                        <img class="backgroundImage" ng-class="{'hide':deck[14].move.name==null}" ng-src="{{'images/moveicons/' + deck[14].move.name + '.png' | removeSpaces}}">
                         <div class="moveName">{{deck[14].move.name}}</div>
                         <div class="moveStyle">
                             <img class="styleIcon" ng-class="{'hide':deck[14].move.styleIcon==null}" ng-src="{{deck[14].move.styleIcon}}">
@@ -253,6 +268,7 @@
                 <div class="icon altMargin"><img ng-src="{{brIcon}}"></div>
                 <div ng-class="{'selected':sel=='fourD'}" ng-click="sel='fourD'; setSearch()" class="moveCellAlt">
                     <div class="moveText">
+                        <img class="backgroundImage" ng-class="{'hide':deck[15].move.name==null}" ng-src="{{'images/moveicons/' + deck[15].move.name + '.png' | removeSpaces}}">
                         <div class="moveName">{{deck[15].move.name}}</div>
                         <div class="moveStyle">
                             <img class="styleIcon" ng-class="{'hide':deck[15].move.styleIcon==null}" ng-src="{{deck[15].move.styleIcon}}">
@@ -276,20 +292,24 @@
                 <div class="marginButt">
                     <button class="buttonStyle" ng-click="clearMove()">Clear move</button>
                 </div>
-                <div class="centText">
+                <div class="centText marginBot">
                     <input id="moveSearch" class="searchStyle" type="text" placeholder="Filter move list" ng-model="key">
-                <div>
+                </div>
                 <div class="searchListHeight">
                     <li class="search" ng-repeat="move in (moves | filter:search)" ng-click="addMove(move.name)">
+                        <!--<div class="searchStyleIcon"><img class="moveIconSearch" ng-src="{{'images/' + move.style + '_icon.png'}}"></div>-->
                         <div class="row">
-                            <div class="col-7 floatLeft"><img class="moveIconSearch" ng-src="{{'images/' + move.style + '_icon.png'}}"></div>
                             <div class="moveNameSearch col-5">{{move.name}}</div>
-                            <div class="col-6 floatRight"><img class="moveIconSearch" ng-repeat="x in move.properties" ng-src="{{'images/' + x + '_move_icon.png'}}"></div>
                         </div>
-                        <div class="movePropSearch">
-                            {{move.vert}}
-                            {{move.horiz ? 'sweep' : 'thrust'}}
-                        <div>
+                        <div class="row">
+                            <div class="col-8 floatLeft"><img class="searchMoveIcon" ng-class="{'hide':move.name==null}" ng-src="{{'images/moveicons/' + move.name + '.png' | removeSpaces}}"></div>
+                            <div class="col-7 floatLeft movePropSearch marginTop">
+                                {{move.vert}}
+                                {{move.horiz ? 'sweep' : 'thrust'}}
+                                {{move.hits}}
+                            </div>
+                            <div class="col-7 floatRight marginTop15"><img class="moveIconSearch" ng-repeat="x in move.properties" ng-src="{{'images/' + x + '_move_icon.png'}}"></div>
+                        </div>
                     </li> <!-- ng-bind="move" |limitTo:12 -->
                 </div>
             </div>

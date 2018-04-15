@@ -7,6 +7,7 @@ app.controller('editor', ['$scope', '$http', '$window', function($scope, $http, 
             $scope.moves = [];
             for(x in data.data){
                 $scope.moves.push(data.data[x]);
+                $scope.moves[$scope.moves.length-1].hits = "left/right";
             }
             
             $scope.frIcon = "images/Startingposition1.png";
@@ -173,6 +174,8 @@ app.controller('editor', ['$scope', '$http', '$window', function($scope, $http, 
                 var start, end, index;
                 var alt = false;
                 var validMoves = [];
+                var left = "left",
+                right = "right";
                 for(x in $scope.deck){
                     if($scope.deck[x].quadrant === $scope.sel){
                         
@@ -202,15 +205,35 @@ app.controller('editor', ['$scope', '$http', '$window', function($scope, $http, 
                             if(validMoves.indexOf(data.data[x].name) === -1){
                                 if(start.indexOf(data.data[x].stances[y].start) !== -1 && end.indexOf(data.data[x].stances[y].end) !== -1){
                                     validMoves.push(data.data[x]);
+                                    if(data.data[x].stances[y].hit === "L"){
+                                        validMoves[validMoves.length-1].hits = left;
+                                    } else {
+                                        validMoves[validMoves.length-1].hits = right;
+                                    }
                                 } else if(start.length === 0 && end.indexOf(data.data[x].stances[y].end) !== -1){
                                     validMoves.push(data.data[x]);
+                                    if(data.data[x].stances[y].hit === "L"){
+                                        validMoves[validMoves.length-1].hits = left;
+                                    } else {
+                                        validMoves[validMoves.length-1].hits = right;
+                                    }
                                 } else if(start.indexOf(data.data[x].stances[y].start) !== -1 && end.length === 0){
                                     if(alt){
                                         if(data.data[x].stances[y].start !== data.data[x].stances[y].end){
                                             validMoves.push(data.data[x]);
+                                            if(data.data[x].stances[y].hit === "L"){
+                                                validMoves[validMoves.length-1].hits = left;
+                                            } else {
+                                                validMoves[validMoves.length-1].hits = right;
+                                            }
                                         }
                                     } else {
                                         validMoves.push(data.data[x]);
+                                        if(data.data[x].stances[y].hit === "L"){
+                                            validMoves[validMoves.length-1].hits = left;
+                                        } else {
+                                            validMoves[validMoves.length-1].hits = right;
+                                        }
                                     }
                                 }
                             }
@@ -219,6 +242,7 @@ app.controller('editor', ['$scope', '$http', '$window', function($scope, $http, 
                 } else {
                     for(x in data.data){
                         validMoves.push(data.data[x]);
+                        validMoves[validMoves.length-1].hits = "left/right";
                     }
                 }
                 $scope.moves = validMoves;
@@ -395,6 +419,11 @@ app.controller('editor', ['$scope', '$http', '$window', function($scope, $http, 
             function setFocusOnSearch(){
                $window.document.getElementById("moveSearch").focus();
                $scope.key = "";
+            }
+            
+            function setHitsForSearch(){
+                var selectedMove = $scope.sel;
+                console.log(selectedMove);
             }
             
             //defer.resolve();

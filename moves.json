@@ -29,7 +29,7 @@
         {
             "name" : "Drunk Stomp",
             "style" : "stagger",
-            "vert" : "high",
+            "vert" : "mid",
             "horiz" : false,
             "stances" : [{"start" : "FR", "end" : "FL", "hit" : "R"},
                         {"start" : "FL", "end" : "FR", "hit" : "L"}],
@@ -66,7 +66,7 @@
             "name" : "Jar Bash",
             "style" : "stagger",
             "vert" : "high",
-            "horiz" : false,
+            "horiz" : true,
             "stances" : [{"start" : "FR", "end" : "FL", "hit" : "L"},
                         {"start" : "FL", "end" : "FR", "hit" : "R"}],
             "properties" : []
@@ -182,7 +182,7 @@
         {
             "name" : "Cross Punch",
             "style" : "forsaken",
-            "vert" : "high",
+            "vert" : "mid",
             "horiz" : false,
             "stances" : [{"start" : "FR", "end" : "FR", "hit" : "R"},
                         {"start" : "FL", "end" : "FL", "hit" : "L"}],
@@ -200,7 +200,7 @@
         {
             "name" : "Back Fist",
             "style" : "kahlt",
-            "vert" : "high",
+            "vert" : "mid",
             "horiz" : false,
             "stances" : [{"start" : "FR", "end" : "FR", "hit" : "R"},
                         {"start" : "FL", "end" : "FL", "hit" : "L"}],
@@ -272,7 +272,7 @@
         {
             "name" : "Mill Punch",
             "style" : "forsaken",
-            "vert" : "high",
+            "vert" : "mid",
             "horiz" : false,
             "stances" : [{"start" : "FR", "end" : "BL", "hit" : "L"},
                         {"start" : "FL", "end" : "BR", "hit" : "R"}],
@@ -463,8 +463,8 @@
             "style" : "forsaken",
             "vert" : "high",
             "horiz" : false,
-            "stances" : [{"start" : "BR", "end" : "FR", "hit" : "L"},
-                        {"start" : "BL", "end" : "FL", "hit" : "R"}],
+            "stances" : [{"start" : "BR", "end" : "FR", "hit" : "R"},
+                        {"start" : "BL", "end" : "FL", "hit" : "L"}],
             "properties" : ["parry"]
         },
         {
@@ -603,7 +603,7 @@
             "properties" : []
         },
         {
-            "name" : "Double palm",
+            "name" : "Double Palm",
             "style" : "stagger",
             "vert" : "mid",
             "horiz" : false,
@@ -704,7 +704,7 @@
         {
             "name" : "Backfall Strike",
             "style" : "stagger",
-            "vert" : "mid",
+            "vert" : "high",
             "horiz" : false,
             "stances" : [{"start" : "BR", "end" : "BR", "hit" : "L"},
                         {"start" : "BL", "end" : "BL", "hit" : "R"}],
@@ -715,8 +715,8 @@
             "style" : "forsaken",
             "vert" : "high",
             "horiz" : true,
-            "stances" : [{"start" : "BR", "end" : "BR", "hit" : "L"},
-                        {"start" : "BL", "end" : "BL", "hit" : "R"}],
+            "stances" : [{"start" : "BR", "end" : "BR", "hit" : "R"},
+                        {"start" : "BL", "end" : "BL", "hit" : "L"}],
             "properties" : ["parry"]
         },
         {
