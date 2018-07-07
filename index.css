@@ -26,6 +26,9 @@
 .col-6 {width: 20%;}
 .col-7 {width: 31%;}
 .col-8 {width: 35%;}
+.col-9 {width: 25%;}
+.col-18 {width: 18%;}
+.col-40 {width: 40%}
 
 
 .background{
@@ -263,6 +266,30 @@
     position: absolute;
     top: 5px;
     left: 5px;
+}
+
+.finishInList{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    list-style: none;
+}
+
+.finishInText{
+    font-family: Droid Sans;
+    color: #f1f7aa;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5px;
+    padding: 0px;
+}
+
+.finishInIcon{
+    width: 35px;
+    height: 35px;
+}
+
+.noPadding{
+    padding: 0px;
 }
 
 .marginTop{

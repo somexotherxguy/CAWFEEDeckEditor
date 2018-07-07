@@ -684,7 +684,7 @@
             "properties" : []
         },
         {
-            "name" : "Underknee kick",
+            "name" : "Underknee Kick",
             "style" : "forsaken",
             "vert" : "low",
             "horiz" : true,
@@ -846,7 +846,7 @@
             "properties" : ["strafing"]
         },
         {
-            "name" : "Jumped Spin kick",
+            "name" : "Jumped Spin Kick",
             "style" : "kahlt",
             "vert" : "high",
             "horiz" : true,

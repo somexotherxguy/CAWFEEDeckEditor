@@ -3,8 +3,15 @@ app.controller('editor', ['$scope', '$http', '$window', function($scope, $http, 
     $http.get('moves.json').
         then(function onSuccess(data) {
             $scope.sel = '';
+            $scope.showSearch = {"display": "none"};
             moves = data;
             $scope.moves = [];
+            $scope.frMoves = [];
+            $scope.flMoves = [];
+            $scope.blMoves = [];
+            $scope.brMoves = [];
+            $scope.frflMoves = [];
+            $scope.blbrMoves = [];
             for(x in data.data){
                 $scope.moves.push(data.data[x]);
                 $scope.moves[$scope.moves.length-1].hits = "left/right";
@@ -176,6 +183,13 @@ app.controller('editor', ['$scope', '$http', '$window', function($scope, $http, 
                 var validMoves = [];
                 var left = "left",
                 right = "right";
+                var frMoves = [];
+                var flMoves = [];
+                var blMoves = [];
+                var brMoves = [];
+                var frflMoves = [];
+                var blbrMoves = [];
+                
                 for(x in $scope.deck){
                     if($scope.deck[x].quadrant === $scope.sel){
                         
@@ -197,7 +211,6 @@ app.controller('editor', ['$scope', '$http', '$window', function($scope, $http, 
                         index = x;
                     }
                 }
-                //console.log(start, " | ", end);
                 
                 if(start.length > 0 || end.length > 0){
                     for(x in data.data){
@@ -205,6 +218,17 @@ app.controller('editor', ['$scope', '$http', '$window', function($scope, $http, 
                             if(validMoves.indexOf(data.data[x].name) === -1){
                                 if(start.indexOf(data.data[x].stances[y].start) !== -1 && end.indexOf(data.data[x].stances[y].end) !== -1){
                                     validMoves.push(data.data[x]);
+                                    //end stance check here?
+                                    if(data.data[x].stances[y].end === "FR"){
+                                        frMoves.push(data.data[x]);
+                                    } else if(data.data[x].stances[y].end === "FL"){
+                                        flMoves.push(data.data[x]);
+                                    } else if(data.data[x].stances[y].end === "BL"){
+                                        blMoves.push(data.data[x]);
+                                    } else if(data.data[x].stances[y].end === "BR"){
+                                        brMoves.push(data.data[x]);
+                                    }
+                                    
                                     if(data.data[x].stances[y].hit === "L"){
                                         validMoves[validMoves.length-1].hits = left;
                                     } else {
@@ -212,6 +236,17 @@ app.controller('editor', ['$scope', '$http', '$window', function($scope, $http, 
                                     }
                                 } else if(start.length === 0 && end.indexOf(data.data[x].stances[y].end) !== -1){
                                     validMoves.push(data.data[x]);
+                                    
+                                    if(data.data[x].stances[y].end === "FR"){
+                                        frMoves.push(data.data[x]);
+                                    } else if(data.data[x].stances[y].end === "FL"){
+                                        flMoves.push(data.data[x]);
+                                    } else if(data.data[x].stances[y].end === "BL"){
+                                        blMoves.push(data.data[x]);
+                                    } else if(data.data[x].stances[y].end === "BR"){
+                                        brMoves.push(data.data[x]);
+                                    }
+                                    
                                     if(data.data[x].stances[y].hit === "L"){
                                         validMoves[validMoves.length-1].hits = left;
                                     } else {
@@ -221,6 +256,17 @@ app.controller('editor', ['$scope', '$http', '$window', function($scope, $http, 
                                     if(alt){
                                         if(data.data[x].stances[y].start !== data.data[x].stances[y].end){
                                             validMoves.push(data.data[x]);
+                                            
+                                            if(data.data[x].stances[y].end === "FR"){
+                                                frMoves.push(data.data[x]);
+                                            } else if(data.data[x].stances[y].end === "FL"){
+                                                flMoves.push(data.data[x]);
+                                            } else if(data.data[x].stances[y].end === "BL"){
+                                                blMoves.push(data.data[x]);
+                                            } else if(data.data[x].stances[y].end === "BR"){
+                                                brMoves.push(data.data[x]);
+                                            }
+                                            
                                             if(data.data[x].stances[y].hit === "L"){
                                                 validMoves[validMoves.length-1].hits = left;
                                             } else {
@@ -229,6 +275,17 @@ app.controller('editor', ['$scope', '$http', '$window', function($scope, $http, 
                                         }
                                     } else {
                                         validMoves.push(data.data[x]);
+                                        
+                                        if(data.data[x].stances[y].end === "FR"){
+                                            frMoves.push(data.data[x]);
+                                        } else if(data.data[x].stances[y].end === "FL"){
+                                            flMoves.push(data.data[x]);
+                                        } else if(data.data[x].stances[y].end === "BL"){
+                                            blMoves.push(data.data[x]);
+                                        } else if(data.data[x].stances[y].end === "BR"){
+                                            brMoves.push(data.data[x]);
+                                        }
+                                        
                                         if(data.data[x].stances[y].hit === "L"){
                                             validMoves[validMoves.length-1].hits = left;
                                         } else {
@@ -241,11 +298,24 @@ app.controller('editor', ['$scope', '$http', '$window', function($scope, $http, 
                     }
                 } else {
                     for(x in data.data){
-                        validMoves.push(data.data[x]);
+                        validMoves.push(data.data[x]);    
+                        for(y in data.data[x].stances){
+                            if(data.data[x].stances[y].end === "FR"){
+                                frflMoves.push(data.data[x]);
+                            } else if(data.data[x].stances[y].end === "BL"){
+                                blbrMoves.push(data.data[x]);
+                            }
+                        }
                         validMoves[validMoves.length-1].hits = "left/right";
                     }
                 }
-                $scope.moves = validMoves;
+                $scope.frMoves = frMoves;
+                $scope.flMoves = flMoves;
+                $scope.blMoves = blMoves;
+                $scope.brMoves = brMoves;
+                $scope.frflMoves = frflMoves;
+                $scope.blbrMoves = blbrMoves;
+                $scope.showSearch = {};
                 setFocusOnSearch();
             }
             
@@ -424,6 +494,17 @@ app.controller('editor', ['$scope', '$http', '$window', function($scope, $http, 
             function setHitsForSearch(){
                 var selectedMove = $scope.sel;
                 console.log(selectedMove);
+            }
+            
+            function sortMovesByEndStance(validMoves, startStance){
+                for(x in validMoves){
+                    validMoves[x].end = [];
+                    for(y in validMoves[x].stances){
+                        if(validMoves[x].stances[y].start = startStance){
+                            validMoves[x].end.push
+                        }
+                    }
+                }
             }
             
             //defer.resolve();

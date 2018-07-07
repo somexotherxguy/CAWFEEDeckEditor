@@ -295,8 +295,16 @@
                 <div class="centText marginBot">
                     <input id="moveSearch" class="searchStyle" type="text" placeholder="Filter move list" ng-model="key">
                 </div>
-                <div class="searchListHeight">
-                    <li class="search" ng-repeat="move in (moves | filter:search)" ng-click="addMove(move.name)">
+                <div class="searchListHeight" ng-style="showSearch">
+                    <li class="finishInList" ng-hide="!(frMoves | filter:search).length">
+                        <div class="row">
+                            <div class="col-9"></div>
+                            <div class="col-8 finishInText">Finish In</div>
+                            <div class="col-3 noPadding"><img class="finishInIcon" ng-src="{{frIcon}}"></div>
+                            <div class="col-9"></div>
+                        </div>
+                    </li>
+                    <li class="search" ng-repeat="move in (frMoves | filter:search)" ng-click="addMove(move.name)">
                         <!--<div class="searchStyleIcon"><img class="moveIconSearch" ng-src="{{'images/' + move.style + '_icon.png'}}"></div>-->
                         <div class="row">
                             <div class="moveNameSearch col-5">{{move.name}}</div>
@@ -310,7 +318,140 @@
                             </div>
                             <div class="col-7 floatRight marginTop15"><img class="moveIconSearch" ng-repeat="x in move.properties" ng-src="{{'images/' + x + '_move_icon.png'}}"></div>
                         </div>
-                    </li> <!-- ng-bind="move" |limitTo:12 -->
+                    </li>
+                    <li class="finishInList" ng-hide="!(flMoves | filter:search).length">
+                        <div class="row">
+                            <div class="col-9"></div>
+                            <div class="col-8 finishInText">Finish In</div>
+                            <div class="col-3 noPadding"><img class="finishInIcon" ng-src="{{flIcon}}"></div>
+                            <div class="col-9"></div>
+                        </div>
+                    </li>
+                    <li class="search" ng-repeat="move in (flMoves | filter:search)" ng-click="addMove(move.name)">
+                        <!--<div class="searchStyleIcon"><img class="moveIconSearch" ng-src="{{'images/' + move.style + '_icon.png'}}"></div>-->
+                        <div class="row">
+                            <div class="moveNameSearch col-5">{{move.name}}</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-8 floatLeft"><img class="searchMoveIcon" ng-class="{'hide':move.name==null}" ng-src="{{'images/moveicons/' + move.name + '.png' | removeSpaces}}"></div>
+                            <div class="col-7 floatLeft movePropSearch marginTop">
+                                {{move.vert}}
+                                {{move.horiz ? 'sweep' : 'thrust'}}
+                                {{move.hits}}
+                            </div>
+                            <div class="col-7 floatRight marginTop15"><img class="moveIconSearch" ng-repeat="x in move.properties" ng-src="{{'images/' + x + '_move_icon.png'}}"></div>
+                        </div>
+                    </li>
+                    <li class="finishInList" ng-hide="!(blMoves | filter:search).length">
+                        <div class="row">
+                            <div class="col-9"></div>
+                            <div class="col-8 finishInText">Finish In</div>
+                            <div class="col-3 noPadding"><img class="finishInIcon" ng-src="{{blIcon}}"></div>
+                            <div class="col-9"></div>
+                        </div>
+                    </li>
+                    <li class="search" ng-repeat="move in (blMoves | filter:search)" ng-click="addMove(move.name)">
+                        <!--<div class="searchStyleIcon"><img class="moveIconSearch" ng-src="{{'images/' + move.style + '_icon.png'}}"></div>-->
+                        <div class="row">
+                            <div class="moveNameSearch col-5">{{move.name}}</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-8 floatLeft"><img class="searchMoveIcon" ng-class="{'hide':move.name==null}" ng-src="{{'images/moveicons/' + move.name + '.png' | removeSpaces}}"></div>
+                            <div class="col-7 floatLeft movePropSearch marginTop">
+                                {{move.vert}}
+                                {{move.horiz ? 'sweep' : 'thrust'}}
+                                {{move.hits}}
+                            </div>
+                            <div class="col-7 floatRight marginTop15"><img class="moveIconSearch" ng-repeat="x in move.properties" ng-src="{{'images/' + x + '_move_icon.png'}}"></div>
+                        </div>
+                    </li>
+                    <li class="finishInList" ng-hide="!(brMoves | filter:search).length">
+                        <div class="row">
+                            <div class="col-9"></div>
+                            <div class="col-8 finishInText">Finish In</div>
+                            <div class="col-3 noPadding"><img class="finishInIcon" ng-src="{{brIcon}}"></div>
+                            <div class="col-9"></div>
+                        </div>
+                    </li>
+                    <li class="search" ng-repeat="move in (brMoves | filter:search)" ng-click="addMove(move.name)">
+                        <!--<div class="searchStyleIcon"><img class="moveIconSearch" ng-src="{{'images/' + move.style + '_icon.png'}}"></div>-->
+                        <div class="row">
+                            <div class="moveNameSearch col-5">{{move.name}}</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-8 floatLeft"><img class="searchMoveIcon" ng-class="{'hide':move.name==null}" ng-src="{{'images/moveicons/' + move.name + '.png' | removeSpaces}}"></div>
+                            <div class="col-7 floatLeft movePropSearch marginTop">
+                                {{move.vert}}
+                                {{move.horiz ? 'sweep' : 'thrust'}}
+                                {{move.hits}}
+                            </div>
+                            <div class="col-7 floatRight marginTop15"><img class="moveIconSearch" ng-repeat="x in move.properties" ng-src="{{'images/' + x + '_move_icon.png'}}"></div>
+                        </div>
+                    </li>
+                    <li class="finishInList" ng-hide="!(frflMoves | filter:search).length">
+                        <div class="row">
+                            <div class="col-3"></div>
+                            <div class="col-40 finishInText">Finish In</div>
+                            <div class="col-3 noPadding"><img class="finishInIcon" ng-src="{{frIcon}}"></div>
+                            <div class="col-3 noPadding"><img class="finishInIcon" ng-src="{{flIcon}}"></div>
+                            <div class="col-3"></div>
+                        </div>
+                    </li>
+                    <li class="search" ng-repeat="move in (frflMoves | filter:search)" ng-click="addMove(move.name)">
+                        <!--<div class="searchStyleIcon"><img class="moveIconSearch" ng-src="{{'images/' + move.style + '_icon.png'}}"></div>-->
+                        <div class="row">
+                            <div class="moveNameSearch col-5">{{move.name}}</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-8 floatLeft"><img class="searchMoveIcon" ng-class="{'hide':move.name==null}" ng-src="{{'images/moveicons/' + move.name + '.png' | removeSpaces}}"></div>
+                            <div class="col-7 floatLeft movePropSearch marginTop">
+                                {{move.vert}}
+                                {{move.horiz ? 'sweep' : 'thrust'}}
+                                {{move.hits}}
+                            </div>
+                            <div class="col-7 floatRight marginTop15"><img class="moveIconSearch" ng-repeat="x in move.properties" ng-src="{{'images/' + x + '_move_icon.png'}}"></div>
+                        </div>
+                    </li>
+                    <li class="finishInList" ng-hide="!(blbrMoves | filter:search).length">
+                        <div class="row">
+                            <div class="col-3"></div>
+                            <div class="col-40 finishInText">Finish In</div>
+                            <div class="col-3 noPadding"><img class="finishInIcon" ng-src="{{blIcon}}"></div>
+                            <div class="col-3 noPadding"><img class="finishInIcon" ng-src="{{brIcon}}"></div>
+                            <div class="col-3"></div>
+                        </div>
+                    </li>
+                    <li class="search" ng-repeat="move in (blbrMoves | filter:search)" ng-click="addMove(move.name)">
+                        <!--<div class="searchStyleIcon"><img class="moveIconSearch" ng-src="{{'images/' + move.style + '_icon.png'}}"></div>-->
+                        <div class="row">
+                            <div class="moveNameSearch col-5">{{move.name}}</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-8 floatLeft"><img class="searchMoveIcon" ng-class="{'hide':move.name==null}" ng-src="{{'images/moveicons/' + move.name + '.png' | removeSpaces}}"></div>
+                            <div class="col-7 floatLeft movePropSearch marginTop">
+                                {{move.vert}}
+                                {{move.horiz ? 'sweep' : 'thrust'}}
+                                {{move.hits}}
+                            </div>
+                            <div class="col-7 floatRight marginTop15"><img class="moveIconSearch" ng-repeat="x in move.properties" ng-src="{{'images/' + x + '_move_icon.png'}}"></div>
+                        </div>
+                    </li>
+                    
+                    <!--<li class="search" ng-repeat="move in (moves | filter:search)" ng-click="addMove(move.name)">
+                        <div class="searchStyleIcon"><img class="moveIconSearch" ng-src="{{'images/' + move.style + '_icon.png'}}"></div>
+                        <div class="row">
+                            <div class="moveNameSearch col-5">{{move.name}}</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-8 floatLeft"><img class="searchMoveIcon" ng-class="{'hide':move.name==null}" ng-src="{{'images/moveicons/' + move.name + '.png' | removeSpaces}}"></div>
+                            <div class="col-7 floatLeft movePropSearch marginTop">
+                                {{move.vert}}
+                                {{move.horiz ? 'sweep' : 'thrust'}}
+                                {{move.hits}}
+                            </div>
+                            <div class="col-7 floatRight marginTop15"><img class="moveIconSearch" ng-repeat="x in move.properties" ng-src="{{'images/' + x + '_move_icon.png'}}"></div>
+                        </div>
+                    </li> --><!-- ng-bind="move" |limitTo:12 -->
                 </div>
             </div>
         </div>
