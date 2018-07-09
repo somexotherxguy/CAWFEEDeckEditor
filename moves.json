@@ -1,12 +1,24 @@
 [
-        {
+    {
             "name" : "Calbot",
             "style" : "forsaken",
             "vert" : "high",
             "horiz" : true,
             "stances" : [{"start" : "FR", "end" : "FL", "hit" : "R"},
-                        {"start" : "FL", "end" : "FR", "hit" : "L"}],
-            "properties" : []
+                         {"start" : "FL", "end" : "FR", "hit" : "L"}],
+            "properties" : [],
+            "range" : "1.7",
+            "stamina" : "10",
+            "impact" : "4",
+            "startup" : "13",
+            "advhit" : "3",
+            "advguard" : "0",
+            "scaling": {
+                "wep" : "-",
+                "str" : "-",
+                "dex" : "-",
+                "mob" : "-"
+                }
         },
         {
             "name" : "Jumped Light Kick",
@@ -14,8 +26,20 @@
             "vert" : "mid",
             "horiz" : false,
             "stances" : [{"start" : "FR", "end" : "FL", "hit" : "R"},
-                        {"start" : "FL", "end" : "FR", "hit" : "L"}],
-            "properties" : ["jumping"]
+                         {"start" : "FL", "end" : "FR", "hit" : "L"}],
+            "properties" : ["jumping"],
+            "range" : "2",
+            "stamina" : "12",
+            "impact" : "3.6",
+            "startup" : "11",
+            "advhit" : "0",
+            "advguard" : "-3",
+            "scaling": {
+                "wep" : "-",
+                "str" : "-",
+                "dex" : "D",
+                "mob" : "A"
+                }
         },
         {
             "name" : "Straight Punch",
@@ -23,8 +47,20 @@
             "vert" : "high",
             "horiz" : false,
             "stances" : [{"start" : "FR", "end" : "FL", "hit" : "R"},
-                        {"start" : "FL", "end" : "FR", "hit" : "L"}],
-            "properties" : []
+                         {"start" : "FL", "end" : "FR", "hit" : "L"}],
+            "properties" : [],
+            "range" : "1.8",
+            "stamina" : "13.1",
+            "impact" : "28.8",
+            "startup" : "13",
+            "advhit" : "5",
+            "advguard" : "2",
+            "scaling": {
+                "wep" : "-",
+                "str" : "B",
+                "dex" : "C",
+                "mob" : "A"
+                }
         },
         {
             "name" : "Drunk Stomp",
@@ -32,8 +68,20 @@
             "vert" : "mid",
             "horiz" : false,
             "stances" : [{"start" : "FR", "end" : "FL", "hit" : "R"},
-                        {"start" : "FL", "end" : "FR", "hit" : "L"}],
-            "properties" : ["stopping"]
+                         {"start" : "FL", "end" : "FR", "hit" : "L"}],
+            "properties" : ["stopping"],
+            "range" : "2.6",
+            "stamina" : "13.5",
+            "impact" : "38.2",
+            "startup" : "13",
+            "advhit" : "3",
+            "advguard" : "1",
+            "scaling": {
+                "wep" : "-",
+                "str" : "E",
+                "dex" : "D",
+                "mob" : "E"
+                }
         },
         {
             "name" : "Tripped Kick",
@@ -41,8 +89,20 @@
             "vert" : "low",
             "horiz" : true,
             "stances" : [{"start" : "FR", "end" : "FL", "hit" : "L"},
-                        {"start" : "FL", "end" : "FR", "hit" : "R"}],
-            "properties" : ["ducking"]
+                         {"start" : "FL", "end" : "FR", "hit" : "R"}],
+            "properties" : ["ducking"],
+            "range" : "2.7",
+            "stamina" : "14.3",
+            "impact" : "13.3",
+            "startup" : "14",
+            "advhit" : "3",
+            "advguard" : "-1",
+            "scaling": {
+                "wep" : "-",
+                "str" : "E",
+                "dex" : "E",
+                "mob" : "B"
+                }
         },
         {
             "name" : "Curled Up Uppercut",
@@ -50,8 +110,20 @@
             "vert" : "mid",
             "horiz" : false,
             "stances" : [{"start" : "FR", "end" : "FL", "hit" : "R"},
-                        {"start" : "FL", "end" : "FR", "hit" : "L"}],
-            "properties" : []
+                         {"start" : "FL", "end" : "FR", "hit" : "L"}],
+            "properties" : [],
+            "range" : "1.9",
+            "stamina" : "14.8",
+            "impact" : "46.7",
+            "startup" : "15",
+            "advhit" : "7",
+            "advguard" : "3",
+            "scaling": {
+                "wep" : "-",
+                "str" : "A",
+                "dex" : "D",
+                "mob" : "B"
+                }
         },
         {
             "name" : "Elbow Stumble",
@@ -59,8 +131,20 @@
             "vert" : "high",
             "horiz" : false,
             "stances" : [{"start" : "FR", "end" : "FL", "hit" : "L"},
-                        {"start" : "FL", "end" : "FR", "hit" : "R"}],
-            "properties" : []
+                         {"start" : "FL", "end" : "FR", "hit" : "R"}],
+            "properties" : [],
+            "range" : "2.3",
+            "stamina" : "13.1",
+            "impact" : "21.1",
+            "startup" : "13",
+            "advhit" : "5",
+            "advguard" : "2",
+            "scaling": {
+                "wep" : "-",
+                "str" : "C",
+                "dex" : "B",
+                "mob" : "B"
+                }
         },
         {
             "name" : "Jar Bash",
@@ -68,8 +152,20 @@
             "vert" : "high",
             "horiz" : true,
             "stances" : [{"start" : "FR", "end" : "FL", "hit" : "L"},
-                        {"start" : "FL", "end" : "FR", "hit" : "R"}],
-            "properties" : []
+                         {"start" : "FL", "end" : "FR", "hit" : "R"}],
+            "properties" : [],
+            "range" : "2.6",
+            "stamina" : "14.1",
+            "impact" : "23.7",
+            "startup" : "14",
+            "advhit" : "5",
+            "advguard" : "1",
+            "scaling": {
+                "wep" : "-",
+                "str" : "C",
+                "dex" : "B",
+                "mob" : "C"
+                }
         },
         {
             "name" : "Body Blow",
@@ -77,8 +173,20 @@
             "vert" : "mid",
             "horiz" : false,
             "stances" : [{"start" : "FR", "end" : "FL", "hit" : "L"},
-                        {"start" : "FL", "end" : "FR", "hit" : "R"}],
-            "properties" : ["strafing"]
+                         {"start" : "FL", "end" : "FR", "hit" : "R"}],
+            "properties" : ["strafing"],
+            "range" : "2.1",
+            "stamina" : "16.6",
+            "impact" : "45.9",
+            "startup" : "17",
+            "advhit" : "6",
+            "advguard" : "2",
+            "scaling": {
+                "wep" : "-",
+                "str" : "D",
+                "dex" : "-",
+                "mob" : "B"
+                }
         },
         {
             "name" : "Roll Punch",
@@ -86,8 +194,20 @@
             "vert" : "mid",
             "horiz" : false,
             "stances" : [{"start" : "FR", "end" : "FL", "hit" : "R"},
-                        {"start" : "FL", "end" : "FR", "hit" : "L"}],
-            "properties" : ["ducking"]
+                         {"start" : "FL", "end" : "FR", "hit" : "L"}],
+            "properties" : ["ducking"],
+            "range" : "2.2",
+            "stamina" : "16.6",
+            "impact" : "44.9",
+            "startup" : "17",
+            "advhit" : "7",
+            "advguard" : "2",
+            "scaling": {
+                "wep" : "-",
+                "str" : "D",
+                "dex" : "-",
+                "mob" : "C"
+                }
         },
         {
             "name" : "MeiaLua",
@@ -95,8 +215,20 @@
             "vert" : "high",
             "horiz" : true,
             "stances" : [{"start" : "FR", "end" : "FL", "hit" : "R"},
-                        {"start" : "FL", "end" : "FR", "hit" : "L"}],
-            "properties" : ["ducking"]
+                         {"start" : "FL", "end" : "FR", "hit" : "L"}],
+            "properties" : ["ducking"],
+            "range" : "1.9",
+            "stamina" : "17.8",
+            "impact" : "47",
+            "startup" : "18",
+            "advhit" : "7",
+            "advguard" : "0",
+            "scaling": {
+                "wep" : "-",
+                "str" : "D",
+                "dex" : "-",
+                "mob" : "C"
+                }
         },
         {
             "name" : "Leg Breaker",
@@ -104,8 +236,20 @@
             "vert" : "low",
             "horiz" : true,
             "stances" : [{"start" : "FR", "end" : "FL", "hit" : "R"},
-                        {"start" : "FL", "end" : "FR", "hit" : "L"}],
-            "properties" : []
+                         {"start" : "FL", "end" : "FR", "hit" : "L"}],
+            "properties" : [],
+            "range" : "3.1",
+            "stamina" : "17.6",
+            "impact" : "49.4",
+            "startup" : "18",
+            "advhit" : "8",
+            "advguard" : "1",
+            "scaling": {
+                "wep" : "-",
+                "str" : "A",
+                "dex" : "C",
+                "mob" : "D"
+                }
         },
         {
             "name" : "Side Kick",
@@ -113,8 +257,20 @@
             "vert" : "high",
             "horiz" : true,
             "stances" : [{"start" : "FR", "end" : "FL", "hit" : "R"},
-                        {"start" : "FL", "end" : "FR", "hit" : "L"}],
-            "properties" : []
+                         {"start" : "FL", "end" : "FR", "hit" : "L"}],
+            "properties" : [],
+            "range" : "2.3",
+            "stamina" : "16.8",
+            "impact" : "50.7",
+            "startup" : "17",
+            "advhit" : "8",
+            "advguard" : "1",
+            "scaling": {
+                "wep" : "-",
+                "str" : "A",
+                "dex" : "C",
+                "mob" : "D"
+                }
         },
         {
             "name" : "Front Kick",
@@ -122,8 +278,20 @@
             "vert" : "mid",
             "horiz" : false,
             "stances" : [{"start" : "FR", "end" : "FL", "hit" : "R"},
-                        {"start" : "FL", "end" : "FR", "hit" : "L"}],
-            "properties" : ["breaking"]
+                         {"start" : "FL", "end" : "FR", "hit" : "L"}],
+            "properties" : ["breaking"],
+            "range" : "2.3",
+            "stamina" : "19.4",
+            "impact" : "132.1",
+            "startup" : "20",
+            "advhit" : "9",
+            "advguard" : "9",
+            "scaling": {
+                "wep" : "-",
+                "str" : "C",
+                "dex" : "E",
+                "mob" : "-"
+                }
         },
         {
             "name" : "Hammer Kick",
@@ -131,8 +299,20 @@
             "vert" : "mid",
             "horiz" : false,
             "stances" : [{"start" : "FR", "end" : "FL", "hit" : "R"},
-                        {"start" : "FL", "end" : "FR", "hit" : "L"}],
-            "properties" : ["breaking"]
+                         {"start" : "FL", "end" : "FR", "hit" : "L"}],
+            "properties" : ["breaking"],
+            "range" : "1.9",
+            "stamina" : "19.4",
+            "impact" : "137.6",
+            "startup" : "20",
+            "advhit" : "9",
+            "advguard" : "9",
+            "scaling": {
+                "wep" : "-",
+                "str" : "E",
+                "dex" : "C",
+                "mob" : "-"
+                }
         },
         {
             "name" : "Charged Haymaker",
@@ -140,8 +320,20 @@
             "vert" : "high",
             "horiz" : false,
             "stances" : [{"start" : "FR", "end" : "FL", "hit" : "R"},
-                        {"start" : "FL", "end" : "FR", "hit" : "L"}],
-            "properties" : ["charging"]
+                         {"start" : "FL", "end" : "FR", "hit" : "L"}],
+            "properties" : ["charging"],
+            "range" : "2.1",
+            "stamina" : "21.2",
+            "impact" : "89.7",
+            "startup" : "22",
+            "advhit" : "8",
+            "advguard" : "1",
+            "scaling": {
+                "wep" : "-",
+                "str" : "D",
+                "dex" : "-",
+                "mob" : "-"
+                }
         },
         {
             "name" : "Jab Punch",
@@ -149,8 +341,20 @@
             "vert" : "high",
             "horiz" : false,
             "stances" : [{"start" : "FR", "end" : "FR", "hit" : "L"},
-                        {"start" : "FL", "end" : "FL", "hit" : "R"}],
-            "properties" : []
+                         {"start" : "FL", "end" : "FL", "hit" : "R"}],
+            "properties" : [],
+            "range" : "1.9",
+            "stamina" : "10",
+            "impact" : "1",
+            "startup" : "9",
+            "advhit" : "1",
+            "advguard" : "-1",
+            "scaling": {
+                "wep" : "-",
+                "str" : "B",
+                "dex" : "C",
+                "mob" : "A"
+                }
         },
         {
             "name" : "Direct Punch",
@@ -158,8 +362,20 @@
             "vert" : "high",
             "horiz" : false,
             "stances" : [{"start" : "FR", "end" : "FR", "hit" : "R"},
-                        {"start" : "FL", "end" : "FL", "hit" : "L"}],
-            "properties" : []
+                         {"start" : "FL", "end" : "FL", "hit" : "L"}],
+            "properties" : [],
+            "range" : "1.9",
+            "stamina" : "10.2",
+            "impact" : "1",
+            "startup" : "9",
+            "advhit" : "0",
+            "advguard" : "-2",
+            "scaling": {
+                "wep" : "-",
+                "str" : "D",
+                "dex" : "A",
+                "mob" : "A"
+                }
         },
         {
             "name" : "Hook",
@@ -167,8 +383,20 @@
             "vert" : "high",
             "horiz" : true,
             "stances" : [{"start" : "FR", "end" : "FR", "hit" : "L"},
-                        {"start" : "FL", "end" : "FL", "hit" : "R"}],
-            "properties" : []
+                         {"start" : "FL", "end" : "FL", "hit" : "R"}],
+            "properties" : [],
+            "range" : "2",
+            "stamina" : "12.5",
+            "impact" : "14.9",
+            "startup" : "12",
+            "advhit" : "4",
+            "advguard" : "0",
+            "scaling": {
+                "wep" : "-",
+                "str" : "B",
+                "dex" : "C",
+                "mob" : "A"
+                }
         },
         {
             "name" : "Wrist Jab",
@@ -176,8 +404,20 @@
             "vert" : "high",
             "horiz" : false,
             "stances" : [{"start" : "FR", "end" : "FR", "hit" : "R"},
-                        {"start" : "FL", "end" : "FL", "hit" : "L"}],
-            "properties" : []
+                         {"start" : "FL", "end" : "FL", "hit" : "L"}],
+            "properties" : [],
+            "range" : "1.9",
+            "stamina" : "10.8",
+            "impact" : "1",
+            "startup" : "10",
+            "advhit" : "1",
+            "advguard" : "-1",
+            "scaling": {
+                "wep" : "-",
+                "str" : "C",
+                "dex" : "B",
+                "mob" : "A"
+                }
         },
         {
             "name" : "Cross Punch",
@@ -185,8 +425,20 @@
             "vert" : "mid",
             "horiz" : false,
             "stances" : [{"start" : "FR", "end" : "FR", "hit" : "R"},
-                        {"start" : "FL", "end" : "FL", "hit" : "L"}],
-            "properties" : ["stopping"]
+                         {"start" : "FL", "end" : "FL", "hit" : "L"}],
+            "properties" : ["stopping"],
+            "range" : "2.3",
+            "stamina" : "14.1",
+            "impact" : "50.6",
+            "startup" : "14",
+            "advhit" : "5",
+            "advguard" : "3",
+            "scaling": {
+                "wep" : "-",
+                "str" : "E",
+                "dex" : "E",
+                "mob" : "D"
+                }
         },
         {
             "name" : "Double Spike Kick",
@@ -194,8 +446,20 @@
             "vert" : "mid",
             "horiz" : false,
             "stances" : [{"start" : "FR", "end" : "FR", "hit" : "R"},
-                        {"start" : "FL", "end" : "FL", "hit" : "L"}],
-            "properties" : ["double"]
+                         {"start" : "FL", "end" : "FL", "hit" : "L"}],
+            "properties" : ["double"],
+            "range" : "2.3",
+            "stamina" : "13.5",
+            "impact" : "26.2",
+            "startup" : "13",
+            "advhit" : "2",
+            "advguard" : "-1",
+            "scaling": {
+                "wep" : "-",
+                "str" : "E",
+                "dex" : "D",
+                "mob" : "E"
+                }
         },
         {
             "name" : "Back Fist",
@@ -203,8 +467,20 @@
             "vert" : "mid",
             "horiz" : false,
             "stances" : [{"start" : "FR", "end" : "FR", "hit" : "R"},
-                        {"start" : "FL", "end" : "FL", "hit" : "L"}],
-            "properties" : []
+                         {"start" : "FL", "end" : "FL", "hit" : "L"}],
+            "properties" : [],
+            "range" : "2.4",
+            "stamina" : "16.6",
+            "impact" : "59.7",
+            "startup" : "17",
+            "advhit" : "9",
+            "advguard" : "3",
+            "scaling": {
+                "wep" : "-",
+                "str" : "A",
+                "dex" : "C",
+                "mob" : "C"
+                }
         },
         {
             "name" : "Cleaver Blow",
@@ -212,8 +488,20 @@
             "vert" : "mid",
             "horiz" : false,
             "stances" : [{"start" : "FR", "end" : "FR", "hit" : "R"},
-                        {"start" : "FL", "end" : "FL", "hit" : "L"}],
-            "properties" : []
+                         {"start" : "FL", "end" : "FL", "hit" : "L"}],
+            "properties" : [],
+            "range" : "2",
+            "stamina" : "15.8",
+            "impact" : "57.1",
+            "startup" : "16",
+            "advhit" : "8",
+            "advguard" : "2",
+            "scaling": {
+                "wep" : "-",
+                "str" : "A",
+                "dex" : "D",
+                "mob" : "C"
+                }
         },
         {
             "name" : "Pulmonary Palm",
@@ -221,8 +509,20 @@
             "vert" : "mid",
             "horiz" : false,
             "stances" : [{"start" : "FR", "end" : "FR", "hit" : "R"},
-                        {"start" : "FL", "end" : "FL", "hit" : "L"}],
-            "properties" : ["stopping"]
+                         {"start" : "FL", "end" : "FL", "hit" : "L"}],
+            "properties" : ["stopping"],
+            "range" : "2.9",
+            "stamina" : "16.8",
+            "impact" : "70.8",
+            "startup" : "17",
+            "advhit" : "7",
+            "advguard" : "5",
+            "scaling": {
+                "wep" : "-",
+                "str" : "E",
+                "dex" : "C",
+                "mob" : "E"
+                }
         },
         {
             "name" : "Hadrunken",
@@ -230,8 +530,20 @@
             "vert" : "high",
             "horiz" : false,
             "stances" : [{"start" : "FR", "end" : "FR", "hit" : "RL"},
-                        {"start" : "FL", "end" : "FL", "hit" : "RL"}],
-            "properties" : ["charging"]
+                         {"start" : "FL", "end" : "FL", "hit" : "RL"}],
+            "properties" : ["charging"],
+            "range" : "3.4",
+            "stamina" : "19.6",
+            "impact" : "59",
+            "startup" : "20",
+            "advhit" : "7",
+            "advguard" : "0",
+            "scaling": {
+                "wep" : "-",
+                "str" : "-",
+                "dex" : "E",
+                "mob" : "-"
+                }
         },
         {
             "name" : "Falcon Punch",
@@ -239,8 +551,20 @@
             "vert" : "high",
             "horiz" : false,
             "stances" : [{"start" : "FR", "end" : "FR", "hit" : "R"},
-                        {"start" : "FL", "end" : "FL", "hit" : "L"}],
-            "properties" : ["jumping"]
+                         {"start" : "FL", "end" : "FL", "hit" : "L"}],
+            "properties" : ["jumping"],
+            "range" : "3.1",
+            "stamina" : "21.2",
+            "impact" : "78.2",
+            "startup" : "22",
+            "advhit" : "10",
+            "advguard" : "2",
+            "scaling": {
+                "wep" : "-",
+                "str" : "E",
+                "dex" : "E",
+                "mob" : "D"
+                }
         },
         {
             "name" : "Dwit Chagi",
@@ -248,8 +572,20 @@
             "vert" : "mid",
             "horiz" : false,
             "stances" : [{"start" : "FR", "end" : "BL", "hit" : "L"},
-                        {"start" : "FL", "end" : "BR", "hit" : "R"}],
-            "properties" : ["stopping"]
+                         {"start" : "FL", "end" : "BR", "hit" : "R"}],
+            "properties" : ["stopping"],
+            "range" : "2.9",
+            "stamina" : "15.1",
+            "impact" : "52.8",
+            "startup" : "15",
+            "advhit" : "5",
+            "advguard" : "3",
+            "scaling": {
+                "wep" : "-",
+                "str" : "E",
+                "dex" : "C",
+                "mob" : "E"
+                }
         },
         {
             "name" : "Crushing Palm",
@@ -257,8 +593,20 @@
             "vert" : "mid",
             "horiz" : false,
             "stances" : [{"start" : "FR", "end" : "BL", "hit" : "L"},
-                        {"start" : "FL", "end" : "BR", "hit" : "R"}],
-            "properties" : ["stopping"]
+                         {"start" : "FL", "end" : "BR", "hit" : "R"}],
+            "properties" : ["stopping"],
+            "range" : "3.1",
+            "stamina" : "15.6",
+            "impact" : "55.5",
+            "startup" : "16",
+            "advhit" : "8",
+            "advguard" : "6",
+            "scaling": {
+                "wep" : "-",
+                "str" : "E",
+                "dex" : "C",
+                "mob" : "E"
+                }
         },
         {
             "name" : "Mawashi",
@@ -266,8 +614,20 @@
             "vert" : "high",
             "horiz" : false,
             "stances" : [{"start" : "FR", "end" : "BL", "hit" : "L"},
-                        {"start" : "FL", "end" : "BR", "hit" : "R"}],
-            "properties" : []
+                         {"start" : "FL", "end" : "BR", "hit" : "R"}],
+            "properties" : [],
+            "range" : "1.8",
+            "stamina" : "11",
+            "impact" : "4.6",
+            "startup" : "10",
+            "advhit" : "0",
+            "advguard" : "-2",
+            "scaling": {
+                "wep" : "-",
+                "str" : "D",
+                "dex" : "A",
+                "mob" : "A"
+                }
         },
         {
             "name" : "Mill Punch",
@@ -275,8 +635,20 @@
             "vert" : "mid",
             "horiz" : false,
             "stances" : [{"start" : "FR", "end" : "BL", "hit" : "L"},
-                        {"start" : "FL", "end" : "BR", "hit" : "R"}],
-            "properties" : ["double"]
+                         {"start" : "FL", "end" : "BR", "hit" : "R"}],
+            "properties" : ["double"],
+            "range" : "2.9",
+            "stamina" : "14.3",
+            "impact" : "26.4",
+            "startup" : "14",
+            "advhit" : "4",
+            "advguard" : "-1",
+            "scaling": {
+                "wep" : "-",
+                "str" : "D",
+                "dex" : "E",
+                "mob" : "E"
+                }
         },
         {
             "name" : "Foot Slap",
@@ -284,8 +656,20 @@
             "vert" : "high",
             "horiz" : true,
             "stances" : [{"start" : "FR", "end" : "BL", "hit" : "R"},
-                        {"start" : "FL", "end" : "BR", "hit" : "L"}],
-            "properties" : ["jumping"]
+                         {"start" : "FL", "end" : "BR", "hit" : "L"}],
+            "properties" : ["jumping"],
+            "range" : "2.2",
+            "stamina" : "13.8",
+            "impact" : "15",
+            "startup" : "13",
+            "advhit" : "0",
+            "advguard" : "-4",
+            "scaling": {
+                "wep" : "-",
+                "str" : "E",
+                "dex" : "E",
+                "mob" : "A"
+                }
         },
         {
             "name" : "Roll Back Fist",
@@ -293,8 +677,20 @@
             "vert" : "high",
             "horiz" : false,
             "stances" : [{"start" : "FR", "end" : "BL", "hit" : "L"},
-                        {"start" : "FL", "end" : "BR", "hit" : "R"}],
-            "properties" : ["strafing"]
+                         {"start" : "FL", "end" : "BR", "hit" : "R"}],
+            "properties" : ["strafing"],
+            "range" : "2.6",
+            "stamina" : "15.8",
+            "impact" : "32.9",
+            "startup" : "16",
+            "advhit" : "4",
+            "advguard" : "1",
+            "scaling": {
+                "wep" : "-",
+                "str" : "-",
+                "dex" : "D",
+                "mob" : "B"
+                }
         },
         {
             "name" : "Handstand Kick",
@@ -302,8 +698,20 @@
             "vert" : "high",
             "horiz" : true,
             "stances" : [{"start" : "FR", "end" : "BL", "hit" : "L"},
-                        {"start" : "FL", "end" : "BR", "hit" : "R"}],
-            "properties" : ["ducking", "double"]
+                         {"start" : "FL", "end" : "BR", "hit" : "R"}],
+            "properties" : ["ducking", "double"],
+            "range" : "2.2",
+            "stamina" : "15.8",
+            "impact" : "30.1",
+            "startup" : "15",
+            "advhit" : "1",
+            "advguard" : "-5",
+            "scaling": {
+                "wep" : "-",
+                "str" : "E",
+                "dex" : "E",
+                "mob" : "A"
+                }
         },
         {
             "name" : "Low Kick",
@@ -311,8 +719,20 @@
             "vert" : "low",
             "horiz" : true,
             "stances" : [{"start" : "FR", "end" : "BL", "hit" : "R"},
-                        {"start" : "FL", "end" : "BR", "hit" : "L"}],
-            "properties" : []
+                         {"start" : "FL", "end" : "BR", "hit" : "L"}],
+            "properties" : [],
+            "range" : "2.1",
+            "stamina" : "14.1",
+            "impact" : "29.2",
+            "startup" : "14",
+            "advhit" : "5",
+            "advguard" : "1",
+            "scaling": {
+                "wep" : "-",
+                "str" : "B",
+                "dex" : "C",
+                "mob" : "C"
+                }
         },
         {
             "name" : "Bounce Knee",
@@ -320,8 +740,20 @@
             "vert" : "high",
             "horiz" : false,
             "stances" : [{"start" : "FR", "end" : "BL", "hit" : "R"},
-                        {"start" : "FL", "end" : "BR", "hit" : "L"}],
-            "properties" : ["jumping"]
+                         {"start" : "FL", "end" : "BR", "hit" : "L"}],
+            "properties" : ["jumping"],
+            "range" : "1.8",
+            "stamina" : "15.9",
+            "impact" : "43.1",
+            "startup" : "16",
+            "advhit" : "6",
+            "advguard" : "1",
+            "scaling": {
+                "wep" : "-",
+                "str" : "D",
+                "dex" : "-",
+                "mob" : "B"
+                }
         },
         {
             "name" : "Bending Palm",
@@ -329,8 +761,20 @@
             "vert" : "mid",
             "horiz" : false,
             "stances" : [{"start" : "FR", "end" : "BL", "hit" : "L"},
-                        {"start" : "FL", "end" : "BR", "hit" : "R"}],
-            "properties" : ["stopping"]
+                         {"start" : "FL", "end" : "BR", "hit" : "R"}],
+            "properties" : ["stopping"],
+            "range" : "2.1",
+            "stamina" : "16.8",
+            "impact" : "81.5",
+            "startup" : "17",
+            "advhit" : "8",
+            "advguard" : "5",
+            "scaling": {
+                "wep" : "-",
+                "str" : "E",
+                "dex" : "C",
+                "mob" : "-"
+                }
         },
         {
             "name" : "Furious Uppercut",
@@ -338,8 +782,20 @@
             "vert" : "mid",
             "horiz" : false,
             "stances" : [{"start" : "FR", "end" : "BL", "hit" : "R"},
-                        {"start" : "FL", "end" : "BR", "hit" : "L"}],
-            "properties" : ["charging"]
+                         {"start" : "FL", "end" : "BR", "hit" : "L"}],
+            "properties" : ["charging"],
+            "range" : "2.4",
+            "stamina" : "21.2",
+            "impact" : "86.3",
+            "startup" : "22",
+            "advhit" : "8",
+            "advguard" : "1",
+            "scaling": {
+                "wep" : "-",
+                "str" : "E",
+                "dex" : "-",
+                "mob" : "-"
+                }
         },
         {
             "name" : "Ankle Stamp",
@@ -347,8 +803,20 @@
             "vert" : "low",
             "horiz" : false,
             "stances" : [{"start" : "FR", "end" : "BR", "hit" : "R"},
-                        {"start" : "FL", "end" : "BL", "hit" : "L"}],
-            "properties" : []
+                         {"start" : "FL", "end" : "BL", "hit" : "L"}],
+            "properties" : [],
+            "range" : "2.6",
+            "stamina" : "12.5",
+            "impact" : "10.6",
+            "startup" : "12",
+            "advhit" : "3",
+            "advguard" : "0",
+            "scaling": {
+                "wep" : "-",
+                "str" : "D",
+                "dex" : "A",
+                "mob" : "A"
+                }
         },
         {
             "name" : "Drunk Crane",
@@ -356,8 +824,20 @@
             "vert" : "mid",
             "horiz" : false,
             "stances" : [{"start" : "FR", "end" : "BR", "hit" : "R"},
-                        {"start" : "FL", "end" : "BL", "hit" : "L"}],
-            "properties" : []
+                         {"start" : "FL", "end" : "BL", "hit" : "L"}],
+            "properties" : [],
+            "range" : "2.3",
+            "stamina" : "12.5",
+            "impact" : "14.9",
+            "startup" : "12",
+            "advhit" : "3",
+            "advguard" : "0",
+            "scaling": {
+                "wep" : "-",
+                "str" : "C",
+                "dex" : "B",
+                "mob" : "B"
+                }
         },
         {
             "name" : "Crouching Elbow",
@@ -365,8 +845,20 @@
             "vert" : "mid",
             "horiz" : false,
             "stances" : [{"start" : "FR", "end" : "BR", "hit" : "L"},
-                        {"start" : "FL", "end" : "BL", "hit" : "R"}],
-            "properties" : []
+                         {"start" : "FL", "end" : "BL", "hit" : "R"}],
+            "properties" : [],
+            "range" : "1.8",
+            "stamina" : "12.3",
+            "impact" : "19.6",
+            "startup" : "12",
+            "advhit" : "5",
+            "advguard" : "2",
+            "scaling": {
+                "wep" : "-",
+                "str" : "A",
+                "dex" : "D",
+                "mob" : "A"
+                }
         },
         {
             "name" : "Front Sweep",
@@ -374,8 +866,20 @@
             "vert" : "low",
             "horiz" : true,
             "stances" : [{"start" : "FR", "end" : "BR", "hit" : "R"},
-                        {"start" : "FL", "end" : "BL", "hit" : "L"}],
-            "properties" : ["ducking"]
+                         {"start" : "FL", "end" : "BL", "hit" : "L"}],
+            "properties" : ["ducking"],
+            "range" : "2.3",
+            "stamina" : "15.1",
+            "impact" : "23.9",
+            "startup" : "15",
+            "advhit" : "3",
+            "advguard" : "-1",
+            "scaling": {
+                "wep" : "-",
+                "str" : "-",
+                "dex" : "D",
+                "mob" : "A"
+                }
         },
         {
             "name" : "Knife Hand Strike",
@@ -383,8 +887,20 @@
             "vert" : "high",
             "horiz" : false,
             "stances" : [{"start" : "FR", "end" : "BR", "hit" : "R"},
-                        {"start" : "FL", "end" : "BL", "hit" : "L"}],
-            "properties" : []
+                         {"start" : "FL", "end" : "BL", "hit" : "L"}],
+            "properties" : [],
+            "range" : "1.8",
+            "stamina" : "10.8",
+            "impact" : "2.1",
+            "startup" : "10",
+            "advhit" : "1",
+            "advguard" : "-1",
+            "scaling": {
+                "wep" : "-",
+                "str" : "D",
+                "dex" : "A",
+                "mob" : "A"
+                }
         },
         {
             "name" : "Winged Back Kick",
@@ -392,8 +908,20 @@
             "vert" : "mid",
             "horiz" : false,
             "stances" : [{"start" : "FR", "end" : "BR", "hit" : "R"},
-                        {"start" : "FL", "end" : "BL", "hit" : "L"}],
-            "properties" : ["stopping"]
+                         {"start" : "FL", "end" : "BL", "hit" : "L"}],
+            "properties" : ["stopping"],
+            "range" : "2.3",
+            "stamina" : "14.3",
+            "impact" : "51.6",
+            "startup" : "14",
+            "advhit" : "4",
+            "advguard" : "2",
+            "scaling": {
+                "wep" : "-",
+                "str" : "D",
+                "dex" : "E",
+                "mob" : "E"
+                }
         },
         {
             "name" : "Wobble Low Kick",
@@ -401,8 +929,20 @@
             "vert" : "low",
             "horiz" : true,
             "stances" : [{"start" : "FR", "end" : "BR", "hit" : "R"},
-                        {"start" : "FL", "end" : "BL", "hit" : "L"}],
-            "properties" : []
+                         {"start" : "FL", "end" : "BL", "hit" : "L"}],
+            "properties" : [],
+            "range" : "1.8",
+            "stamina" : "12.8",
+            "impact" : "20.3",
+            "startup" : "12",
+            "advhit" : "2",
+            "advguard" : "-2",
+            "scaling": {
+                "wep" : "-",
+                "str" : "C",
+                "dex" : "B",
+                "mob" : "A"
+                }
         },
         {
             "name" : "Rising Kick",
@@ -410,8 +950,20 @@
             "vert" : "mid",
             "horiz" : false,
             "stances" : [{"start" : "FR", "end" : "BR", "hit" : "L"},
-                        {"start" : "FL", "end" : "BL", "hit" : "R"}],
-            "properties" : []
+                         {"start" : "FL", "end" : "BL", "hit" : "R"}],
+            "properties" : [],
+            "range" : "2.3",
+            "stamina" : "15.1",
+            "impact" : "44.4",
+            "startup" : "15",
+            "advhit" : "5",
+            "advguard" : "1",
+            "scaling": {
+                "wep" : "-",
+                "str" : "D",
+                "dex" : "A",
+                "mob" : "C"
+                }
         },
         {
             "name" : "Spiral Back Punch",
@@ -419,8 +971,20 @@
             "vert" : "mid",
             "horiz" : false,
             "stances" : [{"start" : "FR", "end" : "BR", "hit" : "L"},
-                        {"start" : "FL", "end" : "BL", "hit" : "R"}],
-            "properties" : []
+                         {"start" : "FL", "end" : "BL", "hit" : "R"}],
+            "properties" : [],
+            "range" : "2.8",
+            "stamina" : "17.8",
+            "impact" : "68.4",
+            "startup" : "18",
+            "advhit" : "7",
+            "advguard" : "1",
+            "scaling": {
+                "wep" : "-",
+                "str" : "C",
+                "dex" : "B",
+                "mob" : "D"
+                }
         },
         {
             "name" : "Drunken Paw",
@@ -428,8 +992,20 @@
             "vert" : "high",
             "horiz" : true,
             "stances" : [{"start" : "FR", "end" : "BR", "hit" : "L"},
-                        {"start" : "FL", "end" : "BL", "hit" : "R"}],
-            "properties" : ["strafing"]
+                         {"start" : "FL", "end" : "BL", "hit" : "R"}],
+            "properties" : ["strafing"],
+            "range" : "2.9",
+            "stamina" : "20.2",
+            "impact" : "56.5",
+            "startup" : "21",
+            "advhit" : "10",
+            "advguard" : "1",
+            "scaling": {
+                "wep" : "-",
+                "str" : "E",
+                "dex" : "E",
+                "mob" : "D"
+                }
         },
         {
             "name" : "360 Tornado Kick",
@@ -437,8 +1013,20 @@
             "vert" : "high",
             "horiz" : true,
             "stances" : [{"start" : "FR", "end" : "BR", "hit" : "R"},
-                        {"start" : "FL", "end" : "BL", "hit" : "L"}],
-            "properties" : ["jumping"]
+                         {"start" : "FL", "end" : "BL", "hit" : "L"}],
+            "properties" : ["jumping"],
+            "range" : "2.2",
+            "stamina" : "20.4",
+            "impact" : "64.7",
+            "startup" : "21",
+            "advhit" : "9",
+            "advguard" : "0",
+            "scaling": {
+                "wep" : "-",
+                "str" : "E",
+                "dex" : "E",
+                "mob" : "D"
+                }
         },
         {
             "name" : "Jump Out Elbow",
@@ -446,8 +1034,20 @@
             "vert" : "mid",
             "horiz" : false,
             "stances" : [{"start" : "FR", "end" : "BR", "hit" : "L"},
-                        {"start" : "FL", "end" : "BL", "hit" : "R"}],
-            "properties" : ["breaking", "jumping"]
+                         {"start" : "FL", "end" : "BL", "hit" : "R"}],
+            "properties" : ["breaking", "jumping"],
+            "range" : "2.7",
+            "stamina" : "20.4",
+            "impact" : "138.1",
+            "startup" : "21",
+            "advhit" : "9",
+            "advguard" : "9",
+            "scaling": {
+                "wep" : "-",
+                "str" : "C",
+                "dex" : "E",
+                "mob" : "-"
+                }
         },
         {
             "name" : "Spinning High Kick",
@@ -455,8 +1055,20 @@
             "vert" : "high",
             "horiz" : true,
             "stances" : [{"start" : "FR", "end" : "BR", "hit" : "L"},
-                        {"start" : "FL", "end" : "BL", "hit" : "R"}],
-            "properties" : []
+                         {"start" : "FL", "end" : "BL", "hit" : "R"}],
+            "properties" : [],
+            "range" : "2.2",
+            "stamina" : "21.2",
+            "impact" : "92.9",
+            "startup" : "22",
+            "advhit" : "10",
+            "advguard" : "1",
+            "scaling": {
+                "wep" : "-",
+                "str" : "B",
+                "dex" : "B",
+                "mob" : "D"
+                }
         },
         {
             "name" : "Parry & Strike",
@@ -464,8 +1076,20 @@
             "vert" : "high",
             "horiz" : false,
             "stances" : [{"start" : "BR", "end" : "FR", "hit" : "R"},
-                        {"start" : "BL", "end" : "FL", "hit" : "L"}],
-            "properties" : ["parry"]
+                         {"start" : "BL", "end" : "FL", "hit" : "L"}],
+            "properties" : ["parry"],
+            "range" : "1.9",
+            "stamina" : "11.6",
+            "impact" : "6.6",
+            "startup" : "11",
+            "advhit" : "2",
+            "advguard" : "-1",
+            "scaling": {
+                "wep" : "-",
+                "str" : "E",
+                "dex" : "E",
+                "mob" : "D"
+                }
         },
         {
             "name" : "Back Tripped Kick",
@@ -473,8 +1097,20 @@
             "vert" : "low",
             "horiz" : true,
             "stances" : [{"start" : "BR", "end" : "FR", "hit" : "L"},
-                        {"start" : "BL", "end" : "FL", "hit" : "R"}],
-            "properties" : ["ducking"]
+                         {"start" : "BL", "end" : "FL", "hit" : "R"}],
+            "properties" : ["ducking"],
+            "range" : "2",
+            "stamina" : "12.2",
+            "impact" : "4.3",
+            "startup" : "11",
+            "advhit" : "-1",
+            "advguard" : "-4",
+            "scaling": {
+                "wep" : "-",
+                "str" : "D",
+                "dex" : "-",
+                "mob" : "A"
+                }
         },
         {
             "name" : "Fast Back Fist",
@@ -482,8 +1118,20 @@
             "vert" : "high",
             "horiz" : false,
             "stances" : [{"start" : "BR", "end" : "FR", "hit" : "R"},
-                        {"start" : "BL", "end" : "FL", "hit" : "L"}],
-            "properties" : []
+                         {"start" : "BL", "end" : "FL", "hit" : "L"}],
+            "properties" : [],
+            "range" : "1.8",
+            "stamina" : "10.8",
+            "impact" : "2.3",
+            "startup" : "10",
+            "advhit" : "1",
+            "advguard" : "-1",
+            "scaling": {
+                "wep" : "-",
+                "str" : "D",
+                "dex" : "A",
+                "mob" : "A"
+                }
         },
         {
             "name" : "Eye Poke",
@@ -491,8 +1139,20 @@
             "vert" : "high",
             "horiz" : false,
             "stances" : [{"start" : "BR", "end" : "FR", "hit" : "R"},
-                        {"start" : "BL", "end" : "FL", "hit" : "L"}],
-            "properties" : ["stopping"]
+                         {"start" : "BL", "end" : "FL", "hit" : "L"}],
+            "properties" : ["stopping"],
+            "range" : "2.8",
+            "stamina" : "14.9",
+            "impact" : "52.7",
+            "startup" : "15",
+            "advhit" : "6",
+            "advguard" : "4",
+            "scaling": {
+                "wep" : "-",
+                "str" : "E",
+                "dex" : "D",
+                "mob" : "E"
+                }
         },
         {
             "name" : "Whirlwind Double Punch",
@@ -500,8 +1160,20 @@
             "vert" : "low",
             "horiz" : true,
             "stances" : [{"start" : "BR", "end" : "FR", "hit" : "R"},
-                        {"start" : "BL", "end" : "FL", "hit" : "L"}],
-            "properties" : ["ducking", "double"]
+                         {"start" : "BL", "end" : "FL", "hit" : "L"}],
+            "properties" : ["ducking", "double"],
+            "range" : "2",
+            "stamina" : "15.9",
+            "impact" : "32.6",
+            "startup" : "16",
+            "advhit" : "4",
+            "advguard" : "-1",
+            "scaling": {
+                "wep" : "-",
+                "str" : "E",
+                "dex" : "E",
+                "mob" : "B"
+                }
         },
         {
             "name" : "Fast Punch",
@@ -509,8 +1181,20 @@
             "vert" : "high",
             "horiz" : false,
             "stances" : [{"start" : "BR", "end" : "FR", "hit" : "R"},
-                        {"start" : "BL", "end" : "FL", "hit" : "L"}],
-            "properties" : []
+                         {"start" : "BL", "end" : "FL", "hit" : "L"}],
+            "properties" : [],
+            "range" : "2.3",
+            "stamina" : "14.1",
+            "impact" : "33.9",
+            "startup" : "14",
+            "advhit" : "5",
+            "advguard" : "1",
+            "scaling": {
+                "wep" : "-",
+                "str" : "B",
+                "dex" : "C",
+                "mob" : "B"
+                }
         },
         {
             "name" : "Illusion Twist Kick",
@@ -518,8 +1202,20 @@
             "vert" : "mid",
             "horiz" : false,
             "stances" : [{"start" : "BR", "end" : "FR", "hit" : "L"},
-                        {"start" : "BL", "end" : "FL", "hit" : "R"}],
-            "properties" : ["jumping"]
+                         {"start" : "BL", "end" : "FL", "hit" : "R"}],
+            "properties" : ["jumping"],
+            "range" : "2.2",
+            "stamina" : "18",
+            "impact" : "57.6",
+            "startup" : "18",
+            "advhit" : "6",
+            "advguard" : "0",
+            "scaling": {
+                "wep" : "-",
+                "str" : "-",
+                "dex" : "D",
+                "mob" : "C"
+                }
         },
         {
             "name" : "Low Spin Heel",
@@ -527,8 +1223,20 @@
             "vert" : "low",
             "horiz" : true,
             "stances" : [{"start" : "BR", "end" : "FR", "hit" : "L"},
-                        {"start" : "BL", "end" : "FL", "hit" : "R"}],
-            "properties" : ["ducking"]
+                         {"start" : "BL", "end" : "FL", "hit" : "R"}],
+            "properties" : ["ducking"],
+            "range" : "2",
+            "stamina" : "17.8",
+            "impact" : "47.7",
+            "startup" : "18",
+            "advhit" : "7",
+            "advguard" : "0",
+            "scaling": {
+                "wep" : "-",
+                "str" : "-",
+                "dex" : "D",
+                "mob" : "C"
+                }
         },
         {
             "name" : "Jackhammer Punch",
@@ -536,8 +1244,20 @@
             "vert" : "mid",
             "horiz" : false,
             "stances" : [{"start" : "BR", "end" : "FR", "hit" : "L"},
-                        {"start" : "BL", "end" : "FL", "hit" : "R"}],
-            "properties" : ["double"]
+                         {"start" : "BL", "end" : "FL", "hit" : "R"}],
+            "properties" : ["double"],
+            "range" : "2.2",
+            "stamina" : "17",
+            "impact" : "67.8",
+            "startup" : "17",
+            "advhit" : "6",
+            "advguard" : "0",
+            "scaling": {
+                "wep" : "-",
+                "str" : "C",
+                "dex" : "E",
+                "mob" : "-"
+                }
         },
         {
             "name" : "Grab Punch",
@@ -545,8 +1265,20 @@
             "vert" : "high",
             "horiz" : false,
             "stances" : [{"start" : "BR", "end" : "FR", "hit" : "L"},
-                        {"start" : "BL", "end" : "FL", "hit" : "R"}],
-            "properties" : ["charging"]
+                         {"start" : "BL", "end" : "FL", "hit" : "R"}],
+            "properties" : ["charging"],
+            "range" : "2.5",
+            "stamina" : "20.2",
+            "impact" : "75.8",
+            "startup" : "21",
+            "advhit" : "8",
+            "advguard" : "1",
+            "scaling": {
+                "wep" : "-",
+                "str" : "-",
+                "dex" : "E",
+                "mob" : "-"
+                }
         },
         {
             "name" : "Spinning Flute Swing",
@@ -554,8 +1286,20 @@
             "vert" : "high",
             "horiz" : true,
             "stances" : [{"start" : "BR", "end" : "FR", "hit" : "L"},
-                        {"start" : "BL", "end" : "FL", "hit" : "R"}],
-            "properties" : []
+                         {"start" : "BL", "end" : "FL", "hit" : "R"}],
+            "properties" : [],
+            "range" : "2.5",
+            "stamina" : "19.4",
+            "impact" : "72.6",
+            "startup" : "20",
+            "advhit" : "9",
+            "advguard" : "1",
+            "scaling": {
+                "wep" : "-",
+                "str" : "B",
+                "dex" : "A",
+                "mob" : "D"
+                }
         },
         {
             "name" : "Spinning Wide Hook",
@@ -563,8 +1307,20 @@
             "vert" : "high",
             "horiz" : true,
             "stances" : [{"start" : "BR", "end" : "FR", "hit" : "L"},
-                        {"start" : "BL", "end" : "FL", "hit" : "R"}],
-            "properties" : []
+                         {"start" : "BL", "end" : "FL", "hit" : "R"}],
+            "properties" : [],
+            "range" : "2.4",
+            "stamina" : "22.1",
+            "impact" : "98.5",
+            "startup" : "23",
+            "advhit" : "10",
+            "advguard" : "1",
+            "scaling": {
+                "wep" : "-",
+                "str" : "A",
+                "dex" : "B",
+                "mob" : "E"
+                }
         },
         {
             "name" : "Spiral Palm",
@@ -572,8 +1328,20 @@
             "vert" : "low",
             "horiz" : false,
             "stances" : [{"start" : "BR", "end" : "FR", "hit" : "R"},
-                        {"start" : "BL", "end" : "FL", "hit" : "L"}],
-            "properties" : ["breaking"]
+                         {"start" : "BL", "end" : "FL", "hit" : "L"}],
+            "properties" : ["breaking"],
+            "range" : "2.2",
+            "stamina" : "22.7",
+            "impact" : "168",
+            "startup" : "24",
+            "advhit" : "12",
+            "advguard" : "12",
+            "scaling": {
+                "wep" : "-",
+                "str" : "E",
+                "dex" : "C",
+                "mob" : "-"
+                }
         },
         {
             "name" : "Soto-uke",
@@ -581,8 +1349,20 @@
             "vert" : "high",
             "horiz" : false,
             "stances" : [{"start" : "BR", "end" : "FL", "hit" : "R"},
-                        {"start" : "BL", "end" : "FR", "hit" : "L"}],
-            "properties" : []
+                         {"start" : "BL", "end" : "FR", "hit" : "L"}],
+            "properties" : [],
+            "range" : "2",
+            "stamina" : "12.3",
+            "impact" : "16.5",
+            "startup" : "12",
+            "advhit" : "4",
+            "advguard" : "1",
+            "scaling": {
+                "wep" : "-",
+                "str" : "D",
+                "dex" : "A",
+                "mob" : "A"
+                }
         },
         {
             "name" : "Gut Punch",
@@ -590,8 +1370,20 @@
             "vert" : "mid",
             "horiz" : false,
             "stances" : [{"start" : "BR", "end" : "FL", "hit" : "R"},
-                        {"start" : "BL", "end" : "FR", "hit" : "L"}],
-            "properties" : []
+                         {"start" : "BL", "end" : "FR", "hit" : "L"}],
+            "properties" : [],
+            "range" : "2.5",
+            "stamina" : "12.3",
+            "impact" : "9.2",
+            "startup" : "12",
+            "advhit" : "4",
+            "advguard" : "1",
+            "scaling": {
+                "wep" : "-",
+                "str" : "C",
+                "dex" : "B",
+                "mob" : "B"
+                }
         },
         {
             "name" : "Stretch Out Hook",
@@ -599,17 +1391,41 @@
             "vert" : "high",
             "horiz" : true,
             "stances" : [{"start" : "BR", "end" : "FL", "hit" : "R"},
-                        {"start" : "BL", "end" : "FR", "hit" : "L"}],
-            "properties" : []
+                         {"start" : "BL", "end" : "FR", "hit" : "L"}],
+            "properties" : [],
+            "range" : "1.9",
+            "stamina" : "12.3",
+            "impact" : "14.5",
+            "startup" : "12",
+            "advhit" : "5",
+            "advguard" : "1",
+            "scaling": {
+                "wep" : "-",
+                "str" : "B",
+                "dex" : "C",
+                "mob" : "B"
+                }
         },
         {
             "name" : "Double Palm",
-            "style" : "stagger",
+            "style" : "windfall",
             "vert" : "mid",
             "horiz" : false,
             "stances" : [{"start" : "BR", "end" : "FL", "hit" : "R"},
-                        {"start" : "BL", "end" : "FR", "hit" : "L"}],
-            "properties" : ["double"]
+                         {"start" : "BL", "end" : "FR", "hit" : "L"}],
+            "properties" : ["double"],
+            "range" : "1.8",
+            "stamina" : "14.1",
+            "impact" : "40.5",
+            "startup" : "14",
+            "advhit" : "5",
+            "advguard" : "0",
+            "scaling": {
+                "wep" : "-",
+                "str" : "E",
+                "dex" : "C",
+                "mob" : "E"
+                }
         },
         {
             "name" : "Liver Knee",
@@ -617,8 +1433,20 @@
             "vert" : "mid",
             "horiz" : false,
             "stances" : [{"start" : "BR", "end" : "FL", "hit" : "R"},
-                        {"start" : "BL", "end" : "FR", "hit" : "L"}],
-            "properties" : []
+                         {"start" : "BL", "end" : "FR", "hit" : "L"}],
+            "properties" : [],
+            "range" : "2.2",
+            "stamina" : "15.8",
+            "impact" : "53.7",
+            "startup" : "16",
+            "advhit" : "8",
+            "advguard" : "2",
+            "scaling": {
+                "wep" : "-",
+                "str" : "A",
+                "dex" : "D",
+                "mob" : "C"
+                }
         },
         {
             "name" : "Uramawashi",
@@ -626,8 +1454,20 @@
             "vert" : "high",
             "horiz" : true,
             "stances" : [{"start" : "BR", "end" : "FL", "hit" : "L"},
-                        {"start" : "BL", "end" : "FR", "hit" : "R"}],
-            "properties" : []
+                         {"start" : "BL", "end" : "FR", "hit" : "R"}],
+            "properties" : [],
+            "range" : "1.8",
+            "stamina" : "13.3",
+            "impact" : "24.8",
+            "startup" : "13",
+            "advhit" : "4",
+            "advguard" : "0",
+            "scaling": {
+                "wep" : "-",
+                "str" : "D",
+                "dex" : "A",
+                "mob" : "B"
+                }
         },
         {
             "name" : "Roll Uppercut",
@@ -635,8 +1475,20 @@
             "vert" : "mid",
             "horiz" : false,
             "stances" : [{"start" : "BR", "end" : "FL", "hit" : "L"},
-                        {"start" : "BL", "end" : "FR", "hit" : "R"}],
-            "properties" : ["ducking"]
+                         {"start" : "BL", "end" : "FR", "hit" : "R"}],
+            "properties" : ["ducking"],
+            "range" : "2.4",
+            "stamina" : "18.6",
+            "impact" : "61.1",
+            "startup" : "19",
+            "advhit" : "8",
+            "advguard" : "1",
+            "scaling": {
+                "wep" : "-",
+                "str" : "D",
+                "dex" : "-",
+                "mob" : "C"
+                }
         },
         {
             "name" : "Axe Kick",
@@ -644,8 +1496,20 @@
             "vert" : "mid",
             "horiz" : false,
             "stances" : [{"start" : "BR", "end" : "FL", "hit" : "R"},
-                        {"start" : "BL", "end" : "FR", "hit" : "L"}],
-            "properties" : []
+                         {"start" : "BL", "end" : "FR", "hit" : "L"}],
+            "properties" : [],
+            "range" : "2",
+            "stamina" : "19.4",
+            "impact" : "98.6",
+            "startup" : "20",
+            "advhit" : "9",
+            "advguard" : "2",
+            "scaling": {
+                "wep" : "-",
+                "str" : "B",
+                "dex" : "B",
+                "mob" : "D"
+                }
         },
         {
             "name" : "Drunken Smash",
@@ -653,8 +1517,20 @@
             "vert" : "high",
             "horiz" : false,
             "stances" : [{"start" : "BR", "end" : "FL", "hit" : "L"},
-                        {"start" : "BL", "end" : "FR", "hit" : "R"}],
-            "properties" : []
+                         {"start" : "BL", "end" : "FR", "hit" : "R"}],
+            "properties" : [],
+            "range" : "2.4",
+            "stamina" : "19.6",
+            "impact" : "95.2",
+            "startup" : "20",
+            "advhit" : "8",
+            "advguard" : "1",
+            "scaling": {
+                "wep" : "-",
+                "str" : "B",
+                "dex" : "A",
+                "mob" : "D"
+                }
         },
         {
             "name" : "Knee Strike",
@@ -662,8 +1538,20 @@
             "vert" : "high",
             "horiz" : false,
             "stances" : [{"start" : "BR", "end" : "FL", "hit" : "L"},
-                        {"start" : "BL", "end" : "FR", "hit" : "R"}],
-            "properties" : ["breaking", "jumping"]
+                         {"start" : "BL", "end" : "FR", "hit" : "R"}],
+            "properties" : ["breaking", "jumping"],
+            "range" : "2.4",
+            "stamina" : "19.6",
+            "impact" : "133.3",
+            "startup" : "20",
+            "advhit" : "8",
+            "advguard" : "8",
+            "scaling": {
+                "wep" : "-",
+                "str" : "D",
+                "dex" : "E",
+                "mob" : "-"
+                }
         },
         {
             "name" : "Fast Elbow",
@@ -671,8 +1559,20 @@
             "vert" : "high",
             "horiz" : false,
             "stances" : [{"start" : "BR", "end" : "BR", "hit" : "R"},
-                        {"start" : "BL", "end" : "BL", "hit" : "L"}],
-            "properties" : []
+                         {"start" : "BL", "end" : "BL", "hit" : "L"}],
+            "properties" : [],
+            "range" : "1.8",
+            "stamina" : "10.6",
+            "impact" : "1",
+            "startup" : "10",
+            "advhit" : "2",
+            "advguard" : "0",
+            "scaling": {
+                "wep" : "-",
+                "str" : "B",
+                "dex" : "C",
+                "mob" : "A"
+                }
         },
         {
             "name" : "Back Hop Wrist",
@@ -680,8 +1580,20 @@
             "vert" : "high",
             "horiz" : false,
             "stances" : [{"start" : "BR", "end" : "BR", "hit" : "R"},
-                        {"start" : "BL", "end" : "BL", "hit" : "L"}],
-            "properties" : []
+                         {"start" : "BL", "end" : "BL", "hit" : "L"}],
+            "properties" : [],
+            "range" : "1.9",
+            "stamina" : "10.8",
+            "impact" : "1.4",
+            "startup" : "10",
+            "advhit" : "1",
+            "advguard" : "-1",
+            "scaling": {
+                "wep" : "-",
+                "str" : "C",
+                "dex" : "B",
+                "mob" : "A"
+                }
         },
         {
             "name" : "Underknee Kick",
@@ -689,8 +1601,20 @@
             "vert" : "low",
             "horiz" : true,
             "stances" : [{"start" : "BR", "end" : "BR", "hit" : "L"},
-                        {"start" : "BL", "end" : "BL", "hit" : "R"}],
-            "properties" : []
+                         {"start" : "BL", "end" : "BL", "hit" : "R"}],
+            "properties" : [],
+            "range" : "2",
+            "stamina" : "13.3",
+            "impact" : "22.4",
+            "startup" : "13",
+            "advhit" : "4",
+            "advguard" : "0",
+            "scaling": {
+                "wep" : "-",
+                "str" : "A",
+                "dex" : "D",
+                "mob" : "B"
+                }
         },
         {
             "name" : "Chin Palm",
@@ -698,8 +1622,20 @@
             "vert" : "mid",
             "horiz" : false,
             "stances" : [{"start" : "BR", "end" : "BR", "hit" : "R"},
-                        {"start" : "BL", "end" : "BL", "hit" : "L"}],
-            "properties" : []
+                         {"start" : "BL", "end" : "BL", "hit" : "L"}],
+            "properties" : [],
+            "range" : "1.9",
+            "stamina" : "12.5",
+            "impact" : "19.9",
+            "startup" : "12",
+            "advhit" : "4",
+            "advguard" : "1",
+            "scaling": {
+                "wep" : "-",
+                "str" : "D",
+                "dex" : "A",
+                "mob" : "B"
+                }
         },
         {
             "name" : "Backfall Strike",
@@ -707,8 +1643,20 @@
             "vert" : "high",
             "horiz" : false,
             "stances" : [{"start" : "BR", "end" : "BR", "hit" : "L"},
-                        {"start" : "BL", "end" : "BL", "hit" : "R"}],
-            "properties" : ["double"]
+                         {"start" : "BL", "end" : "BL", "hit" : "R"}],
+            "properties" : ["double"],
+            "range" : "1.9",
+            "stamina" : "12.5",
+            "impact" : "20.7",
+            "startup" : "12",
+            "advhit" : "3",
+            "advguard" : "0",
+            "scaling": {
+                "wep" : "-",
+                "str" : "E",
+                "dex" : "D",
+                "mob" : "E"
+                }
         },
         {
             "name" : "Twist Parry Strike",
@@ -716,8 +1664,20 @@
             "vert" : "high",
             "horiz" : true,
             "stances" : [{"start" : "BR", "end" : "BR", "hit" : "R"},
-                        {"start" : "BL", "end" : "BL", "hit" : "L"}],
-            "properties" : ["parry"]
+                         {"start" : "BL", "end" : "BL", "hit" : "L"}],
+            "properties" : ["parry"],
+            "range" : "2.5",
+            "stamina" : "19.1",
+            "impact" : "42.1",
+            "startup" : "20",
+            "advhit" : "10",
+            "advguard" : "3",
+            "scaling": {
+                "wep" : "-",
+                "str" : "D",
+                "dex" : "E",
+                "mob" : "E"
+                }
         },
         {
             "name" : "Donkey Slap",
@@ -725,8 +1685,20 @@
             "vert" : "mid",
             "horiz" : false,
             "stances" : [{"start" : "BR", "end" : "BR", "hit" : "L"},
-                        {"start" : "BL", "end" : "BL", "hit" : "R"}],
-            "properties" : ["double"]
+                         {"start" : "BL", "end" : "BL", "hit" : "R"}],
+            "properties" : ["double"],
+            "range" : "2.1",
+            "stamina" : "14.1",
+            "impact" : "36.9",
+            "startup" : "14",
+            "advhit" : "5",
+            "advguard" : "0",
+            "scaling": {
+                "wep" : "-",
+                "str" : "E",
+                "dex" : "D",
+                "mob" : "E"
+                }
         },
         {
             "name" : "Twist Back Kick",
@@ -734,8 +1706,20 @@
             "vert" : "high",
             "horiz" : true,
             "stances" : [{"start" : "BR", "end" : "BR", "hit" : "R"},
-                        {"start" : "BL", "end" : "BL", "hit" : "L"}],
-            "properties" : []
+                         {"start" : "BL", "end" : "BL", "hit" : "L"}],
+            "properties" : [],
+            "range" : "2",
+            "stamina" : "15.1",
+            "impact" : "39.2",
+            "startup" : "15",
+            "advhit" : "5",
+            "advguard" : "0",
+            "scaling": {
+                "wep" : "-",
+                "str" : "C",
+                "dex" : "B",
+                "mob" : "C"
+                }
         },
         {
             "name" : "Wallop Blow",
@@ -743,8 +1727,20 @@
             "vert" : "mid",
             "horiz" : false,
             "stances" : [{"start" : "BR", "end" : "BR", "hit" : "R"},
-                        {"start" : "BL", "end" : "BL", "hit" : "L"}],
-            "properties" : []
+                         {"start" : "BL", "end" : "BL", "hit" : "L"}],
+            "properties" : [],
+            "range" : "1.8",
+            "stamina" : "14.1",
+            "impact" : "40.1",
+            "startup" : "14",
+            "advhit" : "5",
+            "advguard" : "1",
+            "scaling": {
+                "wep" : "-",
+                "str" : "A",
+                "dex" : "D",
+                "mob" : "B"
+                }
         },
         {
             "name" : "Slap Kick",
@@ -752,8 +1748,20 @@
             "vert" : "high",
             "horiz" : true,
             "stances" : [{"start" : "BR", "end" : "BR", "hit" : "R"},
-                        {"start" : "BL", "end" : "BL", "hit" : "L"}],
-            "properties" : ["jumping"]
+                         {"start" : "BL", "end" : "BL", "hit" : "L"}],
+            "properties" : ["jumping"],
+            "range" : "2.4",
+            "stamina" : "17.8",
+            "impact" : "42.6",
+            "startup" : "18",
+            "advhit" : "6",
+            "advguard" : "0",
+            "scaling": {
+                "wep" : "-",
+                "str" : "-",
+                "dex" : "D",
+                "mob" : "C"
+                }
         },
         {
             "name" : "Pushed Back Kick",
@@ -761,8 +1769,20 @@
             "vert" : "mid",
             "horiz" : false,
             "stances" : [{"start" : "BR", "end" : "BR", "hit" : "R"},
-                        {"start" : "BL", "end" : "BL", "hit" : "L"}],
-            "properties" : ["breaking"]
+                         {"start" : "BL", "end" : "BL", "hit" : "L"}],
+            "properties" : ["breaking"],
+            "range" : "2.4",
+            "stamina" : "18.4",
+            "impact" : "119.8",
+            "startup" : "19",
+            "advhit" : "9",
+            "advguard" : "9",
+            "scaling": {
+                "wep" : "-",
+                "str" : "D",
+                "dex" : "E",
+                "mob" : "-"
+                }
         },
         {
             "name" : "Collar Chop",
@@ -770,8 +1790,20 @@
             "vert" : "high",
             "horiz" : false,
             "stances" : [{"start" : "BR", "end" : "BR", "hit" : "R"},
-                        {"start" : "BL", "end" : "BL", "hit" : "L"}],
-            "properties" : ["breaking"]
+                         {"start" : "BL", "end" : "BL", "hit" : "L"}],
+            "properties" : ["breaking"],
+            "range" : "2.7",
+            "stamina" : "22.9",
+            "impact" : "162.8",
+            "startup" : "24",
+            "advhit" : "11",
+            "advguard" : "11",
+            "scaling": {
+                "wep" : "-",
+                "str" : "E",
+                "dex" : "C",
+                "mob" : "-"
+                }
         },
         {
             "name" : "Back Turn Wrist",
@@ -779,8 +1811,20 @@
             "vert" : "high",
             "horiz" : false,
             "stances" : [{"start" : "BR", "end" : "BL", "hit" : "L"},
-                        {"start" : "BL", "end" : "BR", "hit" : "R"}],
-            "properties" : []
+                         {"start" : "BL", "end" : "BR", "hit" : "R"}],
+            "properties" : [],
+            "range" : "1.8",
+            "stamina" : "10.6",
+            "impact" : "1.4",
+            "startup" : "10",
+            "advhit" : "2",
+            "advguard" : "0",
+            "scaling": {
+                "wep" : "-",
+                "str" : "C",
+                "dex" : "B",
+                "mob" : "A"
+                }
         },
         {
             "name" : "Spin Back Fist",
@@ -788,8 +1832,20 @@
             "vert" : "high",
             "horiz" : true,
             "stances" : [{"start" : "BR", "end" : "BL", "hit" : "L"},
-                        {"start" : "BL", "end" : "BR", "hit" : "R"}],
-            "properties" : []
+                         {"start" : "BL", "end" : "BR", "hit" : "R"}],
+            "properties" : [],
+            "range" : "2.1",
+            "stamina" : "13.1",
+            "impact" : "19.4",
+            "startup" : "13",
+            "advhit" : "5",
+            "advguard" : "1",
+            "scaling": {
+                "wep" : "-",
+                "str" : "B",
+                "dex" : "C",
+                "mob" : "B"
+                }
         },
         {
             "name" : "Spin Elbow",
@@ -797,8 +1853,20 @@
             "vert" : "high",
             "horiz" : false,
             "stances" : [{"start" : "BR", "end" : "BL", "hit" : "L"},
-                        {"start" : "BL", "end" : "BR", "hit" : "R"}],
-            "properties" : []
+                         {"start" : "BL", "end" : "BR", "hit" : "R"}],
+            "properties" : [],
+            "range" : "1.8",
+            "stamina" : "11.6",
+            "impact" : "12.1",
+            "startup" : "11",
+            "advhit" : "2",
+            "advguard" : "-1",
+            "scaling": {
+                "wep" : "-",
+                "str" : "B",
+                "dex" : "C",
+                "mob" : "A"
+                }
         },
         {
             "name" : "Pushed Elbow",
@@ -806,8 +1874,20 @@
             "vert" : "high",
             "horiz" : false,
             "stances" : [{"start" : "BR", "end" : "BL", "hit" : "L"},
-                        {"start" : "BL", "end" : "BR", "hit" : "R"}],
-            "properties" : []
+                         {"start" : "BL", "end" : "BR", "hit" : "R"}],
+            "properties" : [],
+            "range" : "1.8",
+            "stamina" : "14.1",
+            "impact" : "40.7",
+            "startup" : "14",
+            "advhit" : "5",
+            "advguard" : "1",
+            "scaling": {
+                "wep" : "-",
+                "str" : "A",
+                "dex" : "D",
+                "mob" : "B"
+                }
         },
         {
             "name" : "Scissor Kick",
@@ -815,8 +1895,20 @@
             "vert" : "high",
             "horiz" : true,
             "stances" : [{"start" : "BR", "end" : "BL", "hit" : "R"},
-                        {"start" : "BL", "end" : "BR", "hit" : "L"}],
-            "properties" : ["jumping"]
+                         {"start" : "BL", "end" : "BR", "hit" : "L"}],
+            "properties" : ["jumping"],
+            "range" : "2.2",
+            "stamina" : "15.9",
+            "impact" : "30.5",
+            "startup" : "16",
+            "advhit" : "6",
+            "advguard" : "1",
+            "scaling": {
+                "wep" : "-",
+                "str" : "E",
+                "dex" : "E",
+                "mob" : "B"
+                }
         },
         {
             "name" : "Tetsuzanko",
@@ -824,8 +1916,20 @@
             "vert" : "mid",
             "horiz" : false,
             "stances" : [{"start" : "BR", "end" : "BL", "hit" : "R"},
-                        {"start" : "BL", "end" : "BR", "hit" : "L"}],
-            "properties" : ["strafing"]
+                         {"start" : "BL", "end" : "BR", "hit" : "L"}],
+            "properties" : ["strafing"],
+            "range" : "2.1",
+            "stamina" : "17.4",
+            "impact" : "53.2",
+            "startup" : "18",
+            "advhit" : "7",
+            "advguard" : "2",
+            "scaling": {
+                "wep" : "-",
+                "str" : "-",
+                "dex" : "D",
+                "mob" : "C"
+                }
         },
         {
             "name" : "Double Fist Stretch",
@@ -833,8 +1937,20 @@
             "vert" : "high",
             "horiz" : true,
             "stances" : [{"start" : "BR", "end" : "BL", "hit" : "L"},
-                        {"start" : "BL", "end" : "BR", "hit" : "R"}],
-            "properties" : ["double"]
+                         {"start" : "BL", "end" : "BR", "hit" : "R"}],
+            "properties" : ["double"],
+            "range" : "2.2",
+            "stamina" : "14.3",
+            "impact" : "29.3",
+            "startup" : "14",
+            "advhit" : "4",
+            "advguard" : "-1",
+            "scaling": {
+                "wep" : "-",
+                "str" : "E",
+                "dex" : "D",
+                "mob" : "-"
+                }
         },
         {
             "name" : "Surging Palm",
@@ -842,8 +1958,20 @@
             "vert" : "mid",
             "horiz" : false,
             "stances" : [{"start" : "BR", "end" : "BL", "hit" : "L"},
-                        {"start" : "BL", "end" : "BR", "hit" : "R"}],
-            "properties" : ["strafing"]
+                         {"start" : "BL", "end" : "BR", "hit" : "R"}],
+            "properties" : ["strafing"],
+            "range" : "2.6",
+            "stamina" : "19.2",
+            "impact" : "66",
+            "startup" : "20",
+            "advhit" : "10",
+            "advguard" : "3",
+            "scaling": {
+                "wep" : "-",
+                "str" : "-",
+                "dex" : "D",
+                "mob" : "C"
+                }
         },
         {
             "name" : "Jumped Spin Kick",
@@ -851,8 +1979,20 @@
             "vert" : "high",
             "horiz" : true,
             "stances" : [{"start" : "BR", "end" : "BL", "hit" : "R"},
-                        {"start" : "BL", "end" : "BR", "hit" : "L"}],
-            "properties" : ["jumping"]
+                         {"start" : "BL", "end" : "BR", "hit" : "L"}],
+            "properties" : ["jumping"],
+            "range" : "2.6",
+            "stamina" : "22.2",
+            "impact" : "74",
+            "startup" : "23",
+            "advhit" : "9",
+            "advguard" : "0",
+            "scaling": {
+                "wep" : "-",
+                "str" : "E",
+                "dex" : "E",
+                "mob" : "D"
+                }
         },
         {
             "name" : "Upper Elbow",
@@ -860,7 +2000,19 @@
             "vert" : "high",
             "horiz" : false,
             "stances" : [{"start" : "BR", "end" : "BL", "hit" : "L"},
-                        {"start" : "BL", "end" : "BR", "hit" : "R"}],
-            "properties" : []
+                         {"start" : "BL", "end" : "BR", "hit" : "R"}],
+            "properties" : [],
+            "range" : "2.5",
+            "stamina" : "22.1",
+            "impact" : "121.4",
+            "startup" : "23",
+            "advhit" : "10",
+            "advguard" : "2",
+            "scaling": {
+                "wep" : "-",
+                "str" : "A",
+                "dex" : "C",
+                "mob" : "D"
+                }
         }
 ]
