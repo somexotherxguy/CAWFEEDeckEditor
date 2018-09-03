@@ -197,7 +197,7 @@
 }
 
 .searchListHeight{
-    height: 700px;
+    height: 600px;
     overflow-y: auto;
     overflow-x: hidden;
 }
@@ -302,6 +302,15 @@
 
 .marginBot{
     margin-bottom: 10px;
+}
+
+.yellowtext{
+    font-family: Droid Sans;
+    color: #f1f7aa;
+}
+
+.marginLeft13{
+    margin-left: 13px;
 }
 
 ::-webkit-scrollbar {

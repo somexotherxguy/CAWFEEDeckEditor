@@ -289,6 +289,24 @@
         
         <div id="col3" class="col-3">
             <div class="transbarright">
+                <div class="yellowtext centText marginBot">
+                    <label ng-repeat="x in lrFilter">
+                        <input type="checkbox" ng-model="x.checked" ng-click="updateSelection($index, lrFilter); setSearch()">
+                        {{x.name}}
+                    </label>
+                </div>
+                <div class="yellowtext centText marginBot">
+                    <label ng-repeat="x in typeFilter">
+                        <input type="checkbox" ng-model="x.checked" ng-click="updateSelection($index, typeFilter); setSearch()">
+                        {{x.name}}
+                    </label>
+                </div>
+                <div class="yellowtext centText marginBot">
+                    <label ng-repeat="x in heightFilter">
+                        <input type="checkbox" ng-model="x.checked" ng-click="updateSelection($index, heightFilter); setSearch()">
+                        {{x.name}}
+                    </label>
+                </div>
                 <div class="marginButt">
                     <button class="buttonStyle" ng-click="clearMove()">Clear move</button>
                 </div>

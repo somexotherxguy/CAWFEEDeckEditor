@@ -2,6 +2,34 @@ app.controller('editor', ['$scope', '$http', '$window', function($scope, $http, 
     var moves;
     $http.get('moves.json').
         then(function onSuccess(data) {
+            //Filters
+            $scope.lrFilter = [{
+                name: "Left",
+                checked: false
+            },{
+                name: "Right",
+                checked: false
+            }];
+            
+            $scope.typeFilter = [{
+                name: "Sweep",
+                checked: false
+            },{
+                name: "Thrust",
+                checked: false
+            }];
+            
+            $scope.heightFilter = [{
+                name: "High",
+                checked: false
+            },{
+                name: "Low",
+                checked: false
+            },{
+                name: "Mid",
+                checked: false
+            }]
+            
             $scope.sel = '';
             $scope.showSearch = {"display": "none"};
             moves = data;
@@ -164,10 +192,16 @@ app.controller('editor', ['$scope', '$http', '$window', function($scope, $http, 
             $scope.clearMove = function(){
                 for(x in $scope.deck){
                     if($scope.deck[x].quadrant === $scope.sel){
-                        $scope.deck[x].move = {};
-                        $scope.deck[x].start = [];
-                        $scope.deck[x].end = [];
-                        $scope.deck[x].icon.gray = true;
+                        if($scope.deck[x].quadrant.slice(-1) !== "A" && $scope.deck[x].quadrant.slice(-1) !== "D"){
+                            $scope.deck[x].move = {};
+                            $scope.deck[x].start = [];
+                            $scope.deck[x].end = [];
+                            $scope.deck[x].icon.gray = true;
+                        } else {
+                            $scope.deck[x].move = {};
+                            $scope.deck[x].end = [];
+                            $scope.deck[x].icon.gray = true;
+                        }
                     }
                 }
             }
@@ -179,6 +213,7 @@ app.controller('editor', ['$scope', '$http', '$window', function($scope, $http, 
             
             $scope.setSearch = function(){
                 var start, end, index;
+                var side, type, height;
                 var alt = false;
                 var validMoves = [];
                 var left = "left",
@@ -189,6 +224,31 @@ app.controller('editor', ['$scope', '$http', '$window', function($scope, $http, 
                 var brMoves = [];
                 var frflMoves = [];
                 var blbrMoves = [];
+                
+                //Set filter values
+                for(x in $scope.lrFilter){
+                    if($scope.lrFilter[x].checked === true){
+                        if($scope.lrFilter[x].name === "Left"){
+                            side = "L";
+                        } else {
+                            side = "R";
+                        }
+                    }
+                }
+                for(x in $scope.typeFilter){
+                    if($scope.typeFilter[x].checked === true){
+                        if($scope.typeFilter[x].name === "Sweep"){
+                            type = true;
+                        } else {
+                            type = false;
+                        }
+                    }
+                }
+                for(x in $scope.heightFilter){
+                    if($scope.heightFilter[x].checked === true){
+                        height = $scope.heightFilter[x].name.toLowerCase();
+                    }
+                }
                 
                 for(x in $scope.deck){
                     if($scope.deck[x].quadrant === $scope.sel){
@@ -214,82 +274,89 @@ app.controller('editor', ['$scope', '$http', '$window', function($scope, $http, 
                 
                 if(start.length > 0 || end.length > 0){
                     for(x in data.data){
-                        for(y in data.data[x].stances){
-                            if(validMoves.indexOf(data.data[x].name) === -1){
-                                if(start.indexOf(data.data[x].stances[y].start) !== -1 && end.indexOf(data.data[x].stances[y].end) !== -1){
-                                    validMoves.push(data.data[x]);
-                                    //end stance check here?
-                                    if(data.data[x].stances[y].end === "FR"){
-                                        frMoves.push(data.data[x]);
-                                    } else if(data.data[x].stances[y].end === "FL"){
-                                        flMoves.push(data.data[x]);
-                                    } else if(data.data[x].stances[y].end === "BL"){
-                                        blMoves.push(data.data[x]);
-                                    } else if(data.data[x].stances[y].end === "BR"){
-                                        brMoves.push(data.data[x]);
-                                    }
-                                    
-                                    if(data.data[x].stances[y].hit === "L"){
-                                        validMoves[validMoves.length-1].hits = left;
-                                    } else {
-                                        validMoves[validMoves.length-1].hits = right;
-                                    }
-                                } else if(start.length === 0 && end.indexOf(data.data[x].stances[y].end) !== -1){
-                                    validMoves.push(data.data[x]);
-                                    
-                                    if(data.data[x].stances[y].end === "FR"){
-                                        frMoves.push(data.data[x]);
-                                    } else if(data.data[x].stances[y].end === "FL"){
-                                        flMoves.push(data.data[x]);
-                                    } else if(data.data[x].stances[y].end === "BL"){
-                                        blMoves.push(data.data[x]);
-                                    } else if(data.data[x].stances[y].end === "BR"){
-                                        brMoves.push(data.data[x]);
-                                    }
-                                    
-                                    if(data.data[x].stances[y].hit === "L"){
-                                        validMoves[validMoves.length-1].hits = left;
-                                    } else {
-                                        validMoves[validMoves.length-1].hits = right;
-                                    }
-                                } else if(start.indexOf(data.data[x].stances[y].start) !== -1 && end.length === 0){
-                                    if(alt){
-                                        if(data.data[x].stances[y].start !== data.data[x].stances[y].end){
-                                            validMoves.push(data.data[x]);
-                                            
-                                            if(data.data[x].stances[y].end === "FR"){
-                                                frMoves.push(data.data[x]);
-                                            } else if(data.data[x].stances[y].end === "FL"){
-                                                flMoves.push(data.data[x]);
-                                            } else if(data.data[x].stances[y].end === "BL"){
-                                                blMoves.push(data.data[x]);
-                                            } else if(data.data[x].stances[y].end === "BR"){
-                                                brMoves.push(data.data[x]);
+                        //Have to check the horiz and vert here, the side is checked inside the stance section
+                        if(data.data[x].horiz === type  || type === undefined){
+                            if(data.data[x].vert === height  || height === undefined){
+                                for(y in data.data[x].stances){
+                                    if(data.data[x].stances[y].hit === side || side === undefined){
+                                        if(validMoves.indexOf(data.data[x].name) === -1){
+                                            if(start.indexOf(data.data[x].stances[y].start) !== -1 && end.indexOf(data.data[x].stances[y].end) !== -1){
+                                                validMoves.push(data.data[x]);
+                                                //end stance check here?
+                                                if(data.data[x].stances[y].end === "FR"){
+                                                    frMoves.push(data.data[x]);
+                                                } else if(data.data[x].stances[y].end === "FL"){
+                                                    flMoves.push(data.data[x]);
+                                                } else if(data.data[x].stances[y].end === "BL"){
+                                                    blMoves.push(data.data[x]);
+                                                } else if(data.data[x].stances[y].end === "BR"){
+                                                    brMoves.push(data.data[x]);
+                                                }
+                                                
+                                                if(data.data[x].stances[y].hit === "L"){
+                                                    validMoves[validMoves.length-1].hits = left;
+                                                } else {
+                                                    validMoves[validMoves.length-1].hits = right;
+                                                }
+                                            } else if(start.length === 0 && end.indexOf(data.data[x].stances[y].end) !== -1){
+                                                validMoves.push(data.data[x]);
+                                                
+                                                if(data.data[x].stances[y].end === "FR"){
+                                                    frMoves.push(data.data[x]);
+                                                } else if(data.data[x].stances[y].end === "FL"){
+                                                    flMoves.push(data.data[x]);
+                                                } else if(data.data[x].stances[y].end === "BL"){
+                                                    blMoves.push(data.data[x]);
+                                                } else if(data.data[x].stances[y].end === "BR"){
+                                                    brMoves.push(data.data[x]);
+                                                }
+                                                
+                                                if(data.data[x].stances[y].hit === "L"){
+                                                    validMoves[validMoves.length-1].hits = left;
+                                                } else {
+                                                    validMoves[validMoves.length-1].hits = right;
+                                                }
+                                            } else if(start.indexOf(data.data[x].stances[y].start) !== -1 && end.length === 0){
+                                                if(alt){
+                                                    if(data.data[x].stances[y].start !== data.data[x].stances[y].end){
+                                                        validMoves.push(data.data[x]);
+                                                        
+                                                        if(data.data[x].stances[y].end === "FR"){
+                                                            frMoves.push(data.data[x]);
+                                                        } else if(data.data[x].stances[y].end === "FL"){
+                                                            flMoves.push(data.data[x]);
+                                                        } else if(data.data[x].stances[y].end === "BL"){
+                                                            blMoves.push(data.data[x]);
+                                                        } else if(data.data[x].stances[y].end === "BR"){
+                                                            brMoves.push(data.data[x]);
+                                                        }
+                                                        
+                                                        if(data.data[x].stances[y].hit === "L"){
+                                                            validMoves[validMoves.length-1].hits = left;
+                                                        } else {
+                                                            validMoves[validMoves.length-1].hits = right;
+                                                        }
+                                                    }
+                                                } else {
+                                                    validMoves.push(data.data[x]);
+                                                    
+                                                    if(data.data[x].stances[y].end === "FR"){
+                                                        frMoves.push(data.data[x]);
+                                                    } else if(data.data[x].stances[y].end === "FL"){
+                                                        flMoves.push(data.data[x]);
+                                                    } else if(data.data[x].stances[y].end === "BL"){
+                                                        blMoves.push(data.data[x]);
+                                                    } else if(data.data[x].stances[y].end === "BR"){
+                                                        brMoves.push(data.data[x]);
+                                                    }
+                                                    
+                                                    if(data.data[x].stances[y].hit === "L"){
+                                                        validMoves[validMoves.length-1].hits = left;
+                                                    } else {
+                                                        validMoves[validMoves.length-1].hits = right;
+                                                    }
+                                                }
                                             }
-                                            
-                                            if(data.data[x].stances[y].hit === "L"){
-                                                validMoves[validMoves.length-1].hits = left;
-                                            } else {
-                                                validMoves[validMoves.length-1].hits = right;
-                                            }
-                                        }
-                                    } else {
-                                        validMoves.push(data.data[x]);
-                                        
-                                        if(data.data[x].stances[y].end === "FR"){
-                                            frMoves.push(data.data[x]);
-                                        } else if(data.data[x].stances[y].end === "FL"){
-                                            flMoves.push(data.data[x]);
-                                        } else if(data.data[x].stances[y].end === "BL"){
-                                            blMoves.push(data.data[x]);
-                                        } else if(data.data[x].stances[y].end === "BR"){
-                                            brMoves.push(data.data[x]);
-                                        }
-                                        
-                                        if(data.data[x].stances[y].hit === "L"){
-                                            validMoves[validMoves.length-1].hits = left;
-                                        } else {
-                                            validMoves[validMoves.length-1].hits = right;
                                         }
                                     }
                                 }
@@ -365,6 +432,14 @@ app.controller('editor', ['$scope', '$http', '$window', function($scope, $http, 
                         setHits(data.data[x], index);
                     }
                 }
+            }
+            
+            //keep only one checkbox checked at any given time
+            $scope.updateSelection = function(position, entities) {
+              angular.forEach(entities, function(x, index) {
+                if (position != index) 
+                  x.checked = false;
+              });
             }
             
             //Sets the hits property of the Deck
