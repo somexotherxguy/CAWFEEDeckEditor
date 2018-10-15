@@ -2,6 +2,10 @@ app.controller('editor', ['$scope', '$http', '$window', function($scope, $http, 
     var moves;
     $http.get('moves.json').
         then(function onSuccess(data) {
+            //Constants
+            var HORIZ = "horiz",
+                THRUST = "thrust",
+                VERT = "vert";
             //Filters
             $scope.lrFilter = [{
                 name: "Left",
@@ -12,10 +16,13 @@ app.controller('editor', ['$scope', '$http', '$window', function($scope, $http, 
             }];
             
             $scope.typeFilter = [{
-                name: "Sweep",
+                name: "Horiz",
                 checked: false
             },{
                 name: "Thrust",
+                checked: false
+            },{
+                name: "Vert",
                 checked: false
             }];
             
@@ -237,10 +244,12 @@ app.controller('editor', ['$scope', '$http', '$window', function($scope, $http, 
                 }
                 for(x in $scope.typeFilter){
                     if($scope.typeFilter[x].checked === true){
-                        if($scope.typeFilter[x].name === "Sweep"){
-                            type = true;
+                        if($scope.typeFilter[x].name === "Horiz."){
+                            type = HORIZ;
+                        } else if($scope.typeFilter[x].name === "Thrust"){
+                            type = THRUST;
                         } else {
-                            type = false;
+                            type = VERT;
                         }
                     }
                 }
@@ -418,10 +427,12 @@ app.controller('editor', ['$scope', '$http', '$window', function($scope, $http, 
                         $scope.deck[index].move.style = data.data[x].style;
                         $scope.deck[index].move.styleIcon = "images/" + data.data[x].style.toLowerCase() + "_icon.png";
                         $scope.deck[index].move.vert = data.data[x].vert;
-                        if(data.data[x].horiz){
-                            $scope.deck[index].move.horiz = "sweep";
-                        } else {
-                            $scope.deck[index].move.horiz = "thrust";
+                        if(data.data[x].horiz === HORIZ){
+                            $scope.deck[index].move.horiz = HORIZ;
+                        } else if(data.data[x].horiz === THRUST){
+                            $scope.deck[index].move.horiz = THRUST;
+                        } else if(data.data[x].horiz === VERT){
+                            $scope.deck[index].move.horiz = HORIZ;
                         }
                         $scope.deck[index].move.prop = data.data[x].properties.toString();
                         $scope.deck[index].move.propIcons = [];
@@ -513,14 +524,14 @@ app.controller('editor', ['$scope', '$http', '$window', function($scope, $http, 
                     for(x in move.stances){
                         if($scope.deck[index].end[0] === move.stances[x].end){
                             if(move.stances[x].hit === "L"){
-                                $scope.deck[index].move.hit = "Left";
+                                $scope.deck[index].move.hit = "left";
                             } else{
-                                $scope.deck[index].move.hit = "Right";
+                                $scope.deck[index].move.hit = "right";
                             }
                         }
                     }
                 } else {
-                    $scope.deck[index].move.hit = "Left/Right";
+                    $scope.deck[index].move.hit = "left/right";
                 }
                 
                 //Update the Icon to match the new ending stance

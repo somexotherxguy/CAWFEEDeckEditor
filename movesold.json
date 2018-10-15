@@ -3,7 +3,7 @@
             "name" : "Calbot",
             "style" : "forsaken",
             "vert" : "high",
-            "horiz" : "horiz",
+            "horiz" : true,
             "stances" : [{"start" : "FR", "end" : "FL", "hit" : "R"},
                         {"start" : "FL", "end" : "FR", "hit" : "L"}],
             "properties" : []
@@ -12,52 +12,7 @@
             "name" : "Jumped Light Kick",
             "style" : "windfall",
             "vert" : "mid",
-            "horiz" : "thrust",
-            "stances" : [{"start" : "FR", "end" : "FL", "hit" : "R"},
-                        {"start" : "FL", "end" : "FR", "hit" : "L"}],
-            "properties" : ["jumping"]
-        },
-        {
-            "name" : "Drunk Stomp",
-            "style" : "stagger",
-            "vert" : "mid",
-            "horiz" : "thrust",
-            "stances" : [{"start" : "FR", "end" : "FL", "hit" : "R"},
-                        {"start" : "FL", "end" : "FR", "hit" : "L"}],
-            "properties" : ["stopping"]
-        },
-        {
-            "name" : "Tripped Kick",
-            "style" : "forsaken",
-            "vert" : "low",
-            "horiz" : "horiz",
-            "stances" : [{"start" : "FR", "end" : "FL", "hit" : "L"},
-                        {"start" : "FL", "end" : "FR", "hit" : "R"}],
-            "properties" : ["ducking"]
-        },
-        {
-            "name" : "Elbow Stumble",
-            "style" : "stagger",
-            "vert" : "high",
-            "horiz" : "thrust",
-            "stances" : [{"start" : "FR", "end" : "FL", "hit" : "L"},
-                        {"start" : "FL", "end" : "FR", "hit" : "R"}],
-            "properties" : []
-        },
-        {
-            "name" : "Jar Bash",
-            "style" : "stagger",
-            "vert" : "high",
-            "horiz" : "horiz",
-            "stances" : [{"start" : "FR", "end" : "FL", "hit" : "L"},
-                        {"start" : "FL", "end" : "FR", "hit" : "R"}],
-            "properties" : []
-        },
-        {
-            "name" : "Jumping Risekick",
-            "style" : "faejin",
-            "vert" : "mid",
-            "horiz" : "vert",
+            "horiz" : false,
             "stances" : [{"start" : "FR", "end" : "FL", "hit" : "R"},
                         {"start" : "FL", "end" : "FR", "hit" : "L"}],
             "properties" : ["jumping"]
@@ -66,43 +21,79 @@
             "name" : "Straight Punch",
             "style" : "forsaken",
             "vert" : "high",
-            "horiz" : "thrust",
+            "horiz" : false,
             "stances" : [{"start" : "FR", "end" : "FL", "hit" : "R"},
                         {"start" : "FL", "end" : "FR", "hit" : "L"}],
             "properties" : []
         },
         {
-            "name" : "Roll Punch",
-            "style" : "kahlt",
+            "name" : "Drunk Stomp",
+            "style" : "stagger",
             "vert" : "mid",
-            "horiz" : "thrust",
+            "horiz" : false,
             "stances" : [{"start" : "FR", "end" : "FL", "hit" : "R"},
                         {"start" : "FL", "end" : "FR", "hit" : "L"}],
-            "properties" : ["ducking"]
+            "properties" : ["stopping"]
         },
         {
-            "name" : "Body Blow",
-            "style" : "kahlt",
-            "vert" : "mid",
-            "horiz" : "thrust",
+            "name" : "Tripped Kick",
+            "style" : "forsaken",
+            "vert" : "low",
+            "horiz" : true,
             "stances" : [{"start" : "FR", "end" : "FL", "hit" : "L"},
                         {"start" : "FL", "end" : "FR", "hit" : "R"}],
-            "properties" : ["strafing"]
+            "properties" : ["ducking"]
         },
         {
             "name" : "Curled Up Uppercut",
             "style" : "kahlt",
             "vert" : "mid",
-            "horiz" : "vert",
+            "horiz" : false,
             "stances" : [{"start" : "FR", "end" : "FL", "hit" : "R"},
                         {"start" : "FL", "end" : "FR", "hit" : "L"}],
             "properties" : []
         },
         {
+            "name" : "Elbow Stumble",
+            "style" : "stagger",
+            "vert" : "high",
+            "horiz" : false,
+            "stances" : [{"start" : "FR", "end" : "FL", "hit" : "L"},
+                        {"start" : "FL", "end" : "FR", "hit" : "R"}],
+            "properties" : []
+        },
+        {
+            "name" : "Jar Bash",
+            "style" : "stagger",
+            "vert" : "high",
+            "horiz" : true,
+            "stances" : [{"start" : "FR", "end" : "FL", "hit" : "L"},
+                        {"start" : "FL", "end" : "FR", "hit" : "R"}],
+            "properties" : []
+        },
+        {
+            "name" : "Body Blow",
+            "style" : "kahlt",
+            "vert" : "mid",
+            "horiz" : false,
+            "stances" : [{"start" : "FR", "end" : "FL", "hit" : "L"},
+                        {"start" : "FL", "end" : "FR", "hit" : "R"}],
+            "properties" : ["strafing"]
+        },
+        {
+            "name" : "Roll Punch",
+            "style" : "kahlt",
+            "vert" : "mid",
+            "horiz" : false,
+            "stances" : [{"start" : "FR", "end" : "FL", "hit" : "R"},
+                        {"start" : "FL", "end" : "FR", "hit" : "L"}],
+            "properties" : ["ducking"]
+        },
+        {
             "name" : "MeiaLua",
             "style" : "kahlt",
             "vert" : "high",
-            "horiz" : "horiz",
+            "horiz" : true,
             "stances" : [{"start" : "FR", "end" : "FL", "hit" : "R"},
                         {"start" : "FL", "end" : "FR", "hit" : "L"}],
             "properties" : ["ducking"]
@@ -111,7 +102,7 @@
             "name" : "Leg Breaker",
             "style" : "kahlt",
             "vert" : "low",
-            "horiz" : "horiz",
+            "horiz" : true,
             "stances" : [{"start" : "FR", "end" : "FL", "hit" : "R"},
                         {"start" : "FL", "end" : "FR", "hit" : "L"}],
             "properties" : []
@@ -120,7 +111,7 @@
             "name" : "Side Kick",
             "style" : "kahlt",
             "vert" : "high",
-            "horiz" : "horiz",
+            "horiz" : true,
             "stances" : [{"start" : "FR", "end" : "FL", "hit" : "R"},
                         {"start" : "FL", "end" : "FR", "hit" : "L"}],
             "properties" : []
@@ -129,7 +120,7 @@
             "name" : "Front Kick",
             "style" : "kahlt",
             "vert" : "mid",
-            "horiz" : "thrust",
+            "horiz" : false,
             "stances" : [{"start" : "FR", "end" : "FL", "hit" : "R"},
                         {"start" : "FL", "end" : "FR", "hit" : "L"}],
             "properties" : ["breaking"]
@@ -138,7 +129,7 @@
             "name" : "Hammer Kick",
             "style" : "windfall",
             "vert" : "mid",
-            "horiz" : "vert",
+            "horiz" : false,
             "stances" : [{"start" : "FR", "end" : "FL", "hit" : "R"},
                         {"start" : "FL", "end" : "FR", "hit" : "L"}],
             "properties" : ["breaking"]
@@ -147,25 +138,16 @@
             "name" : "Charged Haymaker",
             "style" : "kahlt",
             "vert" : "high",
-            "horiz" : "thrust",
+            "horiz" : false,
             "stances" : [{"start" : "FR", "end" : "FL", "hit" : "R"},
                         {"start" : "FL", "end" : "FR", "hit" : "L"}],
             "properties" : ["charging"]
         },
         {
-            "name" : "Wrist Jab",
-            "style" : "stagger",
-            "vert" : "high",
-            "horiz" : "thrust",
-            "stances" : [{"start" : "FR", "end" : "FR", "hit" : "R"},
-                        {"start" : "FL", "end" : "FL", "hit" : "L"}],
-            "properties" : []
-        },
-        {
             "name" : "Jab Punch",
             "style" : "forsaken",
             "vert" : "high",
-            "horiz" : "thrust",
+            "horiz" : false,
             "stances" : [{"start" : "FR", "end" : "FR", "hit" : "L"},
                         {"start" : "FL", "end" : "FL", "hit" : "R"}],
             "properties" : []
@@ -174,16 +156,7 @@
             "name" : "Direct Punch",
             "style" : "windfall",
             "vert" : "high",
-            "horiz" : "thrust",
-            "stances" : [{"start" : "FR", "end" : "FR", "hit" : "R"},
-                        {"start" : "FL", "end" : "FL", "hit" : "L"}],
-            "properties" : []
-        },
-        {
-            "name" : "Fast Cross",
-            "style" : "faejin",
-            "vert" : "mid",
-            "horiz" : "thrust",
+            "horiz" : false,
             "stances" : [{"start" : "FR", "end" : "FR", "hit" : "R"},
                         {"start" : "FL", "end" : "FL", "hit" : "L"}],
             "properties" : []
@@ -192,160 +165,88 @@
             "name" : "Hook",
             "style" : "forsaken",
             "vert" : "high",
-            "horiz" : "horiz",
+            "horiz" : true,
             "stances" : [{"start" : "FR", "end" : "FR", "hit" : "L"},
                         {"start" : "FL", "end" : "FL", "hit" : "R"}],
             "properties" : []
         },
         {
-            "name" : "Switch Kick",
-            "style" : "faejin",
-            "vert" : "low",
-            "horiz" : "thrust",
-            "stances" : [{"start" : "FR", "end" : "FR", "hit" : "L"},
-                        {"start" : "FL", "end" : "FL", "hit" : "R"}],
-            "properties" : []
-        },
-        {
-            "name" : "Double Spike Kick",
+            "name" : "Wrist Jab",
             "style" : "stagger",
-            "vert" : "mid",
-            "horiz" : "vert",
+            "vert" : "high",
+            "horiz" : false,
             "stances" : [{"start" : "FR", "end" : "FR", "hit" : "R"},
                         {"start" : "FL", "end" : "FL", "hit" : "L"}],
-            "properties" : ["double"]
+            "properties" : []
         },
         {
             "name" : "Cross Punch",
             "style" : "forsaken",
             "vert" : "mid",
-            "horiz" : "thrust",
+            "horiz" : false,
             "stances" : [{"start" : "FR", "end" : "FR", "hit" : "R"},
                         {"start" : "FL", "end" : "FL", "hit" : "L"}],
             "properties" : ["stopping"]
         },
         {
-            "name" : "Double Wata",
-            "style" : "faejin",
+            "name" : "Double Spike Kick",
+            "style" : "stagger",
             "vert" : "mid",
-            "horiz" : "thrust",
+            "horiz" : false,
             "stances" : [{"start" : "FR", "end" : "FR", "hit" : "R"},
                         {"start" : "FL", "end" : "FL", "hit" : "L"}],
             "properties" : ["double"]
         },
         {
-            "name" : "Reaching Mawashi",
-            "style" : "faejin",
-            "vert" : "high",
-            "horiz" : "thrust",
-            "stances" : [{"start" : "FR", "end" : "FR", "hit" : "L"},
-                        {"start" : "FL", "end" : "FL", "hit" : "R"}],
+            "name" : "Back Fist",
+            "style" : "kahlt",
+            "vert" : "mid",
+            "horiz" : false,
+            "stances" : [{"start" : "FR", "end" : "FR", "hit" : "R"},
+                        {"start" : "FL", "end" : "FL", "hit" : "L"}],
+            "properties" : []
+        },
+        {
+            "name" : "Cleaver Blow",
+            "style" : "kahlt",
+            "vert" : "mid",
+            "horiz" : false,
+            "stances" : [{"start" : "FR", "end" : "FR", "hit" : "R"},
+                        {"start" : "FL", "end" : "FL", "hit" : "L"}],
             "properties" : []
         },
         {
             "name" : "Pulmonary Palm",
             "style" : "windfall",
             "vert" : "mid",
-            "horiz" : "thrust",
+            "horiz" : false,
             "stances" : [{"start" : "FR", "end" : "FR", "hit" : "R"},
                         {"start" : "FL", "end" : "FL", "hit" : "L"}],
             "properties" : ["stopping"]
         },
         {
-            "name" : "Cleaver Blow",
-            "style" : "kahlt",
-            "vert" : "mid",
-            "horiz" : "thrust",
-            "stances" : [{"start" : "FR", "end" : "FR", "hit" : "R"},
-                        {"start" : "FL", "end" : "FL", "hit" : "L"}],
-            "properties" : []
-        },
-        {
             "name" : "Hadrunken",
             "style" : "stagger",
             "vert" : "high",
-            "horiz" : "thrust",
+            "horiz" : false,
             "stances" : [{"start" : "FR", "end" : "FR", "hit" : "RL"},
                         {"start" : "FL", "end" : "FL", "hit" : "RL"}],
             "properties" : ["charging"]
         },
         {
-            "name" : "Back Fist",
-            "style" : "kahlt",
-            "vert" : "mid",
-            "horiz" : "thrust",
-            "stances" : [{"start" : "FR", "end" : "FR", "hit" : "R"},
-                        {"start" : "FL", "end" : "FL", "hit" : "L"}],
-            "properties" : []
-        },
-        {
             "name" : "Falcon Punch",
             "style" : "forsaken",
             "vert" : "high",
-            "horiz" : "thrust",
+            "horiz" : false,
             "stances" : [{"start" : "FR", "end" : "FR", "hit" : "R"},
                         {"start" : "FL", "end" : "FL", "hit" : "L"}],
             "properties" : ["jumping"]
-        },
-        {
-            "name" : "One Inch Punch",
-            "style" : "faejin",
-            "vert" : "mid",
-            "horiz" : "thrust",
-            "stances" : [{"start" : "FR", "end" : "FR", "hit" : "L"},
-                        {"start" : "FL", "end" : "FL", "hit" : "R"}],
-            "properties" : ["breaking"]
-        },
-        {
-            "name" : "Mawashi",
-            "style" : "windfall",
-            "vert" : "high",
-            "horiz" : "thrust",
-            "stances" : [{"start" : "FR", "end" : "BL", "hit" : "L"},
-                        {"start" : "FL", "end" : "BR", "hit" : "R"}],
-            "properties" : []
-        },
-        {
-            "name" : "Foot Slap",
-            "style" : "stagger",
-            "vert" : "high",
-            "horiz" : "horiz",
-            "stances" : [{"start" : "FR", "end" : "BL", "hit" : "R"},
-                        {"start" : "FL", "end" : "BR", "hit" : "L"}],
-            "properties" : ["jumping"]
-        },
-        {
-            "name" : "Inside Kick",
-            "style" : "faejin",
-            "vert" : "high",
-            "horiz" : "horiz",
-            "stances" : [{"start" : "FR", "end" : "BL", "hit" : "R"},
-                        {"start" : "FL", "end" : "BR", "hit" : "L"}],
-            "properties" : []
-        },
-        {
-            "name" : "Mill Punch",
-            "style" : "forsaken",
-            "vert" : "mid",
-            "horiz" : "thrust",
-            "stances" : [{"start" : "FR", "end" : "BL", "hit" : "L"},
-                        {"start" : "FL", "end" : "BR", "hit" : "R"}],
-            "properties" : ["double"]
-        },
-        {
-            "name" : "Roll Back Fist",
-            "style" : "windfall",
-            "vert" : "high",
-            "horiz" : "thrust",
-            "stances" : [{"start" : "FR", "end" : "BL", "hit" : "L"},
-                        {"start" : "FL", "end" : "BR", "hit" : "R"}],
-            "properties" : ["strafing"]
         },
         {
             "name" : "Dwit Chagi",
             "style" : "windfall",
             "vert" : "mid",
-            "horiz" : "thrust",
+            "horiz" : false,
             "stances" : [{"start" : "FR", "end" : "BL", "hit" : "L"},
                         {"start" : "FL", "end" : "BR", "hit" : "R"}],
             "properties" : ["stopping"]
@@ -354,16 +255,52 @@
             "name" : "Crushing Palm",
             "style" : "windfall",
             "vert" : "mid",
-            "horiz" : "thrust",
+            "horiz" : false,
             "stances" : [{"start" : "FR", "end" : "BL", "hit" : "L"},
                         {"start" : "FL", "end" : "BR", "hit" : "R"}],
             "properties" : ["stopping"]
         },
         {
+            "name" : "Mawashi",
+            "style" : "windfall",
+            "vert" : "high",
+            "horiz" : false,
+            "stances" : [{"start" : "FR", "end" : "BL", "hit" : "L"},
+                        {"start" : "FL", "end" : "BR", "hit" : "R"}],
+            "properties" : []
+        },
+        {
+            "name" : "Mill Punch",
+            "style" : "forsaken",
+            "vert" : "mid",
+            "horiz" : false,
+            "stances" : [{"start" : "FR", "end" : "BL", "hit" : "L"},
+                        {"start" : "FL", "end" : "BR", "hit" : "R"}],
+            "properties" : ["double"]
+        },
+        {
+            "name" : "Foot Slap",
+            "style" : "stagger",
+            "vert" : "high",
+            "horiz" : true,
+            "stances" : [{"start" : "FR", "end" : "BL", "hit" : "R"},
+                        {"start" : "FL", "end" : "BR", "hit" : "L"}],
+            "properties" : ["jumping"]
+        },
+        {
+            "name" : "Roll Back Fist",
+            "style" : "windfall",
+            "vert" : "high",
+            "horiz" : false,
+            "stances" : [{"start" : "FR", "end" : "BL", "hit" : "L"},
+                        {"start" : "FL", "end" : "BR", "hit" : "R"}],
+            "properties" : ["strafing"]
+        },
+        {
             "name" : "Handstand Kick",
             "style" : "stagger",
             "vert" : "high",
-            "horiz" : "horiz",
+            "horiz" : true,
             "stances" : [{"start" : "FR", "end" : "BL", "hit" : "L"},
                         {"start" : "FL", "end" : "BR", "hit" : "R"}],
             "properties" : ["ducking", "double"]
@@ -372,7 +309,7 @@
             "name" : "Low Kick",
             "style" : "forsaken",
             "vert" : "low",
-            "horiz" : "horiz",
+            "horiz" : true,
             "stances" : [{"start" : "FR", "end" : "BL", "hit" : "R"},
                         {"start" : "FL", "end" : "BR", "hit" : "L"}],
             "properties" : []
@@ -381,7 +318,7 @@
             "name" : "Bounce Knee",
             "style" : "kahlt",
             "vert" : "high",
-            "horiz" : "thrust",
+            "horiz" : false,
             "stances" : [{"start" : "FR", "end" : "BL", "hit" : "R"},
                         {"start" : "FL", "end" : "BR", "hit" : "L"}],
             "properties" : ["jumping"]
@@ -390,7 +327,7 @@
             "name" : "Bending Palm",
             "style" : "windfall",
             "vert" : "mid",
-            "horiz" : "thrust",
+            "horiz" : false,
             "stances" : [{"start" : "FR", "end" : "BL", "hit" : "L"},
                         {"start" : "FL", "end" : "BR", "hit" : "R"}],
             "properties" : ["stopping"]
@@ -399,43 +336,16 @@
             "name" : "Furious Uppercut",
             "style" : "forsaken",
             "vert" : "mid",
-            "horiz" : "thrust",
+            "horiz" : false,
             "stances" : [{"start" : "FR", "end" : "BL", "hit" : "R"},
                         {"start" : "FL", "end" : "BR", "hit" : "L"}],
             "properties" : ["charging"]
-        },
-        {
-            "name" : "Run-up Strike",
-            "style" : "faejin",
-            "vert" : "mid",
-            "horiz" : "thrust",
-            "stances" : [{"start" : "FR", "end" : "BL", "hit" : "R"},
-                        {"start" : "FL", "end" : "BR", "hit" : "L"}],
-            "properties" : ["charging"]
-        },
-        {
-            "name" : "Knife Hand Strike",
-            "style" : "windfall",
-            "vert" : "high",
-            "horiz" : "thrust",
-            "stances" : [{"start" : "FR", "end" : "BR", "hit" : "R"},
-                        {"start" : "FL", "end" : "BL", "hit" : "L"}],
-            "properties" : []
-        },
-        {
-            "name" : "Blink Punch",
-            "style" : "faejin",
-            "vert" : "high",
-            "horiz" : "thrust",
-            "stances" : [{"start" : "FR", "end" : "BR", "hit" : "L"},
-                        {"start" : "FL", "end" : "BL", "hit" : "R"}],
-            "properties" : []
         },
         {
             "name" : "Ankle Stamp",
             "style" : "windfall",
             "vert" : "low",
-            "horiz" : "thrust",
+            "horiz" : false,
             "stances" : [{"start" : "FR", "end" : "BR", "hit" : "R"},
                         {"start" : "FL", "end" : "BL", "hit" : "L"}],
             "properties" : []
@@ -444,18 +354,9 @@
             "name" : "Drunk Crane",
             "style" : "stagger",
             "vert" : "mid",
-            "horiz" : "thrust",
+            "horiz" : false,
             "stances" : [{"start" : "FR", "end" : "BR", "hit" : "R"},
                         {"start" : "FL", "end" : "BL", "hit" : "L"}],
-            "properties" : []
-        },
-        {
-            "name" : "Rabbit Punch",
-            "style" : "faejin",
-            "vert" : "mid",
-            "horiz" : "vert",
-            "stances" : [{"start" : "FR", "end" : "BR", "hit" : "L"},
-                        {"start" : "FL", "end" : "BL", "hit" : "R"}],
             "properties" : []
         },
         {
@@ -468,55 +369,55 @@
             "properties" : []
         },
         {
-            "name" : "Crouching Elbow",
-            "style" : "kahlt",
-            "vert" : "mid",
-            "horiz" : "thrust",
-            "stances" : [{"start" : "FR", "end" : "BR", "hit" : "L"},
-                        {"start" : "FL", "end" : "BL", "hit" : "R"}],
-            "properties" : []
-        },
-        {
-            "name" : "Fencing Punch",
-            "style" : "faejin",
-            "vert" : "mid",
-            "horiz" : "thrust",
-            "stances" : [{"start" : "FR", "end" : "BR", "hit" : "L"},
-                        {"start" : "FL", "end" : "BL", "hit" : "R"}],
-            "properties" : []
-        },
-        {
-            "name" : "Wobble Low Kick",
-            "style" : "stagger",
-            "vert" : "low",
-            "horiz" : "horiz",
-            "stances" : [{"start" : "FR", "end" : "BR", "hit" : "R"},
-                        {"start" : "FL", "end" : "BL", "hit" : "L"}],
-            "properties" : []
-        },
-        {
             "name" : "Front Sweep",
             "style" : "windfall",
             "vert" : "low",
-            "horiz" : "horiz",
+            "horiz" : true,
             "stances" : [{"start" : "FR", "end" : "BR", "hit" : "R"},
                         {"start" : "FL", "end" : "BL", "hit" : "L"}],
             "properties" : ["ducking"]
         },
         {
+            "name" : "Knife Hand Strike",
+            "style" : "windfall",
+            "vert" : "high",
+            "horiz" : false,
+            "stances" : [{"start" : "FR", "end" : "BR", "hit" : "R"},
+                        {"start" : "FL", "end" : "BL", "hit" : "L"}],
+            "properties" : []
+        },
+        {
             "name" : "Winged Back Kick",
             "style" : "forsaken",
             "vert" : "mid",
-            "horiz" : "thrust",
+            "horiz" : false,
             "stances" : [{"start" : "FR", "end" : "BR", "hit" : "R"},
                         {"start" : "FL", "end" : "BL", "hit" : "L"}],
             "properties" : ["stopping"]
         },
         {
+            "name" : "Wobble Low Kick",
+            "style" : "stagger",
+            "vert" : "low",
+            "horiz" : true,
+            "stances" : [{"start" : "FR", "end" : "BR", "hit" : "R"},
+                        {"start" : "FL", "end" : "BL", "hit" : "L"}],
+            "properties" : []
+        },
+        {
             "name" : "Rising Kick",
             "style" : "windfall",
             "vert" : "mid",
-            "horiz" : "vert",
+            "horiz" : false,
+            "stances" : [{"start" : "FR", "end" : "BR", "hit" : "L"},
+                        {"start" : "FL", "end" : "BL", "hit" : "R"}],
+            "properties" : []
+        },
+        {
+            "name" : "Spiral Back Punch",
+            "style" : "stagger",
+            "vert" : "mid",
+            "horiz" : false,
             "stances" : [{"start" : "FR", "end" : "BR", "hit" : "L"},
                         {"start" : "FL", "end" : "BL", "hit" : "R"}],
             "properties" : []
@@ -525,43 +426,25 @@
             "name" : "Drunken Paw",
             "style" : "stagger",
             "vert" : "high",
-            "horiz" : "horiz",
+            "horiz" : true,
             "stances" : [{"start" : "FR", "end" : "BR", "hit" : "L"},
                         {"start" : "FL", "end" : "BL", "hit" : "R"}],
             "properties" : ["strafing"]
         },
         {
-            "name" : "Spiral Back Punch",
-            "style" : "stagger",
-            "vert" : "mid",
-            "horiz" : "thrust",
-            "stances" : [{"start" : "FR", "end" : "BR", "hit" : "L"},
-                        {"start" : "FL", "end" : "BL", "hit" : "R"}],
-            "properties" : []
-        },
-        {
             "name" : "360 Tornado Kick",
             "style" : "forsaken",
             "vert" : "high",
-            "horiz" : "horiz",
+            "horiz" : true,
             "stances" : [{"start" : "FR", "end" : "BR", "hit" : "R"},
                         {"start" : "FL", "end" : "BL", "hit" : "L"}],
             "properties" : ["jumping"]
         },
         {
-            "name" : "Plexus Elbow",
-            "style" : "faejin",
-            "vert" : "mid",
-            "horiz" : "thrust",
-            "stances" : [{"start" : "FR", "end" : "BR", "hit" : "L"},
-                        {"start" : "FL", "end" : "BL", "hit" : "R"}],
-            "properties" : ["breaking"]
-        },
-        {
             "name" : "Jump Out Elbow",
             "style" : "kahlt",
             "vert" : "mid",
-            "horiz" : "vert",
+            "horiz" : false,
             "stances" : [{"start" : "FR", "end" : "BR", "hit" : "L"},
                         {"start" : "FL", "end" : "BL", "hit" : "R"}],
             "properties" : ["breaking", "jumping"]
@@ -570,52 +453,34 @@
             "name" : "Spinning High Kick",
             "style" : "forsaken",
             "vert" : "high",
-            "horiz" : "horiz",
+            "horiz" : true,
             "stances" : [{"start" : "FR", "end" : "BR", "hit" : "L"},
                         {"start" : "FL", "end" : "BL", "hit" : "R"}],
             "properties" : []
         },
         {
-            "name" : "Fast Back Fist",
-            "style" : "kahlt",
-            "vert" : "high",
-            "horiz" : "thrust",
-            "stances" : [{"start" : "BR", "end" : "FR", "hit" : "R"},
-                        {"start" : "BL", "end" : "FL", "hit" : "L"}],
-            "properties" : []
-        },
-        {
-            "name" : "Back Tripped Kick",
-            "style" : "kahlt",
-            "vert" : "low",
-            "horiz" : "horiz",
-            "stances" : [{"start" : "BR", "end" : "FR", "hit" : "L"},
-                        {"start" : "BL", "end" : "FL", "hit" : "R"}],
-            "properties" : ["ducking"]
-        },
-        {
             "name" : "Parry & Strike",
             "style" : "forsaken",
             "vert" : "high",
-            "horiz" : "thrust",
+            "horiz" : false,
             "stances" : [{"start" : "BR", "end" : "FR", "hit" : "R"},
                         {"start" : "BL", "end" : "FL", "hit" : "L"}],
             "properties" : ["parry"]
         },
         {
-            "name" : "Outward Kick",
-            "style" : "faejin",
-            "vert" : "high",
-            "horiz" : "horiz",
-            "stances" : [{"start" : "BR", "end" : "FR", "hit" : "R"},
-                        {"start" : "BL", "end" : "FL", "hit" : "L"}],
-            "properties" : []
+            "name" : "Back Tripped Kick",
+            "style" : "kahlt",
+            "vert" : "low",
+            "horiz" : true,
+            "stances" : [{"start" : "BR", "end" : "FR", "hit" : "L"},
+                        {"start" : "BL", "end" : "FL", "hit" : "R"}],
+            "properties" : ["ducking"]
         },
         {
-            "name" : "Upper Backfist",
-            "style" : "faejin",
-            "vert" : "mid",
-            "horiz" : "vert",
+            "name" : "Fast Back Fist",
+            "style" : "kahlt",
+            "vert" : "high",
+            "horiz" : false,
             "stances" : [{"start" : "BR", "end" : "FR", "hit" : "R"},
                         {"start" : "BL", "end" : "FL", "hit" : "L"}],
             "properties" : []
@@ -624,34 +489,34 @@
             "name" : "Eye Poke",
             "style" : "stagger",
             "vert" : "high",
-            "horiz" : "thrust",
+            "horiz" : false,
             "stances" : [{"start" : "BR", "end" : "FR", "hit" : "R"},
                         {"start" : "BL", "end" : "FL", "hit" : "L"}],
             "properties" : ["stopping"]
         },
         {
-            "name" : "Fast Punch",
-            "style" : "forsaken",
-            "vert" : "high",
-            "horiz" : "thrust",
-            "stances" : [{"start" : "BR", "end" : "FR", "hit" : "R"},
-                        {"start" : "BL", "end" : "FL", "hit" : "L"}],
-            "properties" : []
-        },
-        {
             "name" : "Whirlwind Double Punch",
             "style" : "stagger",
             "vert" : "low",
-            "horiz" : "horiz",
+            "horiz" : true,
             "stances" : [{"start" : "BR", "end" : "FR", "hit" : "R"},
                         {"start" : "BL", "end" : "FL", "hit" : "L"}],
             "properties" : ["ducking", "double"]
         },
         {
+            "name" : "Fast Punch",
+            "style" : "forsaken",
+            "vert" : "high",
+            "horiz" : false,
+            "stances" : [{"start" : "BR", "end" : "FR", "hit" : "R"},
+                        {"start" : "BL", "end" : "FL", "hit" : "L"}],
+            "properties" : []
+        },
+        {
             "name" : "Illusion Twist Kick",
             "style" : "windfall",
             "vert" : "mid",
-            "horiz" : "vert",
+            "horiz" : false,
             "stances" : [{"start" : "BR", "end" : "FR", "hit" : "L"},
                         {"start" : "BL", "end" : "FL", "hit" : "R"}],
             "properties" : ["jumping"]
@@ -660,7 +525,7 @@
             "name" : "Low Spin Heel",
             "style" : "windfall",
             "vert" : "low",
-            "horiz" : "horiz",
+            "horiz" : true,
             "stances" : [{"start" : "BR", "end" : "FR", "hit" : "L"},
                         {"start" : "BL", "end" : "FL", "hit" : "R"}],
             "properties" : ["ducking"]
@@ -669,7 +534,7 @@
             "name" : "Jackhammer Punch",
             "style" : "kahlt",
             "vert" : "mid",
-            "horiz" : "vert",
+            "horiz" : false,
             "stances" : [{"start" : "BR", "end" : "FR", "hit" : "L"},
                         {"start" : "BL", "end" : "FL", "hit" : "R"}],
             "properties" : ["double"]
@@ -678,7 +543,7 @@
             "name" : "Grab Punch",
             "style" : "stagger",
             "vert" : "high",
-            "horiz" : "thrust",
+            "horiz" : false,
             "stances" : [{"start" : "BR", "end" : "FR", "hit" : "L"},
                         {"start" : "BL", "end" : "FL", "hit" : "R"}],
             "properties" : ["charging"]
@@ -687,43 +552,43 @@
             "name" : "Spinning Flute Swing",
             "style" : "stagger",
             "vert" : "high",
-            "horiz" : "horiz",
+            "horiz" : true,
             "stances" : [{"start" : "BR", "end" : "FR", "hit" : "L"},
                         {"start" : "BL", "end" : "FL", "hit" : "R"}],
             "properties" : []
         },
         {
-            "name" : "Guts Punch",
-            "style" : "faejin",
-            "vert" : "mid",
-            "horiz" : "thrust",
-            "stances" : [{"start" : "BR", "end" : "FR", "hit" : "R"},
-                        {"start" : "BL", "end" : "FL", "hit" : "L"}],
+            "name" : "Spinning Wide Hook",
+            "style" : "forsaken",
+            "vert" : "high",
+            "horiz" : true,
+            "stances" : [{"start" : "BR", "end" : "FR", "hit" : "L"},
+                        {"start" : "BL", "end" : "FL", "hit" : "R"}],
             "properties" : []
         },
         {
             "name" : "Spiral Palm",
             "style" : "windfall",
             "vert" : "low",
-            "horiz" : "thrust",
+            "horiz" : false,
             "stances" : [{"start" : "BR", "end" : "FR", "hit" : "R"},
                         {"start" : "BL", "end" : "FL", "hit" : "L"}],
             "properties" : ["breaking"]
         },
         {
-            "name" : "Spinning Wide Hook",
-            "style" : "forsaken",
+            "name" : "Soto-uke",
+            "style" : "windfall",
             "vert" : "high",
-            "horiz" : "horiz",
-            "stances" : [{"start" : "BR", "end" : "FR", "hit" : "L"},
-                        {"start" : "BL", "end" : "FL", "hit" : "R"}],
+            "horiz" : false,
+            "stances" : [{"start" : "BR", "end" : "FL", "hit" : "R"},
+                        {"start" : "BL", "end" : "FR", "hit" : "L"}],
             "properties" : []
         },
         {
             "name" : "Gut Punch",
             "style" : "stagger",
             "vert" : "mid",
-            "horiz" : "thrust",
+            "horiz" : false,
             "stances" : [{"start" : "BR", "end" : "FL", "hit" : "R"},
                         {"start" : "BL", "end" : "FR", "hit" : "L"}],
             "properties" : []
@@ -732,52 +597,16 @@
             "name" : "Stretch Out Hook",
             "style" : "forsaken",
             "vert" : "high",
-            "horiz" : "horiz",
+            "horiz" : true,
             "stances" : [{"start" : "BR", "end" : "FL", "hit" : "R"},
                         {"start" : "BL", "end" : "FR", "hit" : "L"}],
-            "properties" : []
-        },
-        {
-            "name" : "Soto-uke",
-            "style" : "windfall",
-            "vert" : "high",
-            "horiz" : "thrust",
-            "stances" : [{"start" : "BR", "end" : "FL", "hit" : "R"},
-                        {"start" : "BL", "end" : "FR", "hit" : "L"}],
-            "properties" : []
-        },
-        {
-            "name" : "Reaching Maegeri",
-            "style" : "faejin",
-            "vert" : "mid",
-            "horiz" : "thrust",
-            "stances" : [{"start" : "BR", "end" : "FL", "hit" : "R"},
-                        {"start" : "BL", "end" : "FR", "hit" : "L"}],
-            "properties" : []
-        },
-        {
-            "name" : "Uramawashi",
-            "style" : "windfall",
-            "vert" : "high",
-            "horiz" : "horiz",
-            "stances" : [{"start" : "BR", "end" : "FL", "hit" : "L"},
-                        {"start" : "BL", "end" : "FR", "hit" : "R"}],
-            "properties" : []
-        },
-        {
-            "name" : "Light Sidekick",
-            "style" : "faejin",
-            "vert" : "high",
-            "horiz" : "horiz",
-            "stances" : [{"start" : "BR", "end" : "FL", "hit" : "L"},
-                        {"start" : "BL", "end" : "FR", "hit" : "R"}],
             "properties" : []
         },
         {
             "name" : "Double Palm",
             "style" : "stagger",
             "vert" : "mid",
-            "horiz" : "thrust",
+            "horiz" : false,
             "stances" : [{"start" : "BR", "end" : "FL", "hit" : "R"},
                         {"start" : "BL", "end" : "FR", "hit" : "L"}],
             "properties" : ["double"]
@@ -786,34 +615,34 @@
             "name" : "Liver Knee",
             "style" : "kahlt",
             "vert" : "mid",
-            "horiz" : "thrust",
+            "horiz" : false,
             "stances" : [{"start" : "BR", "end" : "FL", "hit" : "R"},
                         {"start" : "BL", "end" : "FR", "hit" : "L"}],
+            "properties" : []
+        },
+        {
+            "name" : "Uramawashi",
+            "style" : "windfall",
+            "vert" : "high",
+            "horiz" : true,
+            "stances" : [{"start" : "BR", "end" : "FL", "hit" : "L"},
+                        {"start" : "BL", "end" : "FR", "hit" : "R"}],
             "properties" : []
         },
         {
             "name" : "Roll Uppercut",
             "style" : "kahlt",
             "vert" : "mid",
-            "horiz" : "thrust",
+            "horiz" : false,
             "stances" : [{"start" : "BR", "end" : "FL", "hit" : "L"},
                         {"start" : "BL", "end" : "FR", "hit" : "R"}],
             "properties" : ["ducking"]
         },
         {
-            "name" : "Knee Strike",
+            "name" : "Axe Kick",
             "style" : "forsaken",
             "vert" : "mid",
-            "horiz" : "vert",
-            "stances" : [{"start" : "BR", "end" : "FL", "hit" : "L"},
-                        {"start" : "BL", "end" : "FR", "hit" : "R"}],
-            "properties" : ["breaking", "jumping"]
-        },
-        {
-            "name" : "Power Mawashi",
-            "style" : "faejin",
-            "vert" : "high",
-            "horiz" : "horiz",
+            "horiz" : false,
             "stances" : [{"start" : "BR", "end" : "FL", "hit" : "R"},
                         {"start" : "BL", "end" : "FR", "hit" : "L"}],
             "properties" : []
@@ -822,25 +651,25 @@
             "name" : "Drunken Smash",
             "style" : "stagger",
             "vert" : "high",
-            "horiz" : "thrust",
+            "horiz" : false,
             "stances" : [{"start" : "BR", "end" : "FL", "hit" : "L"},
                         {"start" : "BL", "end" : "FR", "hit" : "R"}],
             "properties" : []
         },
         {
-            "name" : "Axe Kick",
+            "name" : "Knee Strike",
             "style" : "forsaken",
-            "vert" : "mid",
-            "horiz" : "vert",
-            "stances" : [{"start" : "BR", "end" : "FL", "hit" : "R"},
-                        {"start" : "BL", "end" : "FR", "hit" : "L"}],
-            "properties" : []
+            "vert" : "high",
+            "horiz" : false,
+            "stances" : [{"start" : "BR", "end" : "FL", "hit" : "L"},
+                        {"start" : "BL", "end" : "FR", "hit" : "R"}],
+            "properties" : ["breaking", "jumping"]
         },
         {
             "name" : "Fast Elbow",
             "style" : "forsaken",
             "vert" : "high",
-            "horiz" : "thrust",
+            "horiz" : false,
             "stances" : [{"start" : "BR", "end" : "BR", "hit" : "R"},
                         {"start" : "BL", "end" : "BL", "hit" : "L"}],
             "properties" : []
@@ -849,16 +678,25 @@
             "name" : "Back Hop Wrist",
             "style" : "stagger",
             "vert" : "high",
-            "horiz" : "thrust",
+            "horiz" : false,
             "stances" : [{"start" : "BR", "end" : "BR", "hit" : "R"},
                         {"start" : "BL", "end" : "BL", "hit" : "L"}],
+            "properties" : []
+        },
+        {
+            "name" : "Underknee Kick",
+            "style" : "forsaken",
+            "vert" : "low",
+            "horiz" : true,
+            "stances" : [{"start" : "BR", "end" : "BR", "hit" : "L"},
+                        {"start" : "BL", "end" : "BL", "hit" : "R"}],
             "properties" : []
         },
         {
             "name" : "Chin Palm",
             "style" : "windfall",
             "vert" : "mid",
-            "horiz" : "vert",
+            "horiz" : false,
             "stances" : [{"start" : "BR", "end" : "BR", "hit" : "R"},
                         {"start" : "BL", "end" : "BL", "hit" : "L"}],
             "properties" : []
@@ -867,70 +705,43 @@
             "name" : "Backfall Strike",
             "style" : "stagger",
             "vert" : "high",
-            "horiz" : "thrust",
+            "horiz" : false,
             "stances" : [{"start" : "BR", "end" : "BR", "hit" : "L"},
                         {"start" : "BL", "end" : "BL", "hit" : "R"}],
             "properties" : ["double"]
-        },
-        {
-            "name" : "Low Backfist",
-            "style" : "faejin",
-            "vert" : "mid",
-            "horiz" : "thrust",
-            "stances" : [{"start" : "BR", "end" : "BR", "hit" : "R"},
-                        {"start" : "BL", "end" : "BL", "hit" : "L"}],
-            "properties" : []
-        },
-        {
-            "name" : "Temple Knock",
-            "style" : "faejin",
-            "vert" : "high",
-            "horiz" : "horiz",
-            "stances" : [{"start" : "BR", "end" : "BR", "hit" : "L"},
-                        {"start" : "BL", "end" : "BL", "hit" : "R"}],
-            "properties" : []
-        },
-        {
-            "name" : "Underknee Kick",
-            "style" : "forsaken",
-            "vert" : "low",
-            "horiz" : "horiz",
-            "stances" : [{"start" : "BR", "end" : "BR", "hit" : "L"},
-                        {"start" : "BL", "end" : "BL", "hit" : "R"}],
-            "properties" : []
-        },
-        {
-            "name" : "Donkey Slap",
-            "style" : "stagger",
-            "vert" : "mid",
-            "horiz" : "vert",
-            "stances" : [{"start" : "BR", "end" : "BR", "hit" : "L"},
-                        {"start" : "BL", "end" : "BL", "hit" : "R"}],
-            "properties" : ["double"]
-        },
-        {
-            "name" : "Wallop Blow",
-            "style" : "kahlt",
-            "vert" : "mid",
-            "horiz" : "thrust",
-            "stances" : [{"start" : "BR", "end" : "BR", "hit" : "R"},
-                        {"start" : "BL", "end" : "BL", "hit" : "L"}],
-            "properties" : []
         },
         {
             "name" : "Twist Parry Strike",
             "style" : "forsaken",
             "vert" : "high",
-            "horiz" : "horiz",
+            "horiz" : true,
             "stances" : [{"start" : "BR", "end" : "BR", "hit" : "R"},
                         {"start" : "BL", "end" : "BL", "hit" : "L"}],
             "properties" : ["parry"]
         },
         {
+            "name" : "Donkey Slap",
+            "style" : "stagger",
+            "vert" : "mid",
+            "horiz" : false,
+            "stances" : [{"start" : "BR", "end" : "BR", "hit" : "L"},
+                        {"start" : "BL", "end" : "BL", "hit" : "R"}],
+            "properties" : ["double"]
+        },
+        {
             "name" : "Twist Back Kick",
             "style" : "stagger",
             "vert" : "high",
-            "horiz" : "horiz",
+            "horiz" : true,
+            "stances" : [{"start" : "BR", "end" : "BR", "hit" : "R"},
+                        {"start" : "BL", "end" : "BL", "hit" : "L"}],
+            "properties" : []
+        },
+        {
+            "name" : "Wallop Blow",
+            "style" : "kahlt",
+            "vert" : "mid",
+            "horiz" : false,
             "stances" : [{"start" : "BR", "end" : "BR", "hit" : "R"},
                         {"start" : "BL", "end" : "BL", "hit" : "L"}],
             "properties" : []
@@ -939,43 +750,25 @@
             "name" : "Slap Kick",
             "style" : "windfall",
             "vert" : "high",
-            "horiz" : "horiz",
+            "horiz" : true,
             "stances" : [{"start" : "BR", "end" : "BR", "hit" : "R"},
                         {"start" : "BL", "end" : "BL", "hit" : "L"}],
             "properties" : ["jumping"]
         },
         {
-            "name" : "Face Backfist",
-            "style" : "faejin",
-            "vert" : "mid",
-            "horiz" : "vert",
-            "stances" : [{"start" : "BR", "end" : "BR", "hit" : "R"},
-                        {"start" : "BL", "end" : "BL", "hit" : "L"}],
-            "properties" : []
-        },
-        {
             "name" : "Pushed Back Kick",
             "style" : "forsaken",
             "vert" : "mid",
-            "horiz" : "vert",
+            "horiz" : false,
             "stances" : [{"start" : "BR", "end" : "BR", "hit" : "R"},
                         {"start" : "BL", "end" : "BL", "hit" : "L"}],
             "properties" : ["breaking"]
         },
         {
-            "name" : "Horse Kick",
-            "style" : "faejin",
-            "vert" : "mid",
-            "horiz" : "thrust",
-            "stances" : [{"start" : "BR", "end" : "BR", "hit" : "R"},
-                        {"start" : "BL", "end" : "BL", "hit" : "L"}],
-            "properties" : []
-        },
-        {
             "name" : "Collar Chop",
             "style" : "windfall",
             "vert" : "high",
-            "horiz" : "thrust",
+            "horiz" : false,
             "stances" : [{"start" : "BR", "end" : "BR", "hit" : "R"},
                         {"start" : "BL", "end" : "BL", "hit" : "L"}],
             "properties" : ["breaking"]
@@ -984,43 +777,7 @@
             "name" : "Back Turn Wrist",
             "style" : "stagger",
             "vert" : "high",
-            "horiz" : "thrust",
-            "stances" : [{"start" : "BR", "end" : "BL", "hit" : "L"},
-                        {"start" : "BL", "end" : "BR", "hit" : "R"}],
-            "properties" : []
-        },
-        {
-            "name" : "Spin Elbow",
-            "style" : "forsaken",
-            "vert" : "high",
-            "horiz" : "thrust",
-            "stances" : [{"start" : "BR", "end" : "BL", "hit" : "L"},
-                        {"start" : "BL", "end" : "BR", "hit" : "R"}],
-            "properties" : []
-        },
-        {
-            "name" : "Heel to Knee",
-            "style" : "faejin",
-            "vert" : "low",
-            "horiz" : "thrust",
-            "stances" : [{"start" : "BR", "end" : "BL", "hit" : "R"},
-                        {"start" : "BL", "end" : "BR", "hit" : "L"}],
-            "properties" : []
-        },
-        {
-            "name" : "Uraken",
-            "style" : "faejin",
-            "vert" : "high",
-            "horiz" : "thrust",
-            "stances" : [{"start" : "BR", "end" : "BL", "hit" : "L"},
-                        {"start" : "BL", "end" : "BR", "hit" : "R"}],
-            "properties" : []
-        },
-        {
-            "name" : "Back Ura",
-            "style" : "faejin",
-            "vert" : "high",
-            "horiz" : "horiz",
+            "horiz" : false,
             "stances" : [{"start" : "BR", "end" : "BL", "hit" : "L"},
                         {"start" : "BL", "end" : "BR", "hit" : "R"}],
             "properties" : []
@@ -1029,7 +786,25 @@
             "name" : "Spin Back Fist",
             "style" : "forsaken",
             "vert" : "high",
-            "horiz" : "horiz",
+            "horiz" : true,
+            "stances" : [{"start" : "BR", "end" : "BL", "hit" : "L"},
+                        {"start" : "BL", "end" : "BR", "hit" : "R"}],
+            "properties" : []
+        },
+        {
+            "name" : "Spin Elbow",
+            "style" : "forsaken",
+            "vert" : "high",
+            "horiz" : false,
+            "stances" : [{"start" : "BR", "end" : "BL", "hit" : "L"},
+                        {"start" : "BL", "end" : "BR", "hit" : "R"}],
+            "properties" : []
+        },
+        {
+            "name" : "Pushed Elbow",
+            "style" : "kahlt",
+            "vert" : "high",
+            "horiz" : false,
             "stances" : [{"start" : "BR", "end" : "BL", "hit" : "L"},
                         {"start" : "BL", "end" : "BR", "hit" : "R"}],
             "properties" : []
@@ -1038,43 +813,34 @@
             "name" : "Scissor Kick",
             "style" : "forsaken",
             "vert" : "high",
-            "horiz" : "horiz",
+            "horiz" : true,
             "stances" : [{"start" : "BR", "end" : "BL", "hit" : "R"},
                         {"start" : "BL", "end" : "BR", "hit" : "L"}],
             "properties" : ["jumping"]
         },
         {
-            "name" : "Double Fist Stretch",
-            "style" : "stagger",
-            "vert" : "high",
-            "horiz" : "horiz",
-            "stances" : [{"start" : "BR", "end" : "BL", "hit" : "L"},
-                        {"start" : "BL", "end" : "BR", "hit" : "R"}],
-            "properties" : ["double"]
-        },
-        {
-            "name" : "Pushed Elbow",
-            "style" : "kahlt",
-            "vert" : "high",
-            "horiz" : "thrust",
-            "stances" : [{"start" : "BR", "end" : "BL", "hit" : "L"},
-                        {"start" : "BL", "end" : "BR", "hit" : "R"}],
-            "properties" : []
-        },
-        {
             "name" : "Tetsuzanko",
             "style" : "windfall",
             "vert" : "mid",
-            "horiz" : "thrust",
+            "horiz" : false,
             "stances" : [{"start" : "BR", "end" : "BL", "hit" : "R"},
                         {"start" : "BL", "end" : "BR", "hit" : "L"}],
             "properties" : ["strafing"]
         },
         {
+            "name" : "Double Fist Stretch",
+            "style" : "stagger",
+            "vert" : "high",
+            "horiz" : true,
+            "stances" : [{"start" : "BR", "end" : "BL", "hit" : "L"},
+                        {"start" : "BL", "end" : "BR", "hit" : "R"}],
+            "properties" : ["double"]
+        },
+        {
             "name" : "Surging Palm",
             "style" : "windfall",
             "vert" : "mid",
-            "horiz" : "thrust",
+            "horiz" : false,
             "stances" : [{"start" : "BR", "end" : "BL", "hit" : "L"},
                         {"start" : "BL", "end" : "BR", "hit" : "R"}],
             "properties" : ["strafing"]
@@ -1083,7 +849,7 @@
             "name" : "Jumped Spin Kick",
             "style" : "kahlt",
             "vert" : "high",
-            "horiz" : "horiz",
+            "horiz" : true,
             "stances" : [{"start" : "BR", "end" : "BL", "hit" : "R"},
                         {"start" : "BL", "end" : "BR", "hit" : "L"}],
             "properties" : ["jumping"]
@@ -1092,7 +858,7 @@
             "name" : "Upper Elbow",
             "style" : "kahlt",
             "vert" : "high",
-            "horiz" : "thrust",
+            "horiz" : false,
             "stances" : [{"start" : "BR", "end" : "BL", "hit" : "L"},
                         {"start" : "BL", "end" : "BR", "hit" : "R"}],
             "properties" : []
