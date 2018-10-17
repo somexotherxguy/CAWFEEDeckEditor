@@ -432,7 +432,7 @@ app.controller('editor', ['$scope', '$http', '$window', function($scope, $http, 
                         } else if(data.data[x].horiz === THRUST){
                             $scope.deck[index].move.horiz = THRUST;
                         } else if(data.data[x].horiz === VERT){
-                            $scope.deck[index].move.horiz = HORIZ;
+                            $scope.deck[index].move.horiz = VERT;
                         }
                         $scope.deck[index].move.prop = data.data[x].properties.toString();
                         $scope.deck[index].move.propIcons = [];

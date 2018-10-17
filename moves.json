@@ -255,7 +255,7 @@
             "name" : "Cleaver Blow",
             "style" : "kahlt",
             "vert" : "mid",
-            "horiz" : "thrust",
+            "horiz" : "vert",
             "stances" : [{"start" : "FR", "end" : "FR", "hit" : "R"},
                         {"start" : "FL", "end" : "FL", "hit" : "L"}],
             "properties" : []
@@ -399,7 +399,7 @@
             "name" : "Furious Uppercut",
             "style" : "forsaken",
             "vert" : "mid",
-            "horiz" : "thrust",
+            "horiz" : "vert",
             "stances" : [{"start" : "FR", "end" : "BL", "hit" : "R"},
                         {"start" : "FL", "end" : "BR", "hit" : "L"}],
             "properties" : ["charging"]
@@ -411,7 +411,7 @@
             "horiz" : "thrust",
             "stances" : [{"start" : "FR", "end" : "BL", "hit" : "R"},
                         {"start" : "FL", "end" : "BR", "hit" : "L"}],
-            "properties" : ["charging"]
+            "properties" : []
         },
         {
             "name" : "Knife Hand Strike",
@@ -704,7 +704,7 @@
         {
             "name" : "Spiral Palm",
             "style" : "windfall",
-            "vert" : "low",
+            "vert" : "mid",
             "horiz" : "thrust",
             "stances" : [{"start" : "BR", "end" : "FR", "hit" : "R"},
                         {"start" : "BL", "end" : "FL", "hit" : "L"}],
