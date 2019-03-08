@@ -462,15 +462,6 @@
             "name" : "Crouching Elbow",
             "style" : "kahlt",
             "vert" : "mid",
-            "horiz" : false,
-            "stances" : [{"start" : "FR", "end" : "BR", "hit" : "L"},
-                        {"start" : "FL", "end" : "BL", "hit" : "R"}],
-            "properties" : []
-        },
-        {
-            "name" : "Crouching Elbow",
-            "style" : "kahlt",
-            "vert" : "mid",
             "horiz" : "thrust",
             "stances" : [{"start" : "FR", "end" : "BR", "hit" : "L"},
                         {"start" : "FL", "end" : "BL", "hit" : "R"}],

@@ -1,11 +1,12 @@
 <!-- editor html content -->
+
 <div id="bg" style="z-index:-1">
   <img id="bgimg" class="background" src="images/background.jpg" alt="">
 </div>
 <div class="header">
     <h2 class="header">Absolver Deck Assistant</h2>
 </div>
-<div class="mdl-layout">   
+<div class="mdl-layout">
     <div class="row">
         <div class="col-1"></div>
         <div id="col2" class="col-2">
@@ -22,9 +23,21 @@
                             <img class="moveIcon" ng-repeat="x in deck[0].move.propIcons" ng-src="{{x}}">
                         </div>
                         <ul class="moveInfo">
-                            <li class="moveLi">{{deck[0].move.vert}}</li>
-                            <li class="moveLi">{{deck[0].move.horiz}}</li>
-                            <li class="moveLi">{{deck[0].move.hit}}</li>
+                            <li>{{deck[0].move.vert}} {{deck[0].move.horiz}}</li>
+                            <li>{{deck[0].move.hit}}</li>
+                            <li>{{deck[0].move.frames}}</li>
+                            <!--Added frame advantage data to move display once move is selected -pkd9 -->
+                            <span ng-if="deck[0].move.name">
+                                <div class="small">
+                                    <li>On Hit: {{deck[0].move.advhit}}, On Block: {{deck[0].move.advguard}}</li>
+                                </div>
+                            </span>
+                            <!--<span ng-if="deck[0].move.name && deck[1].move.name">
+                                <div class="small">
+                                    <li>{{  deck[1].move.intframes-deck[0].move.advhit < 10 ? "Hit string is jab safe" : "Hit string not jab safe"}}</li>
+                                    <li>{{ deck[1].move.intframes-deck[0].move.advguard   < 10 ? "Block string is jab safe" : "Block string not jab safe"}}</li>
+                                </div>
+                            </span>-->
                         </ul>
                     </div>
                 </div>
@@ -38,9 +51,14 @@
                             <img class="moveIcon" ng-repeat="x in deck[1].move.propIcons" ng-src="{{x}}">
                         </div>
                         <ul class="moveInfo">
-                            <li>{{deck[1].move.vert}}</li>
-                            <li>{{deck[1].move.horiz}}</li>
+                            <li>{{deck[1].move.vert}} {{deck[1].move.horiz}}</li>
                             <li>{{deck[1].move.hit}}</li>
+                            <li>{{deck[1].move.frames}}</li>
+                            <span ng-if="deck[1].move.name">
+                                <div class="small">
+                                    <li>On Hit: {{deck[1].move.advhit}}, On Block: {{deck[1].move.advguard}}</li>
+                                </div>
+                            </span>
                         </ul>
                     </div>
                 </div>
@@ -54,9 +72,14 @@
                             <img class="moveIcon" ng-repeat="x in deck[2].move.propIcons" ng-src="{{x}}">
                         </div>
                         <ul class="moveInfo">
-                            <li>{{deck[2].move.vert}}</li>
-                            <li>{{deck[2].move.horiz}}</li>
+                            <li>{{deck[2].move.vert}} {{deck[2].move.horiz}}</li>
                             <li>{{deck[2].move.hit}}</li>
+                            <li>{{deck[2].move.frames}}</li>
+                            <span ng-if="deck[2].move.name">
+                                <div class="small">
+                                    <li>On Hit: {{deck[2].move.advhit}}, On Block: {{deck[2].move.advguard}}</li>
+                                </div>
+                            </span>
                         </ul>
                     </div>
                 </div>
@@ -71,9 +94,14 @@
                             <img class="moveIcon" ng-repeat="x in deck[3].move.propIcons" ng-src="{{x}}">
                         </div>
                         <ul class="moveInfo">
-                            <li>{{deck[3].move.vert}}</li>
-                            <li>{{deck[3].move.horiz}}</li>
+                            <li>{{deck[3].move.vert}} {{deck[3].move.horiz}}</li>
                             <li>{{deck[3].move.hit}}</li>
+                            <li>{{deck[3].move.frames}}</li>
+                            <span ng-if="deck[3].move.name">
+                                <div class="small">
+                                    <li>On Hit: {{deck[3].move.advhit}}, On Block: {{deck[3].move.advguard}}</li>
+                                </div>
+                            </span>
                         </ul>
                     </div>
                 </div>
@@ -90,9 +118,14 @@
                             <img class="moveIcon" ng-repeat="x in deck[4].move.propIcons" ng-src="{{x}}">
                         </div>
                         <ul class="moveInfo">
-                            <li>{{deck[4].move.vert}}</li>
-                            <li>{{deck[4].move.horiz}}</li>
+                            <li>{{deck[4].move.vert}} {{deck[4].move.horiz}}</li>
                             <li>{{deck[4].move.hit}}</li>
+                            <li>{{deck[4].move.frames}}</li>
+                            <span ng-if="deck[4].move.name">
+                                <div class="small">
+                                    <li>On Hit: {{deck[4].move.advhit}}, On Block: {{deck[4].move.advguard}}</li>
+                                </div>
+                            </span>
                         </ul>
                     </div>
                 </div>
@@ -106,9 +139,14 @@
                             <img class="moveIcon" ng-repeat="x in deck[5].move.propIcons" ng-src="{{x}}">
                         </div>
                         <ul class="moveInfo">
-                            <li>{{deck[5].move.vert}}</li>
-                            <li>{{deck[5].move.horiz}}</li>
+                            <li>{{deck[5].move.vert}} {{deck[5].move.horiz}}</li>
                             <li>{{deck[5].move.hit}}</li>
+                            <li>{{deck[5].move.frames}}</li>
+                            <span ng-if="deck[5].move.name">
+                                <div class="small">
+                                    <li>On Hit: {{deck[5].move.advhit}}, On Block: {{deck[5].move.advguard}}</li>
+                                </div>
+                            </span>
                         </ul>
                     </div>
                 </div>
@@ -122,9 +160,14 @@
                             <img class="moveIcon" ng-repeat="x in deck[6].move.propIcons" ng-src="{{x}}">
                         </div>
                         <ul class="moveInfo">
-                            <li>{{deck[6].move.vert}}</li>
-                            <li>{{deck[6].move.horiz}}</li>
+                            <li>{{deck[6].move.vert}} {{deck[6].move.horiz}}</li>
                             <li>{{deck[6].move.hit}}</li>
+                            <li>{{deck[6].move.frames}}</li>
+                            <span ng-if="deck[6].move.name">
+                                <div class="small">
+                                    <li>On Hit: {{deck[6].move.advhit}}, On Block: {{deck[6].move.advguard}}</li>
+                                </div>
+                            </span>
                         </ul>
                     </div>
                 </div>
@@ -139,9 +182,14 @@
                             <img class="moveIcon" ng-repeat="x in deck[7].move.propIcons" ng-src="{{x}}">
                         </div>
                         <ul class="moveInfo">
-                            <li>{{deck[7].move.vert}}</li>
-                            <li>{{deck[7].move.horiz}}</li>
+                            <li>{{deck[7].move.vert}} {{deck[7].move.horiz}}</li>
                             <li>{{deck[7].move.hit}}</li>
+                            <li>{{deck[7].move.frames}}</li>
+                            <span ng-if="deck[7].move.name">
+                                <div class="small">
+                                    <li>On Hit: {{deck[7].move.advhit}}, On Block: {{deck[7].move.advguard}}</li>
+                                </div>
+                            </span>
                         </ul>
                     </div>
                 </div>
@@ -158,9 +206,14 @@
                             <img class="moveIcon" ng-repeat="x in deck[8].move.propIcons" ng-src="{{x}}">
                         </div>
                         <ul class="moveInfo">
-                            <li>{{deck[8].move.vert}}</li>
-                            <li>{{deck[8].move.horiz}}</li>
+                            <li>{{deck[8].move.vert}} {{deck[8].move.horiz}}</li>
                             <li>{{deck[8].move.hit}}</li>
+                            <li>{{deck[8].move.frames}}</li>
+                            <span ng-if="deck[8].move.name">
+                                <div class="small">
+                                    <li>On Hit: {{deck[8].move.advhit}}, On Block: {{deck[8].move.advguard}}</li>
+                                </div>
+                            </span>
                         </ul>
                     </div>
                 </div>
@@ -174,9 +227,14 @@
                             <img class="moveIcon" ng-repeat="x in deck[9].move.propIcons" ng-src="{{x}}">
                         </div>
                         <ul class="moveInfo">
-                            <li>{{deck[9].move.vert}}</li>
-                            <li>{{deck[9].move.horiz}}</li>
+                            <li>{{deck[9].move.vert}} {{deck[9].move.horiz}}</li>
                             <li>{{deck[9].move.hit}}</li>
+                            <li>{{deck[9].move.frames}}</li>
+                            <span ng-if="deck[9].move.name">
+                                <div class="small">
+                                    <li>On Hit: {{deck[9].move.advhit}}, On Block: {{deck[9].move.advguard}}</li>
+                                </div>
+                            </span>
                         </ul>
                     </div>
                 </div>
@@ -190,9 +248,14 @@
                             <img class="moveIcon" ng-repeat="x in deck[10].move.propIcons" ng-src="{{x}}">
                         </div>
                         <ul class="moveInfo">
-                            <li>{{deck[10].move.vert}}</li>
-                            <li>{{deck[10].move.horiz}}</li>
+                            <li>{{deck[10].move.vert}} {{deck[10].move.horiz}}</li>
                             <li>{{deck[10].move.hit}}</li>
+                            <li>{{deck[10].move.frames}}</li>
+                            <span ng-if="deck[10].move.name">
+                                <div class="small">
+                                    <li>On Hit: {{deck[10].move.advhit}}, On Block: {{deck[10].move.advguard}}</li>
+                                </div>
+                            </span>
                         </ul>
                     </div>
                 </div>
@@ -207,9 +270,14 @@
                             <img class="moveIcon" ng-repeat="x in deck[11].move.propIcons" ng-src="{{x}}">
                         </div>
                         <ul class="moveInfo">
-                            <li>{{deck[11].move.vert}}</li>
-                            <li>{{deck[11].move.horiz}}</li>
+                            <li>{{deck[11].move.vert}} {{deck[11].move.horiz}}</li>
                             <li>{{deck[11].move.hit}}</li>
+                            <li>{{deck[11].move.frames}}</li>
+                            <span ng-if="deck[11].move.name">
+                                <div class="small">
+                                    <li>On Hit: {{deck[11].move.advhit}}, On Block: {{deck[11].move.advguard}}</li>
+                                </div>
+                            </span>
                         </ul>
                     </div>
                 </div>
@@ -226,9 +294,14 @@
                             <img class="moveIcon" ng-repeat="x in deck[12].move.propIcons" ng-src="{{x}}">
                         </div>
                         <ul class="moveInfo">
-                            <li>{{deck[12].move.vert}}</li>
-                            <li>{{deck[12].move.horiz}}</li>
+                            <li>{{deck[12].move.vert}} {{deck[12].move.horiz}}</li>
                             <li>{{deck[12].move.hit}}</li>
+                            <li>{{deck[12].move.frames}}</li>
+                            <span ng-if="deck[12].move.name">
+                                <div class="small">
+                                    <li>On Hit: {{deck[12].move.advhit}}, On Block: {{deck[12].move.advguard}}</li>
+                                </div>
+                            </span>
                         </ul>
                     </div>
                 </div>
@@ -242,9 +315,14 @@
                             <img class="moveIcon" ng-repeat="x in deck[13].move.propIcons" ng-src="{{x}}">
                         </div>
                         <ul class="moveInfo">
-                            <li>{{deck[13].move.vert}}</li>
-                            <li>{{deck[13].move.horiz}}</li>
+                            <li>{{deck[13].move.vert}} {{deck[13].move.horiz}}</li>
                             <li>{{deck[13].move.hit}}</li>
+                            <li>{{deck[13].move.frames}}</li>
+                            <span ng-if="deck[13].move.name">
+                                <div class="small">
+                                    <li>On Hit: {{deck[13].move.advhit}}, On Block: {{deck[13].move.advguard}}</li>
+                                </div>
+                            </span>
                         </ul>
                     </div>
                 </div>
@@ -258,9 +336,14 @@
                             <img class="moveIcon" ng-repeat="x in deck[14].move.propIcons" ng-src="{{x}}">
                         </div>
                         <ul class="moveInfo">
-                            <li>{{deck[14].move.vert}}</li>
-                            <li>{{deck[14].move.horiz}}</li>
+                            <li>{{deck[14].move.vert}} {{deck[14].move.horiz}}</li>
                             <li>{{deck[14].move.hit}}</li>
+                            <li>{{deck[14].move.frames}}</li>
+                            <span ng-if="deck[14].move.name">
+                                <div class="small">
+                                    <li>On Hit: {{deck[14].move.advhit}}, On Block: {{deck[14].move.advguard}}</li>
+                                </div>
+                            </span>
                         </ul>
                     </div>
                 </div>
@@ -275,9 +358,14 @@
                             <img class="moveIcon" ng-repeat="x in deck[15].move.propIcons" ng-src="{{x}}">
                         </div>
                         <ul class="moveInfo">
-                            <li>{{deck[15].move.vert}}</li>
-                            <li>{{deck[15].move.horiz}}</li>
+                            <li>{{deck[15].move.vert}} {{deck[15].move.horiz}}</li>
                             <li>{{deck[15].move.hit}}</li>
+                            <li>{{deck[15].move.frames}}</li>
+                            <span ng-if="deck[15].move.name">
+                                <div class="small">
+                                    <li>On Hit: {{deck[15].move.advhit}}, On Block: {{deck[15].move.advguard}}</li>
+                                </div>
+                            </span>
                         </ul>
                     </div>
                 </div>
@@ -286,7 +374,7 @@
             </div>
         </div>
         </div>
-        
+
         <div id="col3" class="col-3">
             <div class="transbarright">
                 <div class="yellowtext centText marginBot">
@@ -304,6 +392,12 @@
                 <div class="yellowtext centText marginBot">
                     <label ng-repeat="x in heightFilter">
                         <input type="checkbox" ng-model="x.checked" ng-click="updateSelection($index, heightFilter); setSearch()">
+                        {{x.name}}
+                    </label>
+                </div>
+                <div class="yellowtext centText marginBot">
+                    <label ng-repeat="x in swordFilter ">
+                        <input type="checkbox" ng-model="x.checked" ng-click="updateSelection($index, swordFilter); setSearch()">
                         {{x.name}}
                     </label>
                 </div>
@@ -333,6 +427,7 @@
                                 {{move.vert}}
                                 {{move.horiz}}
                                 {{move.hits}}
+                                {{move.frames}}f
                             </div>
                             <div class="col-7 floatRight marginTop15"><img class="moveIconSearch" ng-repeat="x in move.properties" ng-src="{{'images/' + x + '_move_icon.png'}}"></div>
                         </div>
@@ -356,6 +451,7 @@
                                 {{move.vert}}
                                 {{move.horiz}}
                                 {{move.hits}}
+                                {{move.frames}}f
                             </div>
                             <div class="col-7 floatRight marginTop15"><img class="moveIconSearch" ng-repeat="x in move.properties" ng-src="{{'images/' + x + '_move_icon.png'}}"></div>
                         </div>
@@ -379,6 +475,7 @@
                                 {{move.vert}}
                                 {{move.horiz}}
                                 {{move.hits}}
+                                {{move.frames}}f
                             </div>
                             <div class="col-7 floatRight marginTop15"><img class="moveIconSearch" ng-repeat="x in move.properties" ng-src="{{'images/' + x + '_move_icon.png'}}"></div>
                         </div>
@@ -402,6 +499,7 @@
                                 {{move.vert}}
                                 {{move.horiz}}
                                 {{move.hits}}
+                                {{move.frames}}f
                             </div>
                             <div class="col-7 floatRight marginTop15"><img class="moveIconSearch" ng-repeat="x in move.properties" ng-src="{{'images/' + x + '_move_icon.png'}}"></div>
                         </div>
@@ -426,6 +524,7 @@
                                 {{move.vert}}
                                 {{move.horiz}}
                                 {{move.hits}}
+                                {{move.frames}}f
                             </div>
                             <div class="col-7 floatRight marginTop15"><img class="moveIconSearch" ng-repeat="x in move.properties" ng-src="{{'images/' + x + '_move_icon.png'}}"></div>
                         </div>
@@ -450,11 +549,12 @@
                                 {{move.vert}}
                                 {{move.horiz}}
                                 {{move.hits}}
+                                {{move.frames}}f
                             </div>
                             <div class="col-7 floatRight marginTop15"><img class="moveIconSearch" ng-repeat="x in move.properties" ng-src="{{'images/' + x + '_move_icon.png'}}"></div>
                         </div>
                     </li>
-                    
+
                     <!--<li class="search" ng-repeat="move in (moves | filter:search)" ng-click="addMove(move.name)">
                         <div class="searchStyleIcon"><img class="moveIconSearch" ng-src="{{'images/' + move.style + '_icon.png'}}"></div>
                         <div class="row">
