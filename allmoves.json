@@ -1,0 +1,5914 @@
+[
+	{
+		"name": "Fast Elbow",
+		"style": "forsaken",
+		"vert": "high",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "BR",
+				"hit": "R"
+			},
+			{
+				"start": "BL",
+				"end": "BL",
+				"hit": "L"
+			}
+		],
+		"properties": [],
+		"power": "light",
+		"frames": 10,
+		"advhit": 3,
+		"advguard": 1,
+		"barehand": true,
+		"sword": false
+	},
+	{
+		"name": "Fast Elbow",
+		"style": "forsaken",
+		"vert": "high",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "BR",
+				"hit": "R"
+			}
+		],
+		"properties": [],
+		"power": "light",
+		"frames": 10,
+		"advhit": 3,
+		"advguard": 1,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Back Hop Wrist",
+		"style": "stagger",
+		"vert": "high",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "BR",
+				"hit": "R"
+			},
+			{
+				"start": "BL",
+				"end": "BL",
+				"hit": "L"
+			}
+		],
+		"properties": [],
+		"power": "light",
+		"frames": 10,
+		"advhit": 4,
+		"advguard": 0,
+		"barehand": true,
+		"sword": false
+	},
+	{
+		"name": "Back Hop Wrist",
+		"style": "stagger",
+		"vert": "high",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "BR",
+				"hit": "R"
+			}
+		],
+		"properties": [],
+		"power": "light",
+		"frames": 10,
+		"advhit": 4,
+		"advguard": 0,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Back Turn Wrist",
+		"style": "stagger",
+		"vert": "high",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "BL",
+				"hit": "L"
+			},
+			{
+				"start": "BL",
+				"end": "BR",
+				"hit": "R"
+			}
+		],
+		"properties": [],
+		"power": "light",
+		"frames": 10,
+		"advhit": 3,
+		"advguard": 1,
+		"barehand": true,
+		"sword": false
+	},
+	{
+		"name": "Back Turn Wrist",
+		"style": "stagger",
+		"vert": "high",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "BL",
+				"end": "BR",
+				"hit": "R"
+			}
+		],
+		"properties": [],
+		"power": "light",
+		"frames": 10,
+		"advhit": 3,
+		"advguard": 1,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Knife Hand Strike",
+		"style": "windfall",
+		"vert": "high",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "BR",
+				"hit": "R"
+			},
+			{
+				"start": "FL",
+				"end": "BL",
+				"hit": "L"
+			}
+		],
+		"properties": [],
+		"power": "light",
+		"frames": 10,
+		"advhit": 3,
+		"advguard": 1,
+		"barehand": true,
+		"sword": false
+	},
+	{
+		"name": "Knife Hand Strike",
+		"style": "windfall",
+		"vert": "high",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "BR",
+				"hit": "R"
+			}
+		],
+		"properties": [],
+		"power": "light",
+		"frames": 10,
+		"advhit": 3,
+		"advguard": 1,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Blink Punch",
+		"style": "faejin",
+		"vert": "high",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "BR",
+				"hit": "L"
+			},
+			{
+				"start": "FL",
+				"end": "BL",
+				"hit": "R"
+			}
+		],
+		"properties": [],
+		"power": "light",
+		"frames": 10,
+		"advhit": 4,
+		"advguard": 0,
+		"barehand": true,
+		"sword": false
+	},
+	{
+		"name": "Blink Punch",
+		"style": "faejin",
+		"vert": "high",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "BR",
+				"hit": "L"
+			}
+		],
+		"properties": [],
+		"power": "light",
+		"frames": 10,
+		"advhit": 4,
+		"advguard": 0,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Jab Punch",
+		"style": "forsaken",
+		"vert": "high",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "FR",
+				"hit": "L"
+			},
+			{
+				"start": "FL",
+				"end": "FL",
+				"hit": "R"
+			}
+		],
+		"properties": [],
+		"power": "light",
+		"frames": 10,
+		"advhit": 4,
+		"advguard": 0,
+		"barehand": true,
+		"sword": false
+	},
+	{
+		"name": "Jab Punch",
+		"style": "forsaken",
+		"vert": "high",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "FR",
+				"hit": "L"
+			}
+		],
+		"properties": [],
+		"power": "light",
+		"frames": 10,
+		"advhit": 4,
+		"advguard": 0,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Direct Punch",
+		"style": "windfall",
+		"vert": "high",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "FR",
+				"hit": "R"
+			},
+			{
+				"start": "FL",
+				"end": "FL",
+				"hit": "L"
+			}
+		],
+		"properties": [],
+		"power": "light",
+		"frames": 10,
+		"advhit": 3,
+		"advguard": 1,
+		"barehand": true,
+		"sword": false
+	},
+	{
+		"name": "Direct Punch",
+		"style": "windfall",
+		"vert": "high",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "FL",
+				"end": "FL",
+				"hit": "L"
+			}
+		],
+		"properties": [],
+		"power": "light",
+		"frames": 10,
+		"advhit": 3,
+		"advguard": 1,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Fast Back Fist",
+		"style": "kahlt",
+		"vert": "high",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "FR",
+				"hit": "R"
+			},
+			{
+				"start": "BL",
+				"end": "FL",
+				"hit": "L"
+			}
+		],
+		"properties": [],
+		"power": "light",
+		"frames": 10,
+		"advhit": 4,
+		"advguard": 0,
+		"barehand": true,
+		"sword": false
+	},
+	{
+		"name": "Fast Back Fist",
+		"style": "kahlt",
+		"vert": "high",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "FR",
+				"hit": "R"
+			}
+		],
+		"properties": [],
+		"power": "light",
+		"frames": 10,
+		"advhit": 4,
+		"advguard": 0,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Mawashi",
+		"style": "windfall",
+		"vert": "high",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "BL",
+				"hit": "L"
+			},
+			{
+				"start": "FL",
+				"end": "BR",
+				"hit": "R"
+			}
+		],
+		"properties": [],
+		"power": "light",
+		"frames": 10,
+		"advhit": 3,
+		"advguard": 1,
+		"barehand": true,
+		"sword": true
+	},
+	{
+		"name": "Ankle Stamp",
+		"style": "windfall",
+		"vert": "low",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "BR",
+				"hit": "R"
+			},
+			{
+				"start": "FL",
+				"end": "BL",
+				"hit": "L"
+			}
+		],
+		"properties": [],
+		"power": "light",
+		"frames": 11,
+		"advhit": 3,
+		"advguard": 2,
+		"barehand": true,
+		"sword": true
+	},
+	{
+		"name": "Spin Elbow",
+		"style": "forsaken",
+		"vert": "high",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "BL",
+				"hit": "L"
+			},
+			{
+				"start": "BL",
+				"end": "BR",
+				"hit": "R"
+			}
+		],
+		"properties": [],
+		"power": "light",
+		"frames": 11,
+		"advhit": 5,
+		"advguard": 1,
+		"barehand": true,
+		"sword": false
+	},
+	{
+		"name": "Spin Elbow",
+		"style": "forsaken",
+		"vert": "high",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "BL",
+				"end": "BR",
+				"hit": "R"
+			}
+		],
+		"properties": [],
+		"power": "light",
+		"frames": 11,
+		"advhit": 5,
+		"advguard": 1,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Poke Thrust",
+		"style": "stagger",
+		"vert": "high",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "BL",
+				"hit": "R"
+			}
+		],
+		"properties": [],
+		"power": "light",
+		"frames": 11,
+		"advhit": 3,
+		"advguard": 2,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Heel to Knee",
+		"style": "faejin",
+		"vert": "low",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "BL",
+				"hit": "R"
+			},
+			{
+				"start": "BL",
+				"end": "BR",
+				"hit": "L"
+			}
+		],
+		"properties": [],
+		"power": "light",
+		"frames": 11,
+		"advhit": 4,
+		"advguard": 2,
+		"barehand": true,
+		"sword": true
+	},
+	{
+		"name": "Jumped Light Kick",
+		"style": "windfall",
+		"vert": "mid",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "FL",
+				"hit": "R"
+			},
+			{
+				"start": "FL",
+				"end": "FR",
+				"hit": "L"
+			}
+		],
+		"properties": [
+			"jumping"
+		],
+		"power": "light",
+		"frames": 11,
+		"advhit": 3,
+		"advguard": 0,
+		"barehand": true,
+		"sword": true
+	},
+	{
+		"name": "Wrist Jab",
+		"style": "stagger",
+		"vert": "high",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "FR",
+				"hit": "R"
+			},
+			{
+				"start": "FL",
+				"end": "FL",
+				"hit": "L"
+			}
+		],
+		"properties": [],
+		"power": "light",
+		"frames": 11,
+		"advhit": 5,
+		"advguard": 1,
+		"barehand": true,
+		"sword": false
+	},
+	{
+		"name": "Corkscrew Thrust",
+		"style": "faejin",
+		"vert": "high",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "FL",
+				"end": "BL",
+				"hit": "R"
+			}
+		],
+		"properties": [],
+		"power": "light",
+		"frames": 11,
+		"advhit": 3,
+		"advguard": 2,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Light Swing Slash",
+		"style": "windfall",
+		"vert": "high",
+		"horiz": "horiz",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "FL",
+				"hit": "R"
+			}
+		],
+		"properties": [],
+		"power": "light",
+		"frames": 11,
+		"advhit": 4,
+		"advguard": 0,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Nose Stab",
+		"style": "stagger",
+		"vert": "high",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "BL",
+				"end": "FR",
+				"hit": "R"
+			}
+		],
+		"properties": [],
+		"power": "light",
+		"frames": 11,
+		"advhit": 4,
+		"advguard": 1,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Back Tripped Kick",
+		"style": "kahlt",
+		"vert": "low",
+		"horiz": "horiz",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "FR",
+				"hit": "L"
+			},
+			{
+				"start": "BL",
+				"end": "FL",
+				"hit": "R"
+			}
+		],
+		"properties": [
+			"ducking"
+		],
+		"power": "light",
+		"frames": 12,
+		"advhit": 4,
+		"advguard": -1,
+		"barehand": true,
+		"sword": false
+	},
+	{
+		"name": "Back Tripped Kick",
+		"style": "kahlt",
+		"vert": "low",
+		"horiz": "horiz",
+		"stances": [
+			{
+				"start": "BL",
+				"end": "FL",
+				"hit": "R"
+			}
+		],
+		"properties": [
+			"ducking"
+		],
+		"power": "light",
+		"frames": 12,
+		"advhit": 4,
+		"advguard": -1,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Needle Point",
+		"style": "windfall",
+		"vert": "mid",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "BL",
+				"end": "BR",
+				"hit": "L"
+			}
+		],
+		"properties": [],
+		"power": "medium",
+		"frames": 12,
+		"advhit": 7,
+		"advguard": 3,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Uraken",
+		"style": "faejin",
+		"vert": "high",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "BL",
+				"hit": "L"
+			},
+			{
+				"start": "BL",
+				"end": "BR",
+				"hit": "R"
+			}
+		],
+		"properties": [],
+		"power": "medium",
+		"frames": 12,
+		"advhit": 6,
+		"advguard": 4,
+		"barehand": true,
+		"sword": false
+	},
+	{
+		"name": "Uraken",
+		"style": "faejin",
+		"vert": "high",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "BL",
+				"end": "BR",
+				"hit": "R"
+			}
+		],
+		"properties": [],
+		"power": "medium",
+		"frames": 12,
+		"advhit": 6,
+		"advguard": 4,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Duster Blow",
+		"style": "windfall",
+		"vert": "mid",
+		"horiz": "vert",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "BL",
+				"hit": "L"
+			}
+		],
+		"properties": [],
+		"power": "light",
+		"frames": 12,
+		"advhit": 6,
+		"advguard": 4,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Back Ura",
+		"style": "faejin",
+		"vert": "high",
+		"horiz": "horiz",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "BL",
+				"hit": "L"
+			},
+			{
+				"start": "BL",
+				"end": "BR",
+				"hit": "R"
+			}
+		],
+		"properties": [],
+		"power": "medium",
+		"frames": 12,
+		"advhit": 7,
+		"advguard": 1,
+		"barehand": true,
+		"sword": true
+	},
+	{
+		"name": "Chin Palm",
+		"style": "windfall",
+		"vert": "mid",
+		"horiz": "vert",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "BR",
+				"hit": "R"
+			},
+			{
+				"start": "BL",
+				"end": "BL",
+				"hit": "L"
+			}
+		],
+		"properties": [],
+		"power": "medium",
+		"frames": 12,
+		"advhit": 7,
+		"advguard": 3,
+		"barehand": true,
+		"sword": false
+	},
+	{
+		"name": "Chin Palm",
+		"style": "windfall",
+		"vert": "mid",
+		"horiz": "vert",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "BR",
+				"hit": "R"
+			}
+		],
+		"properties": [],
+		"power": "medium",
+		"frames": 12,
+		"advhit": 7,
+		"advguard": 3,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Backfall Strike",
+		"style": "stagger",
+		"vert": "high",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "BR",
+				"hit": "L"
+			},
+			{
+				"start": "BL",
+				"end": "BL",
+				"hit": "R"
+			}
+		],
+		"properties": [
+			"double"
+		],
+		"power": "light",
+		"frames": 12,
+		"advhit": 7,
+		"advguard": 2,
+		"barehand": true,
+		"sword": false
+	},
+	{
+		"name": "Crouching Elbow",
+		"style": "kahlt",
+		"vert": "mid",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "BR",
+				"hit": "L"
+			},
+			{
+				"start": "FL",
+				"end": "BL",
+				"hit": "R"
+			}
+		],
+		"properties": [],
+		"power": "medium",
+		"frames": 12,
+		"advhit": 6,
+		"advguard": 4,
+		"barehand": true,
+		"sword": false
+	},
+	{
+		"name": "Crouching Elbow",
+		"style": "kahlt",
+		"vert": "mid",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "FL",
+				"end": "BL",
+				"hit": "R"
+			}
+		],
+		"properties": [],
+		"power": "medium",
+		"frames": 12,
+		"advhit": 6,
+		"advguard": 4,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Drunk Crane",
+		"style": "stagger",
+		"vert": "mid",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "BR",
+				"hit": "R"
+			},
+			{
+				"start": "FL",
+				"end": "BL",
+				"hit": "L"
+			}
+		],
+		"properties": [],
+		"power": "medium",
+		"frames": 12,
+		"advhit": 7,
+		"advguard": 3,
+		"barehand": true,
+		"sword": false
+	},
+	{
+		"name": "Kitsuneo Cut",
+		"style": "windfall",
+		"vert": "mid",
+		"horiz": "vert",
+		"stances": [
+			{
+				"start": "FL",
+				"end": "FL",
+				"hit": "R"
+			}
+		],
+		"properties": [
+			"double"
+		],
+		"power": "light",
+		"frames": 12,
+		"advhit": 7,
+		"advguard": 2,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Tei-nami",
+		"style": "windfall",
+		"vert": "low",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "FL",
+				"end": "FL",
+				"hit": "R"
+			}
+		],
+		"properties": [
+			"double"
+		],
+		"power": "light",
+		"frames": 12,
+		"advhit": 6,
+		"advguard": 4,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Hook",
+		"style": "forsaken",
+		"vert": "high",
+		"horiz": "horiz",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "FR",
+				"hit": "L"
+			},
+			{
+				"start": "FL",
+				"end": "FL",
+				"hit": "R"
+			}
+		],
+		"properties": [],
+		"power": "medium",
+		"frames": 12,
+		"advhit": 6,
+		"advguard": 2,
+		"barehand": true,
+		"sword": false
+	},
+	{
+		"name": "Hook",
+		"style": "forsaken",
+		"vert": "high",
+		"horiz": "horiz",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "FR",
+				"hit": "L"
+			}
+		],
+		"properties": [],
+		"power": "medium",
+		"frames": 12,
+		"advhit": 6,
+		"advguard": 2,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Fast Cross",
+		"style": "faejin",
+		"vert": "mid",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "FR",
+				"hit": "R"
+			},
+			{
+				"start": "FL",
+				"end": "FL",
+				"hit": "L"
+			}
+		],
+		"properties": [],
+		"power": "medium",
+		"frames": 12,
+		"advhit": 6,
+		"advguard": 4,
+		"barehand": true,
+		"sword": false
+	},
+	{
+		"name": "Fast Cross",
+		"style": "faejin",
+		"vert": "mid",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "FL",
+				"end": "FL",
+				"hit": "L"
+			}
+		],
+		"properties": [],
+		"power": "medium",
+		"frames": 12,
+		"advhit": 6,
+		"advguard": 4,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Inside Kick",
+		"style": "faejin",
+		"vert": "high",
+		"horiz": "horiz",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "BL",
+				"hit": "R"
+			},
+			{
+				"start": "FL",
+				"end": "BR",
+				"hit": "L"
+			}
+		],
+		"properties": [],
+		"power": "medium",
+		"frames": 12,
+		"advhit": 6,
+		"advguard": 2,
+		"barehand": true,
+		"sword": true
+	},
+	{
+		"name": "Low Backfist",
+		"style": "faejin",
+		"vert": "mid",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "BR",
+				"hit": "R"
+			},
+			{
+				"start": "BL",
+				"end": "BL",
+				"hit": "L"
+			}
+		],
+		"properties": [],
+		"power": "medium",
+		"frames": 12,
+		"advhit": 6,
+		"advguard": 4,
+		"barehand": true,
+		"sword": false
+	},
+	{
+		"name": "Low Backfist",
+		"style": "faejin",
+		"vert": "mid",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "BR",
+				"hit": "R"
+			}
+		],
+		"properties": [],
+		"power": "medium",
+		"frames": 12,
+		"advhit": 6,
+		"advguard": 4,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Outward Kick",
+		"style": "faejin",
+		"vert": "high",
+		"horiz": "horiz",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "FR",
+				"hit": "R"
+			},
+			{
+				"start": "BL",
+				"end": "FL",
+				"hit": "L"
+			}
+		],
+		"properties": [],
+		"power": "medium",
+		"frames": 12,
+		"advhit": 7,
+		"advguard": 1,
+		"barehand": true,
+		"sword": true
+	},
+	{
+		"name": "Wobble Low Kick",
+		"style": "stagger",
+		"vert": "low",
+		"horiz": "horiz",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "BR",
+				"hit": "R"
+			},
+			{
+				"start": "FL",
+				"end": "BL",
+				"hit": "L"
+			}
+		],
+		"properties": [],
+		"power": "medium",
+		"frames": 12,
+		"advhit": 5,
+		"advguard": 2,
+		"barehand": true,
+		"sword": true
+	},
+	{
+		"name": "Rabbit Punch",
+		"style": "faejin",
+		"vert": "mid",
+		"horiz": "vert",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "BR",
+				"hit": "L"
+			},
+			{
+				"start": "FL",
+				"end": "BL",
+				"hit": "R"
+			}
+		],
+		"properties": [],
+		"power": "medium",
+		"frames": 12,
+		"advhit": 7,
+		"advguard": 3,
+		"barehand": true,
+		"sword": false
+	},
+	{
+		"name": "Rabbit Punch",
+		"style": "faejin",
+		"vert": "mid",
+		"horiz": "vert",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "BR",
+				"hit": "L"
+			}
+		],
+		"properties": [],
+		"power": "medium",
+		"frames": 12,
+		"advhit": 7,
+		"advguard": 3,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Soto-uke",
+		"style": "windfall",
+		"vert": "high",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "FL",
+				"hit": "R"
+			},
+			{
+				"start": "BL",
+				"end": "FR",
+				"hit": "L"
+			}
+		],
+		"properties": [],
+		"power": "medium",
+		"frames": 12,
+		"advhit": 7,
+		"advguard": 3,
+		"barehand": true,
+		"sword": false
+	},
+	{
+		"name": "Soto-uke",
+		"style": "windfall",
+		"vert": "high",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "BL",
+				"end": "FR",
+				"hit": "L"
+			}
+		],
+		"properties": [],
+		"power": "medium",
+		"frames": 12,
+		"advhit": 7,
+		"advguard": 3,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Stretch Out Hook",
+		"style": "forsaken",
+		"vert": "high",
+		"horiz": "horiz",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "FL",
+				"hit": "R"
+			},
+			{
+				"start": "BL",
+				"end": "FR",
+				"hit": "L"
+			}
+		],
+		"properties": [],
+		"power": "medium",
+		"frames": 12,
+		"advhit": 6,
+		"advguard": 2,
+		"barehand": true,
+		"sword": false
+	},
+	{
+		"name": "Stretch Out Hook",
+		"style": "forsaken",
+		"vert": "high",
+		"horiz": "horiz",
+		"stances": [
+			{
+				"start": "BL",
+				"end": "FR",
+				"hit": "L"
+			}
+		],
+		"properties": [],
+		"power": "medium",
+		"frames": 12,
+		"advhit": 6,
+		"advguard": 2,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Gut Punch",
+		"style": "stagger",
+		"vert": "mid",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "FL",
+				"hit": "R"
+			},
+			{
+				"start": "BL",
+				"end": "FR",
+				"hit": "L"
+			}
+		],
+		"properties": [],
+		"power": "light",
+		"frames": 12,
+		"advhit": 6,
+		"advguard": 4,
+		"barehand": true,
+		"sword": false
+	},
+	{
+		"name": "Gut Punch",
+		"style": "stagger",
+		"vert": "mid",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "BL",
+				"end": "FR",
+				"hit": "L"
+			}
+		],
+		"properties": [],
+		"power": "light",
+		"frames": 12,
+		"advhit": 6,
+		"advguard": 4,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Temple Knock",
+		"style": "faejin",
+		"vert": "high",
+		"horiz": "horiz",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "BR",
+				"hit": "L"
+			},
+			{
+				"start": "BL",
+				"end": "BL",
+				"hit": "R"
+			}
+		],
+		"properties": [],
+		"power": "medium",
+		"frames": 12,
+		"advhit": 6,
+		"advguard": 2,
+		"barehand": true,
+		"sword": false
+	},
+	{
+		"name": "Temple Knock",
+		"style": "faejin",
+		"vert": "high",
+		"horiz": "horiz",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "BR",
+				"hit": "L"
+			}
+		],
+		"properties": [],
+		"power": "medium",
+		"frames": 12,
+		"advhit": 6,
+		"advguard": 2,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Chest Stab",
+		"style": "faejin",
+		"vert": "high",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "FR",
+				"hit": "R"
+			}
+		],
+		"properties": [],
+		"power": "light",
+		"frames": 12,
+		"advhit": 7,
+		"advguard": 3,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Ducking Spike",
+		"style": "windfall",
+		"vert": "mid",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "BL",
+				"end": "BL",
+				"hit": "R"
+			}
+		],
+		"properties": [
+			"ducking"
+		],
+		"power": "light",
+		"frames": 12,
+		"advhit": 4,
+		"advguard": -1,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Leg Stroke",
+		"style": "faejin",
+		"vert": "low",
+		"horiz": "horiz",
+		"stances": [
+			{
+				"start": "FL",
+				"end": "FL",
+				"hit": "L"
+			}
+		],
+		"properties": [],
+		"power": "light",
+		"frames": 12,
+		"advhit": 6,
+		"advguard": 1,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Rising Slash",
+		"style": "forsaken",
+		"vert": "mid",
+		"horiz": "vert",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "FL",
+				"hit": "R"
+			}
+		],
+		"properties": [],
+		"power": "light",
+		"frames": 12,
+		"advhit": 7,
+		"advguard": 3,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Shifting Thrust",
+		"style": "faejin",
+		"vert": "high",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "FL",
+				"hit": "R"
+			}
+		],
+		"properties": [],
+		"power": "light",
+		"frames": 12,
+		"advhit": 5,
+		"advguard": 4,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Straight Punch",
+		"style": "forsaken",
+		"vert": "high",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "FL",
+				"hit": "R"
+			},
+			{
+				"start": "FL",
+				"end": "FR",
+				"hit": "L"
+			}
+		],
+		"properties": [],
+		"power": "medium",
+		"frames": 13,
+		"advhit": 8,
+		"advguard": 3,
+		"barehand": true,
+		"sword": false
+	},
+	{
+		"name": "Straight Punch",
+		"style": "forsaken",
+		"vert": "high",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "FL",
+				"end": "FR",
+				"hit": "L"
+			}
+		],
+		"properties": [],
+		"power": "medium",
+		"frames": 13,
+		"advhit": 8,
+		"advguard": 3,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Calbot",
+		"style": "forsaken",
+		"vert": "high",
+		"horiz": "horiz",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "FL",
+				"hit": "R"
+			},
+			{
+				"start": "FL",
+				"end": "FR",
+				"hit": "L"
+			}
+		],
+		"properties": [],
+		"power": "light",
+		"frames": 13,
+		"advhit": 4,
+		"advguard": 1,
+		"barehand": true,
+		"sword": false
+	},
+	{
+		"name": "Calbot",
+		"style": "forsaken",
+		"vert": "high",
+		"horiz": "horiz",
+		"stances": [
+			{
+				"start": "FL",
+				"end": "FR",
+				"hit": "L"
+			}
+		],
+		"properties": [],
+		"power": "light",
+		"frames": 13,
+		"advhit": 4,
+		"advguard": 1,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Elbow Stumble",
+		"style": "stagger",
+		"vert": "high",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "FL",
+				"hit": "L"
+			},
+			{
+				"start": "FL",
+				"end": "FR",
+				"hit": "R"
+			}
+		],
+		"properties": [],
+		"power": "medium",
+		"frames": 13,
+		"advhit": 7,
+		"advguard": 4,
+		"barehand": true,
+		"sword": false
+	},
+	{
+		"name": "Fencing Punch",
+		"style": "faejin",
+		"vert": "mid",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "BR",
+				"hit": "L"
+			},
+			{
+				"start": "FL",
+				"end": "BL",
+				"hit": "R"
+			}
+		],
+		"properties": [],
+		"power": "medium",
+		"frames": 13,
+		"advhit": 6,
+		"advguard": 5,
+		"barehand": true,
+		"sword": false
+	},
+	{
+		"name": "Fencing Punch",
+		"style": "faejin",
+		"vert": "mid",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "BR",
+				"hit": "L"
+			}
+		],
+		"properties": [],
+		"power": "medium",
+		"frames": 13,
+		"advhit": 6,
+		"advguard": 5,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Circular Slash",
+		"style": "forsaken",
+		"vert": "high",
+		"horiz": "horiz",
+		"stances": [
+			{
+				"start": "FL",
+				"end": "BR",
+				"hit": "L"
+			}
+		],
+		"properties": [],
+		"power": "light",
+		"frames": 13,
+		"advhit": 7,
+		"advguard": 2,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Foot Slap",
+		"style": "stagger",
+		"vert": "high",
+		"horiz": "horiz",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "BL",
+				"hit": "R"
+			},
+			{
+				"start": "FL",
+				"end": "BR",
+				"hit": "L"
+			}
+		],
+		"properties": [
+			"jumping"
+		],
+		"power": "light",
+		"frames": 13,
+		"advhit": 5,
+		"advguard": 0,
+		"barehand": true,
+		"sword": true
+	},
+	{
+		"name": "Parry & Strike",
+		"style": "forsaken",
+		"vert": "high",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "FR",
+				"hit": "R"
+			},
+			{
+				"start": "BL",
+				"end": "FL",
+				"hit": "L"
+			}
+		],
+		"properties": [
+			"parry"
+		],
+		"power": "light",
+		"frames": 13,
+		"advhit": 7,
+		"advguard": 2,
+		"barehand": true,
+		"sword": false
+	},
+	{
+		"name": "Parry & Strike",
+		"style": "forsaken",
+		"vert": "high",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "BL",
+				"end": "FL",
+				"hit": "L"
+			}
+		],
+		"properties": [
+			"parry"
+		],
+		"power": "light",
+		"frames": 13,
+		"advhit": 7,
+		"advguard": 2,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Spin Back Fist",
+		"style": "forsaken",
+		"vert": "high",
+		"horiz": "horiz",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "BL",
+				"hit": "L"
+			},
+			{
+				"start": "BL",
+				"end": "BR",
+				"hit": "R"
+			}
+		],
+		"properties": [],
+		"power": "medium",
+		"frames": 13,
+		"advhit": 7,
+		"advguard": 2,
+		"barehand": true,
+		"sword": false
+	},
+	{
+		"name": "Spin Back Fist",
+		"style": "forsaken",
+		"vert": "high",
+		"horiz": "horiz",
+		"stances": [
+			{
+				"start": "BL",
+				"end": "BR",
+				"hit": "R"
+			}
+		],
+		"properties": [],
+		"power": "medium",
+		"frames": 13,
+		"advhit": 7,
+		"advguard": 2,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Switch Kick",
+		"style": "faejin",
+		"vert": "low",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "FR",
+				"hit": "L"
+			},
+			{
+				"start": "FL",
+				"end": "FL",
+				"hit": "R"
+			}
+		],
+		"properties": [],
+		"power": "medium",
+		"frames": 13,
+		"advhit": 7,
+		"advguard": 4,
+		"barehand": true,
+		"sword": true
+	},
+	{
+		"name": "Underknee Kick",
+		"style": "forsaken",
+		"vert": "low",
+		"horiz": "horiz",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "BR",
+				"hit": "L"
+			},
+			{
+				"start": "BL",
+				"end": "BL",
+				"hit": "R"
+			}
+		],
+		"properties": [],
+		"power": "medium",
+		"frames": 13,
+		"advhit": 6,
+		"advguard": 3,
+		"barehand": true,
+		"sword": true
+	},
+	{
+		"name": "Ram Thrust",
+		"style": "forsaken",
+		"vert": "mid",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "FR",
+				"hit": "R"
+			}
+		],
+		"properties": [
+			"stopping"
+		],
+		"power": "medium",
+		"frames": 13,
+		"advhit": 7,
+		"advguard": 6,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Upper Backfist",
+		"style": "faejin",
+		"vert": "mid",
+		"horiz": "vert",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "FR",
+				"hit": "R"
+			},
+			{
+				"start": "BL",
+				"end": "FL",
+				"hit": "L"
+			}
+		],
+		"properties": [],
+		"power": "medium",
+		"frames": 13,
+		"advhit": 6,
+		"advguard": 5,
+		"barehand": true,
+		"sword": false
+	},
+	{
+		"name": "Upper Backfist",
+		"style": "faejin",
+		"vert": "mid",
+		"horiz": "vert",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "FR",
+				"hit": "R"
+			}
+		],
+		"properties": [],
+		"power": "medium",
+		"frames": 13,
+		"advhit": 6,
+		"advguard": 5,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Uramawashi",
+		"style": "windfall",
+		"vert": "high",
+		"horiz": "horiz",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "FL",
+				"hit": "L"
+			},
+			{
+				"start": "BL",
+				"end": "FR",
+				"hit": "R"
+			}
+		],
+		"properties": [],
+		"power": "medium",
+		"frames": 13,
+		"advhit": 7,
+		"advguard": 2,
+		"barehand": true,
+		"sword": true
+	},
+	{
+		"name": "Side Thrust",
+		"style": "kahlt",
+		"vert": "high",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "FL",
+				"hit": "L"
+			}
+		],
+		"properties": [],
+		"power": "medium",
+		"frames": 13,
+		"advhit": 8,
+		"advguard": 3,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Reaching Maegeri",
+		"style": "faejin",
+		"vert": "mid",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "FL",
+				"hit": "R"
+			},
+			{
+				"start": "BL",
+				"end": "FR",
+				"hit": "L"
+			}
+		],
+		"properties": [],
+		"power": "medium",
+		"frames": 13,
+		"advhit": 7,
+		"advguard": 4,
+		"barehand": true,
+		"sword": true
+	},
+	{
+		"name": "Double Thrust",
+		"style": "faejin",
+		"vert": "mid",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "BL",
+				"end": "BL",
+				"hit": "L"
+			}
+		],
+		"properties": [
+			"double"
+		],
+		"power": "light",
+		"frames": 13,
+		"advhit": 6,
+		"advguard": 3,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Front Stab",
+		"style": "faejin",
+		"vert": "mid",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "BL",
+				"hit": "R"
+			}
+		],
+		"properties": [],
+		"power": "light",
+		"frames": 13,
+		"advhit": 6,
+		"advguard": 5,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Neck Slash",
+		"style": "faejin",
+		"vert": "high",
+		"horiz": "horiz",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "FR",
+				"hit": "L"
+			}
+		],
+		"properties": [],
+		"power": "light",
+		"frames": 13,
+		"advhit": 6,
+		"advguard": 2,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "One Handed Slash",
+		"style": "windfall",
+		"vert": "high",
+		"horiz": "horiz",
+		"stances": [
+			{
+				"start": "FL",
+				"end": "BL",
+				"hit": "R"
+			}
+		],
+		"properties": [],
+		"power": "light",
+		"frames": 13,
+		"advhit": 6,
+		"advguard": 3,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Thigh Slash",
+		"style": "faejin",
+		"vert": "low",
+		"horiz": "horiz",
+		"stances": [
+			{
+				"start": "BL",
+				"end": "FL",
+				"hit": "L"
+			}
+		],
+		"properties": [],
+		"power": "medium",
+		"frames": 13,
+		"advhit": 6,
+		"advguard": 3,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Typhoon Slash",
+		"style": "stagger",
+		"vert": "high",
+		"horiz": "horiz",
+		"stances": [
+			{
+				"start": "FL",
+				"end": "BR",
+				"hit": "L"
+			}
+		],
+		"properties": [
+			"double"
+		],
+		"power": "medium",
+		"frames": 13,
+		"advhit": 7,
+		"advguard": -1,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Woosh Slash",
+		"style": "stagger",
+		"vert": "high",
+		"horiz": "horiz",
+		"stances": [
+			{
+				"start": "BL",
+				"end": "BR",
+				"hit": "R"
+			}
+		],
+		"properties": [],
+		"power": "medium",
+		"frames": 13,
+		"advhit": 7,
+		"advguard": 1,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Cross Punch",
+		"style": "forsaken",
+		"vert": "mid",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "FR",
+				"hit": "R"
+			},
+			{
+				"start": "FL",
+				"end": "FL",
+				"hit": "L"
+			}
+		],
+		"properties": [
+			"stopping"
+		],
+		"power": "medium",
+		"frames": 14,
+		"advhit": 8,
+		"advguard": 6,
+		"barehand": true,
+		"sword": false
+	},
+	{
+		"name": "Cross Punch",
+		"style": "forsaken",
+		"vert": "mid",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "FL",
+				"end": "FL",
+				"hit": "L"
+			}
+		],
+		"properties": [
+			"stopping"
+		],
+		"power": "medium",
+		"frames": 14,
+		"advhit": 8,
+		"advguard": 6,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Light Thrust",
+		"style": "forsaken",
+		"vert": "mid",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "FL",
+				"end": "FL",
+				"hit": "L"
+			}
+		],
+		"properties": [
+			"stopping"
+		],
+		"power": "medium",
+		"frames": 14,
+		"advhit": 8,
+		"advguard": 6,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Wallop Blow",
+		"style": "kahlt",
+		"vert": "mid",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "BR",
+				"hit": "R"
+			},
+			{
+				"start": "BL",
+				"end": "BL",
+				"hit": "L"
+			}
+		],
+		"properties": [],
+		"power": "medium",
+		"frames": 14,
+		"advhit": 7,
+		"advguard": 5,
+		"barehand": true,
+		"sword": false
+	},
+	{
+		"name": "Wallop Blow",
+		"style": "kahlt",
+		"vert": "mid",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "BL",
+				"end": "BL",
+				"hit": "L"
+			}
+		],
+		"properties": [],
+		"power": "medium",
+		"frames": 14,
+		"advhit": 7,
+		"advguard": 5,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Donkey Slap",
+		"style": "stagger",
+		"vert": "mid",
+		"horiz": "vert",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "BR",
+				"hit": "L"
+			},
+			{
+				"start": "BL",
+				"end": "BL",
+				"hit": "R"
+			}
+		],
+		"properties": [
+			"double"
+		],
+		"power": "medium",
+		"frames": 14,
+		"advhit": 8,
+		"advguard": 3,
+		"barehand": true,
+		"sword": false
+	},
+	{
+		"name": "Donkey Slap",
+		"style": "stagger",
+		"vert": "mid",
+		"horiz": "vert",
+		"stances": [
+			{
+				"start": "BL",
+				"end": "BL",
+				"hit": "R"
+			}
+		],
+		"properties": [
+			"double"
+		],
+		"power": "medium",
+		"frames": 14,
+		"advhit": 8,
+		"advguard": 3,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Pushed Elbow",
+		"style": "kahlt",
+		"vert": "high",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "BL",
+				"hit": "L"
+			},
+			{
+				"start": "BL",
+				"end": "BR",
+				"hit": "R"
+			}
+		],
+		"properties": [],
+		"power": "medium",
+		"frames": 14,
+		"advhit": 7,
+		"advguard": 5,
+		"barehand": true,
+		"sword": false
+	},
+	{
+		"name": "Pushed Elbow",
+		"style": "kahlt",
+		"vert": "high",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "BL",
+				"end": "BR",
+				"hit": "R"
+			}
+		],
+		"properties": [],
+		"power": "medium",
+		"frames": 14,
+		"advhit": 7,
+		"advguard": 5,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Double Fist Stretch",
+		"style": "stagger",
+		"vert": "high",
+		"horiz": "horiz",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "BL",
+				"hit": "L"
+			},
+			{
+				"start": "BL",
+				"end": "BR",
+				"hit": "R"
+			}
+		],
+		"properties": [
+			"double"
+		],
+		"power": "medium",
+		"frames": 14,
+		"advhit": 7,
+		"advguard": 1,
+		"barehand": true,
+		"sword": false
+	},
+	{
+		"name": "Double Palm",
+		"style": "stagger",
+		"vert": "mid",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "FL",
+				"hit": "R"
+			},
+			{
+				"start": "BL",
+				"end": "FR",
+				"hit": "L"
+			}
+		],
+		"properties": [
+			"double"
+		],
+		"power": "medium",
+		"frames": 14,
+		"advhit": 7,
+		"advguard": 4,
+		"barehand": true,
+		"sword": false
+	},
+	{
+		"name": "Double Spike Kick",
+		"style": "stagger",
+		"vert": "mid",
+		"horiz": "vert",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "FR",
+				"hit": "R"
+			},
+			{
+				"start": "FL",
+				"end": "FL",
+				"hit": "L"
+			}
+		],
+		"properties": [
+			"double"
+		],
+		"power": "medium",
+		"frames": 14,
+		"advhit": 7,
+		"advguard": 4,
+		"barehand": true,
+		"sword": true
+	},
+	{
+		"name": "Double Wata",
+		"style": "faejin",
+		"vert": "mid",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "FR",
+				"hit": "R"
+			},
+			{
+				"start": "FL",
+				"end": "FL",
+				"hit": "L"
+			}
+		],
+		"properties": [
+			"double"
+		],
+		"power": "medium",
+		"frames": 14,
+		"advhit": 8,
+		"advguard": 3,
+		"barehand": true,
+		"sword": false
+	},
+	{
+		"name": "Reverse Hips Slash",
+		"style": "kahlt",
+		"vert": "high",
+		"horiz": "horiz",
+		"stances": [
+			{
+				"start": "FL",
+				"end": "FR",
+				"hit": "L"
+			}
+		],
+		"properties": [],
+		"power": "medium",
+		"frames": 14,
+		"advhit": 7,
+		"advguard": 3,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Tripped Kick",
+		"style": "forsaken",
+		"vert": "low",
+		"horiz": "horiz",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "FL",
+				"hit": "L"
+			},
+			{
+				"start": "FL",
+				"end": "FR",
+				"hit": "R"
+			}
+		],
+		"properties": [
+			"ducking"
+		],
+		"power": "medium",
+		"frames": 14,
+		"advhit": 5,
+		"advguard": 2,
+		"barehand": true,
+		"sword": true
+	},
+	{
+		"name": "Drunk Stomp",
+		"style": "stagger",
+		"vert": "mid",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "FL",
+				"hit": "R"
+			},
+			{
+				"start": "FL",
+				"end": "FR",
+				"hit": "L"
+			}
+		],
+		"properties": [
+			"stopping"
+		],
+		"power": "medium",
+		"frames": 14,
+		"advhit": 8,
+		"advguard": 6,
+		"barehand": true,
+		"sword": true
+	},
+	{
+		"name": "Fast Punch",
+		"style": "forsaken",
+		"vert": "high",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "FR",
+				"hit": "R"
+			},
+			{
+				"start": "BL",
+				"end": "FL",
+				"hit": "L"
+			}
+		],
+		"properties": [],
+		"power": "medium",
+		"frames": 14,
+		"advhit": 8,
+		"advguard": 4,
+		"barehand": true,
+		"sword": false
+	},
+	{
+		"name": "Fast Punch",
+		"style": "forsaken",
+		"vert": "high",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "BL",
+				"end": "FL",
+				"hit": "L"
+			}
+		],
+		"properties": [],
+		"power": "medium",
+		"frames": 14,
+		"advhit": 8,
+		"advguard": 4,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Jar Bash",
+		"style": "stagger",
+		"vert": "high",
+		"horiz": "horiz",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "FL",
+				"hit": "L"
+			},
+			{
+				"start": "FL",
+				"end": "FR",
+				"hit": "R"
+			}
+		],
+		"properties": [],
+		"power": "medium",
+		"frames": 14,
+		"advhit": 6,
+		"advguard": 4,
+		"barehand": true,
+		"sword": false
+	},
+	{
+		"name": "Limbo Thrust",
+		"style": "windfall",
+		"vert": "high",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "FL",
+				"hit": "L"
+			}
+		],
+		"properties": [
+			"ducking"
+		],
+		"power": "light",
+		"frames": 14,
+		"advhit": 6,
+		"advguard": 2,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Gokai Slash",
+		"style": "faejin",
+		"vert": "mid",
+		"horiz": "vert",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "FL",
+				"hit": "R"
+			}
+		],
+		"properties": [],
+		"power": "medium",
+		"frames": 14,
+		"advhit": 8,
+		"advguard": 4,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Light Sidekick",
+		"style": "faejin",
+		"vert": "high",
+		"horiz": "horiz",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "FL",
+				"hit": "L"
+			},
+			{
+				"start": "BL",
+				"end": "FR",
+				"hit": "R"
+			}
+		],
+		"properties": [],
+		"power": "medium",
+		"frames": 14,
+		"advhit": 7,
+		"advguard": 3,
+		"barehand": true,
+		"sword": true
+	},
+	{
+		"name": "Low Kick",
+		"style": "forsaken",
+		"vert": "low",
+		"horiz": "horiz",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "BL",
+				"hit": "R"
+			},
+			{
+				"start": "FL",
+				"end": "BR",
+				"hit": "L"
+			}
+		],
+		"properties": [],
+		"power": "medium",
+		"frames": 14,
+		"advhit": 6,
+		"advguard": 4,
+		"barehand": true,
+		"sword": true
+	},
+	{
+		"name": "Mill Punch",
+		"style": "forsaken",
+		"vert": "mid",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "BL",
+				"hit": "L"
+			},
+			{
+				"start": "FL",
+				"end": "BR",
+				"hit": "R"
+			}
+		],
+		"properties": [
+			"double"
+		],
+		"power": "medium",
+		"frames": 14,
+		"advhit": 8,
+		"advguard": 3,
+		"barehand": true,
+		"sword": false
+	},
+	{
+		"name": "Winged Back Kick",
+		"style": "forsaken",
+		"vert": "mid",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "BR",
+				"hit": "R"
+			},
+			{
+				"start": "FL",
+				"end": "BL",
+				"hit": "L"
+			}
+		],
+		"properties": [
+			"stopping"
+		],
+		"power": "medium",
+		"frames": 14,
+		"advhit": 8,
+		"advguard": 6,
+		"barehand": true,
+		"sword": true
+	},
+	{
+		"name": "Hook Slash",
+		"style": "faejin",
+		"vert": "high",
+		"horiz": "horiz",
+		"stances": [
+			{
+				"start": "FL",
+				"end": "FL",
+				"hit": "R"
+			}
+		],
+		"properties": [],
+		"power": "medium",
+		"frames": 14,
+		"advhit": 7,
+		"advguard": 3,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Mill Slash",
+		"style": "windfall",
+		"vert": "mid",
+		"horiz": "vert",
+		"stances": [
+			{
+				"start": "BL",
+				"end": "FL",
+				"hit": "L"
+			}
+		],
+		"properties": [
+			"ducking"
+		],
+		"power": "light",
+		"frames": 14,
+		"advhit": 6,
+		"advguard": 2,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Reverse Rising Slash",
+		"style": "kahlt",
+		"vert": "mid",
+		"horiz": "vert",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "FL",
+				"hit": "R"
+			}
+		],
+		"properties": [],
+		"power": "medium",
+		"frames": 14,
+		"advhit": 7,
+		"advguard": 3,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Reverse Twist Slash",
+		"style": "kahlt",
+		"vert": "mid",
+		"horiz": "vert",
+		"stances": [
+			{
+				"start": "FL",
+				"end": "BR",
+				"hit": "L"
+			}
+		],
+		"properties": [
+			"stopping"
+		],
+		"power": "medium",
+		"frames": 14,
+		"advhit": 8,
+		"advguard": 6,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Shapu Furiko",
+		"style": "kahlt",
+		"vert": "mid",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "BR",
+				"hit": "L"
+			}
+		],
+		"properties": [],
+		"power": "medium",
+		"frames": 14,
+		"advhit": 9,
+		"advguard": 3,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Toreador Slash",
+		"style": "faejin",
+		"vert": "mid",
+		"horiz": "vert",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "BR",
+				"hit": "L"
+			}
+		],
+		"properties": [
+			"strafing"
+		],
+		"power": "medium",
+		"frames": 14,
+		"advhit": 6,
+		"advguard": 2,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Up Slash",
+		"style": "faejin",
+		"vert": "mid",
+		"horiz": "vert",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "BL",
+				"hit": "R"
+			}
+		],
+		"properties": [],
+		"power": "medium",
+		"frames": 14,
+		"advhit": 9,
+		"advguard": 3,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Painstaking Slash",
+		"style": "forsaken",
+		"vert": "high",
+		"horiz": "horiz",
+		"stances": [
+			{
+				"start": "FL",
+				"end": "FR",
+				"hit": "L"
+			}
+		],
+		"properties": [],
+		"power": "medium",
+		"frames": 15,
+		"advhit": 8,
+		"advguard": 3,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Curled Up Uppercut",
+		"style": "kahlt",
+		"vert": "mid",
+		"horiz": "vert",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "FL",
+				"hit": "R"
+			},
+			{
+				"start": "FL",
+				"end": "FR",
+				"hit": "L"
+			}
+		],
+		"properties": [],
+		"power": "medium",
+		"frames": 15,
+		"advhit": 7,
+		"advguard": 6,
+		"barehand": true,
+		"sword": false
+	},
+	{
+		"name": "Curled Up Uppercut",
+		"style": "kahlt",
+		"vert": "mid",
+		"horiz": "vert",
+		"stances": [
+			{
+				"start": "FL",
+				"end": "FR",
+				"hit": "L"
+			}
+		],
+		"properties": [],
+		"power": "medium",
+		"frames": 15,
+		"advhit": 7,
+		"advguard": 6,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Reverse One Handed Slash",
+		"style": "kahlt",
+		"vert": "high",
+		"horiz": "horiz",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "BL",
+				"hit": "R"
+			}
+		],
+		"properties": [],
+		"power": "medium",
+		"frames": 15,
+		"advhit": 7,
+		"advguard": 4,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Dwit Chagi",
+		"style": "windfall",
+		"vert": "mid",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "BL",
+				"hit": "L"
+			},
+			{
+				"start": "FL",
+				"end": "BR",
+				"hit": "R"
+			}
+		],
+		"properties": [
+			"stopping"
+		],
+		"power": "medium",
+		"frames": 15,
+		"advhit": 8,
+		"advguard": 7,
+		"barehand": true,
+		"sword": true
+	},
+	{
+		"name": "Eye Poke",
+		"style": "stagger",
+		"vert": "high",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "FR",
+				"hit": "R"
+			},
+			{
+				"start": "BL",
+				"end": "FL",
+				"hit": "L"
+			}
+		],
+		"properties": [
+			"stopping"
+		],
+		"power": "medium",
+		"frames": 15,
+		"advhit": 8,
+		"advguard": 7,
+		"barehand": true,
+		"sword": false
+	},
+	{
+		"name": "Front Sweep",
+		"style": "windfall",
+		"vert": "low",
+		"horiz": "horiz",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "BR",
+				"hit": "R"
+			},
+			{
+				"start": "FL",
+				"end": "BL",
+				"hit": "L"
+			}
+		],
+		"properties": [
+			"ducking"
+		],
+		"power": "medium",
+		"frames": 15,
+		"advhit": 6,
+		"advguard": 2,
+		"barehand": true,
+		"sword": true
+	},
+	{
+		"name": "Handstand Kick",
+		"style": "stagger",
+		"vert": "high",
+		"horiz": "horiz",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "BL",
+				"hit": "L"
+			},
+			{
+				"start": "FL",
+				"end": "BR",
+				"hit": "R"
+			}
+		],
+		"properties": [
+			"ducking",
+			"double"
+		],
+		"power": "medium",
+		"frames": 15,
+		"advhit": 7,
+		"advguard": -1,
+		"barehand": true,
+		"sword": true
+	},
+	{
+		"name": "Reaching Mawashi",
+		"style": "faejin",
+		"vert": "high",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "FR",
+				"hit": "L"
+			},
+			{
+				"start": "FL",
+				"end": "FL",
+				"hit": "R"
+			}
+		],
+		"properties": [],
+		"power": "medium",
+		"frames": 15,
+		"advhit": 9,
+		"advguard": 4,
+		"barehand": true,
+		"sword": true
+	},
+	{
+		"name": "Rising Kick",
+		"style": "windfall",
+		"vert": "mid",
+		"horiz": "vert",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "BR",
+				"hit": "L"
+			},
+			{
+				"start": "FL",
+				"end": "BL",
+				"hit": "R"
+			}
+		],
+		"properties": [],
+		"power": "medium",
+		"frames": 15,
+		"advhit": 7,
+		"advguard": 6,
+		"barehand": true,
+		"sword": true
+	},
+	{
+		"name": "Twist Back Kick",
+		"style": "stagger",
+		"vert": "high",
+		"horiz": "horiz",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "BR",
+				"hit": "R"
+			},
+			{
+				"start": "BL",
+				"end": "BL",
+				"hit": "L"
+			}
+		],
+		"properties": [],
+		"power": "medium",
+		"frames": 15,
+		"advhit": 8,
+		"advguard": 3,
+		"barehand": true,
+		"sword": true
+	},
+	{
+		"name": "Slip Slash",
+		"style": "stagger",
+		"vert": "low",
+		"horiz": "horiz",
+		"stances": [
+			{
+				"start": "FL",
+				"end": "BL",
+				"hit": "L"
+			}
+		],
+		"properties": [],
+		"power": "medium",
+		"frames": 15,
+		"advhit": 7,
+		"advguard": 4,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Wide Slash",
+		"style": "stagger",
+		"vert": "high",
+		"horiz": "horiz",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "BR",
+				"hit": "L"
+			}
+		],
+		"properties": [],
+		"power": "medium",
+		"frames": 15,
+		"advhit": 8,
+		"advguard": 3,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Wrist Roll Slash",
+		"style": "stagger",
+		"vert": "mid",
+		"horiz": "vert",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "FR",
+				"hit": "R"
+			}
+		],
+		"properties": [],
+		"power": "medium",
+		"frames": 15,
+		"advhit": 9,
+		"advguard": 4,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Roll Back Fist",
+		"style": "windfall",
+		"vert": "high",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "BL",
+				"hit": "L"
+			},
+			{
+				"start": "FL",
+				"end": "BR",
+				"hit": "R"
+			}
+		],
+		"properties": [
+			"strafing"
+		],
+		"power": "medium",
+		"frames": 16,
+		"advhit": 8,
+		"advguard": 2,
+		"barehand": true,
+		"sword": false
+	},
+	{
+		"name": "Roll Back Fist",
+		"style": "windfall",
+		"vert": "high",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "FL",
+				"end": "BR",
+				"hit": "R"
+			}
+		],
+		"properties": [
+			"strafing"
+		],
+		"power": "medium",
+		"frames": 16,
+		"advhit": 8,
+		"advguard": 2,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Crushing Palm",
+		"style": "windfall",
+		"vert": "mid",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "BL",
+				"hit": "L"
+			},
+			{
+				"start": "FL",
+				"end": "BR",
+				"hit": "R"
+			}
+		],
+		"properties": [
+			"stopping"
+		],
+		"power": "medium",
+		"frames": 16,
+		"advhit": 9,
+		"advguard": 7,
+		"barehand": true,
+		"sword": false
+	},
+	{
+		"name": "Crushing Palm",
+		"style": "windfall",
+		"vert": "mid",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "FL",
+				"end": "BR",
+				"hit": "R"
+			}
+		],
+		"properties": [
+			"stopping"
+		],
+		"power": "medium",
+		"frames": 16,
+		"advhit": 9,
+		"advguard": 7,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Bounce Knee",
+		"style": "kahlt",
+		"vert": "high",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "BL",
+				"hit": "R"
+			},
+			{
+				"start": "FL",
+				"end": "BR",
+				"hit": "L"
+			}
+		],
+		"properties": [
+			"jumping"
+		],
+		"power": "medium",
+		"frames": 16,
+		"advhit": 9,
+		"advguard": 4,
+		"barehand": true,
+		"sword": true
+	},
+	{
+		"name": "Cleaver Blow",
+		"style": "kahlt",
+		"vert": "mid",
+		"horiz": "vert",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "FR",
+				"hit": "R"
+			},
+			{
+				"start": "FL",
+				"end": "FL",
+				"hit": "L"
+			}
+		],
+		"properties": [],
+		"power": "strong",
+		"frames": 16,
+		"advhit": 10,
+		"advguard": 4,
+		"barehand": true,
+		"sword": false
+	},
+	{
+		"name": "Cleaver Blow",
+		"style": "kahlt",
+		"vert": "mid",
+		"horiz": "vert",
+		"stances": [
+			{
+				"start": "FL",
+				"end": "FL",
+				"hit": "L"
+			}
+		],
+		"properties": [],
+		"power": "strong",
+		"frames": 16,
+		"advhit": 10,
+		"advguard": 4,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Keen Crouch",
+		"style": "windfall",
+		"vert": "mid",
+		"horiz": "vert",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "FL",
+				"hit": "R"
+			}
+		],
+		"properties": [
+			"ducking"
+		],
+		"power": "medium",
+		"frames": 16,
+		"advhit": 8,
+		"advguard": 3,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Head Splitter",
+		"style": "forsaken",
+		"vert": "mid",
+		"horiz": "vert",
+		"stances": [
+			{
+				"start": "FL",
+				"end": "FR",
+				"hit": "L"
+			}
+		],
+		"properties": [],
+		"power": "medium",
+		"frames": 16,
+		"advhit": 9,
+		"advguard": 5,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Jumping Risekick",
+		"style": "faejin",
+		"vert": "mid",
+		"horiz": "vert",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "FL",
+				"hit": "R"
+			},
+			{
+				"start": "FL",
+				"end": "FR",
+				"hit": "L"
+			}
+		],
+		"properties": [
+			"jumping"
+		],
+		"power": "medium",
+		"frames": 16,
+		"advhit": 10,
+		"advguard": 3,
+		"barehand": true,
+		"sword": true
+	},
+	{
+		"name": "Liver Knee",
+		"style": "kahlt",
+		"vert": "mid",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "FL",
+				"hit": "R"
+			},
+			{
+				"start": "BL",
+				"end": "FR",
+				"hit": "L"
+			}
+		],
+		"properties": [],
+		"power": "strong",
+		"frames": 16,
+		"advhit": 8,
+		"advguard": 6,
+		"barehand": true,
+		"sword": true
+	},
+	{
+		"name": "Scissor Kick",
+		"style": "forsaken",
+		"vert": "high",
+		"horiz": "horiz",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "BL",
+				"hit": "R"
+			},
+			{
+				"start": "BL",
+				"end": "BR",
+				"hit": "L"
+			}
+		],
+		"properties": [
+			"jumping"
+		],
+		"power": "medium",
+		"frames": 16,
+		"advhit": 8,
+		"advguard": 3,
+		"barehand": true,
+		"sword": true
+	},
+	{
+		"name": "Whirlwind Double Punch",
+		"style": "stagger",
+		"vert": "low",
+		"horiz": "horiz",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "FR",
+				"hit": "R"
+			},
+			{
+				"start": "BL",
+				"end": "FL",
+				"hit": "L"
+			}
+		],
+		"properties": [
+			"ducking",
+			"double"
+		],
+		"power": "medium",
+		"frames": 16,
+		"advhit": 7,
+		"advguard": 1,
+		"barehand": true,
+		"sword": true
+	},
+	{
+		"name": "Arc Slash",
+		"style": "faejin",
+		"vert": "mid",
+		"horiz": "vert",
+		"stances": [
+			{
+				"start": "BL",
+				"end": "FR",
+				"hit": "L"
+			}
+		],
+		"properties": [],
+		"power": "medium",
+		"frames": 16,
+		"advhit": 9,
+		"advguard": 5,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Sickle Slash",
+		"style": "stagger",
+		"vert": "high",
+		"horiz": "horiz",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "BR",
+				"hit": "R"
+			}
+		],
+		"properties": [],
+		"power": "medium",
+		"frames": 16,
+		"advhit": 9,
+		"advguard": 3,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Tendon Slash",
+		"style": "stagger",
+		"vert": "low",
+		"horiz": "horiz",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "BL",
+				"hit": "L"
+			}
+		],
+		"properties": [],
+		"power": "medium",
+		"frames": 16,
+		"advhit": 8,
+		"advguard": 4,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Back Fist",
+		"style": "kahlt",
+		"vert": "mid",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "FR",
+				"hit": "R"
+			},
+			{
+				"start": "FL",
+				"end": "FL",
+				"hit": "L"
+			}
+		],
+		"properties": [],
+		"power": "strong",
+		"frames": 17,
+		"advhit": 11,
+		"advguard": 4,
+		"barehand": true,
+		"sword": false
+	},
+	{
+		"name": "Back Fist",
+		"style": "kahlt",
+		"vert": "mid",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "FR",
+				"hit": "R"
+			}
+		],
+		"properties": [],
+		"power": "strong",
+		"frames": 17,
+		"advhit": 11,
+		"advguard": 4,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Bending Palm",
+		"style": "windfall",
+		"vert": "mid",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "BL",
+				"hit": "L"
+			},
+			{
+				"start": "FL",
+				"end": "BR",
+				"hit": "R"
+			}
+		],
+		"properties": [
+			"stopping"
+		],
+		"power": "strong",
+		"frames": 17,
+		"advhit": 9,
+		"advguard": 8,
+		"barehand": true,
+		"sword": false
+	},
+	{
+		"name": "Roll Punch",
+		"style": "kahlt",
+		"vert": "mid",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "FL",
+				"hit": "R"
+			},
+			{
+				"start": "FL",
+				"end": "FR",
+				"hit": "L"
+			}
+		],
+		"properties": [
+			"ducking"
+		],
+		"power": "medium",
+		"frames": 17,
+		"advhit": 9,
+		"advguard": 3,
+		"barehand": true,
+		"sword": false
+	},
+	{
+		"name": "Roll Punch",
+		"style": "kahlt",
+		"vert": "mid",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "FL",
+				"end": "FR",
+				"hit": "L"
+			}
+		],
+		"properties": [
+			"ducking"
+		],
+		"power": "medium",
+		"frames": 17,
+		"advhit": 9,
+		"advguard": 3,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Side Kick",
+		"style": "kahlt",
+		"vert": "high",
+		"horiz": "horiz",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "FL",
+				"hit": "R"
+			},
+			{
+				"start": "FL",
+				"end": "FR",
+				"hit": "L"
+			}
+		],
+		"properties": [],
+		"power": "strong",
+		"frames": 17,
+		"advhit": 10,
+		"advguard": 3,
+		"barehand": true,
+		"sword": true
+	},
+	{
+		"name": "Body Blow",
+		"style": "kahlt",
+		"vert": "mid",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "FL",
+				"hit": "L"
+			},
+			{
+				"start": "FL",
+				"end": "FR",
+				"hit": "R"
+			}
+		],
+		"properties": [
+			"strafing"
+		],
+		"power": "medium",
+		"frames": 17,
+		"advhit": 8,
+		"advguard": 4,
+		"barehand": true,
+		"sword": false
+	},
+	{
+		"name": "Body Blow",
+		"style": "kahlt",
+		"vert": "mid",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "FL",
+				"hit": "L"
+			}
+		],
+		"properties": [
+			"strafing"
+		],
+		"power": "medium",
+		"frames": 17,
+		"advhit": 8,
+		"advguard": 4,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Ground Swell Slash",
+		"style": "forsaken",
+		"vert": "low",
+		"horiz": "horiz",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "BR",
+				"hit": "L"
+			}
+		],
+		"properties": [],
+		"power": "strong",
+		"frames": 17,
+		"advhit": 8,
+		"advguard": 5,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Face Backfist",
+		"style": "faejin",
+		"vert": "mid",
+		"horiz": "vert",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "BR",
+				"hit": "R"
+			},
+			{
+				"start": "BL",
+				"end": "BL",
+				"hit": "L"
+			}
+		],
+		"properties": [],
+		"power": "strong",
+		"frames": 17,
+		"advhit": 11,
+		"advguard": 4,
+		"barehand": true,
+		"sword": false
+	},
+	{
+		"name": "Face Backfist",
+		"style": "faejin",
+		"vert": "mid",
+		"horiz": "vert",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "BR",
+				"hit": "R"
+			}
+		],
+		"properties": [],
+		"power": "strong",
+		"frames": 17,
+		"advhit": 11,
+		"advguard": 4,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Jackhammer Punch",
+		"style": "kahlt",
+		"vert": "mid",
+		"horiz": "vert",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "FR",
+				"hit": "L"
+			},
+			{
+				"start": "BL",
+				"end": "FL",
+				"hit": "R"
+			}
+		],
+		"properties": [
+			"double"
+		],
+		"power": "strong",
+		"frames": 17,
+		"advhit": 10,
+		"advguard": 5,
+		"barehand": true,
+		"sword": false
+	},
+	{
+		"name": "Pulmonary Palm",
+		"style": "windfall",
+		"vert": "mid",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "FR",
+				"hit": "R"
+			},
+			{
+				"start": "FL",
+				"end": "FL",
+				"hit": "L"
+			}
+		],
+		"properties": [
+			"stopping"
+		],
+		"power": "medium",
+		"frames": 17,
+		"advhit": 9,
+		"advguard": 8,
+		"barehand": true,
+		"sword": false
+	},
+	{
+		"name": "Back Thrust",
+		"style": "kahlt",
+		"vert": "low",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "BL",
+				"end": "BR",
+				"hit": "L"
+			}
+		],
+		"properties": [
+			"stopping"
+		],
+		"power": "medium",
+		"frames": 17,
+		"advhit": 9,
+		"advguard": 8,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Vertical Slash",
+		"style": "forsaken",
+		"vert": "mid",
+		"horiz": "vert",
+		"stances": [
+			{
+				"start": "BL",
+				"end": "FR",
+				"hit": "L"
+			}
+		],
+		"properties": [],
+		"power": "strong",
+		"frames": 17,
+		"advhit": 10,
+		"advguard": 5,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Dash Slash",
+		"style": "windfall",
+		"vert": "high",
+		"horiz": "horiz",
+		"stances": [
+			{
+				"start": "BL",
+				"end": "FR",
+				"hit": "L"
+			}
+		],
+		"properties": [],
+		"power": "medium",
+		"frames": 17,
+		"advhit": 11,
+		"advguard": 2,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Drop Slash",
+		"style": "stagger",
+		"vert": "mid",
+		"horiz": "vert",
+		"stances": [
+			{
+				"start": "BL",
+				"end": "BL",
+				"hit": "L"
+			}
+		],
+		"properties": [],
+		"power": "strong",
+		"frames": 17,
+		"advhit": 12,
+		"advguard": 3,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Spoon Slash",
+		"style": "stagger",
+		"vert": "mid",
+		"horiz": "vert",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "FL",
+				"hit": "R"
+			}
+		],
+		"properties": [],
+		"power": "medium",
+		"frames": 17,
+		"advhit": 9,
+		"advguard": 5,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Gatotsu",
+		"style": "faejin",
+		"vert": "mid",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "FL",
+				"hit": "R"
+			}
+		],
+		"properties": [],
+		"power": "medium",
+		"frames": 17,
+		"advhit": 11,
+		"advguard": 4,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Inward Slash",
+		"style": "stagger",
+		"vert": "high",
+		"horiz": "horiz",
+		"stances": [
+			{
+				"start": "FL",
+				"end": "FR",
+				"hit": "R"
+			}
+		],
+		"properties": [],
+		"power": "strong",
+		"frames": 17,
+		"advhit": 11,
+		"advguard": 2,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Rising Double Hand",
+		"style": "kahlt",
+		"vert": "mid",
+		"horiz": "vert",
+		"stances": [
+			{
+				"start": "BL",
+				"end": "BR",
+				"hit": "L"
+			}
+		],
+		"properties": [
+			"breaking"
+		],
+		"power": "strong",
+		"frames": 17,
+		"advhit": 9,
+		"advguard": 9,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Low Spin Heel",
+		"style": "windfall",
+		"vert": "low",
+		"horiz": "horiz",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "FR",
+				"hit": "L"
+			},
+			{
+				"start": "BL",
+				"end": "FL",
+				"hit": "R"
+			}
+		],
+		"properties": [
+			"ducking"
+		],
+		"power": "strong",
+		"frames": 18,
+		"advhit": 9,
+		"advguard": 3,
+		"barehand": true,
+		"sword": true
+	},
+	{
+		"name": "Illusion Twist Kick",
+		"style": "windfall",
+		"vert": "mid",
+		"horiz": "vert",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "FR",
+				"hit": "L"
+			},
+			{
+				"start": "BL",
+				"end": "FL",
+				"hit": "R"
+			}
+		],
+		"properties": [
+			"jumping"
+		],
+		"power": "strong",
+		"frames": 18,
+		"advhit": 12,
+		"advguard": 3,
+		"barehand": true,
+		"sword": true
+	},
+	{
+		"name": "MeiaLua",
+		"style": "kahlt",
+		"vert": "high",
+		"horiz": "horiz",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "FL",
+				"hit": "R"
+			},
+			{
+				"start": "FL",
+				"end": "FR",
+				"hit": "L"
+			}
+		],
+		"properties": [
+			"ducking"
+		],
+		"power": "strong",
+		"frames": 18,
+		"advhit": 9,
+		"advguard": 3,
+		"barehand": true,
+		"sword": true
+	},
+	{
+		"name": "Leg Breaker",
+		"style": "kahlt",
+		"vert": "low",
+		"horiz": "horiz",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "FL",
+				"hit": "R"
+			},
+			{
+				"start": "FL",
+				"end": "FR",
+				"hit": "L"
+			}
+		],
+		"properties": [],
+		"power": "strong",
+		"frames": 18,
+		"advhit": 10,
+		"advguard": 4,
+		"barehand": true,
+		"sword": true
+	},
+	{
+		"name": "Slap Kick",
+		"style": "windfall",
+		"vert": "high",
+		"horiz": "horiz",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "BR",
+				"hit": "R"
+			},
+			{
+				"start": "BL",
+				"end": "BL",
+				"hit": "L"
+			}
+		],
+		"properties": [
+			"jumping"
+		],
+		"power": "medium",
+		"frames": 18,
+		"advhit": 9,
+		"advguard": 4,
+		"barehand": true,
+		"sword": true
+	},
+	{
+		"name": "Spiral Back Punch",
+		"style": "stagger",
+		"vert": "mid",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "BR",
+				"hit": "L"
+			},
+			{
+				"start": "FL",
+				"end": "BL",
+				"hit": "R"
+			}
+		],
+		"properties": [],
+		"power": "strong",
+		"frames": 18,
+		"advhit": 10,
+		"advguard": 6,
+		"barehand": true,
+		"sword": false
+	},
+	{
+		"name": "Rising Spin Slash",
+		"style": "forsaken",
+		"vert": "mid",
+		"horiz": "vert",
+		"stances": [
+			{
+				"start": "BL",
+				"end": "BR",
+				"hit": "L"
+			}
+		],
+		"properties": [],
+		"power": "strong",
+		"frames": 18,
+		"advhit": 12,
+		"advguard": 4,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Tetsuzanko",
+		"style": "windfall",
+		"vert": "mid",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "BL",
+				"hit": "R"
+			},
+			{
+				"start": "BL",
+				"end": "BR",
+				"hit": "L"
+			}
+		],
+		"properties": [
+			"strafing"
+		],
+		"power": "strong",
+		"frames": 18,
+		"advhit": 10,
+		"advguard": 4,
+		"barehand": true,
+		"sword": false
+	},
+	{
+		"name": "Tetsuzanko",
+		"style": "windfall",
+		"vert": "mid",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "BL",
+				"end": "BR",
+				"hit": "L"
+			}
+		],
+		"properties": [
+			"strafing"
+		],
+		"power": "strong",
+		"frames": 18,
+		"advhit": 10,
+		"advguard": 4,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Whirl Slash",
+		"style": "windfall",
+		"vert": "high",
+		"horiz": "horiz",
+		"stances": [
+			{
+				"start": "FL",
+				"end": "BR",
+				"hit": "L"
+			}
+		],
+		"properties": [
+			"jumping"
+		],
+		"power": "medium",
+		"frames": 18,
+		"advhit": 10,
+		"advguard": 3,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Digging Parry Elbow",
+		"style": "forsaken",
+		"vert": "high",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "FL",
+				"end": "BR",
+				"hit": "R"
+			}
+		],
+		"properties": [
+			"parry"
+		],
+		"power": "medium",
+		"frames": 18,
+		"advhit": 9,
+		"advguard": 4,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Overhead Slash",
+		"style": "faejin",
+		"vert": "mid",
+		"horiz": "vert",
+		"stances": [
+			{
+				"start": "FL",
+				"end": "FR",
+				"hit": "R"
+			}
+		],
+		"properties": [],
+		"power": "strong",
+		"frames": 18,
+		"advhit": 11,
+		"advguard": 5,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Pommel Bash",
+		"style": "forsaken",
+		"vert": "mid",
+		"horiz": "vert",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "BL",
+				"hit": "R"
+			}
+		],
+		"properties": [
+			"breaking"
+		],
+		"power": "strong",
+		"frames": 18,
+		"advhit": 10,
+		"advguard": 10,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Reverse Feet Thrust",
+		"style": "kahlt",
+		"vert": "low",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "FR",
+				"hit": "L"
+			}
+		],
+		"properties": [],
+		"power": "strong",
+		"frames": 18,
+		"advhit": 12,
+		"advguard": 4,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Reverse Rising Thrust",
+		"style": "kahlt",
+		"vert": "mid",
+		"horiz": "vert",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "BL",
+				"hit": "L"
+			}
+		],
+		"properties": [],
+		"power": "strong",
+		"frames": 18,
+		"advhit": 10,
+		"advguard": 6,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Spiral Slash",
+		"style": "forsaken",
+		"vert": "high",
+		"horiz": "horiz",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "BL",
+				"hit": "R"
+			}
+		],
+		"properties": [],
+		"power": "strong",
+		"frames": 18,
+		"advhit": 11,
+		"advguard": 3,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Roll Uppercut",
+		"style": "kahlt",
+		"vert": "mid",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "FL",
+				"hit": "L"
+			},
+			{
+				"start": "BL",
+				"end": "FR",
+				"hit": "R"
+			}
+		],
+		"properties": [
+			"ducking"
+		],
+		"power": "strong",
+		"frames": 19,
+		"advhit": 11,
+		"advguard": 4,
+		"barehand": true,
+		"sword": false
+	},
+	{
+		"name": "Roll Uppercut",
+		"style": "kahlt",
+		"vert": "mid",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "FL",
+				"hit": "L"
+			}
+		],
+		"properties": [
+			"ducking"
+		],
+		"power": "strong",
+		"frames": 19,
+		"advhit": 11,
+		"advguard": 4,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Power Mawashi",
+		"style": "faejin",
+		"vert": "high",
+		"horiz": "horiz",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "FL",
+				"hit": "R"
+			},
+			{
+				"start": "BL",
+				"end": "FR",
+				"hit": "L"
+			}
+		],
+		"properties": [],
+		"power": "strong",
+		"frames": 19,
+		"advhit": 11,
+		"advguard": 4,
+		"barehand": true,
+		"sword": true
+	},
+	{
+		"name": "Pushed Back Kick",
+		"style": "forsaken",
+		"vert": "mid",
+		"horiz": "vert",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "BR",
+				"hit": "R"
+			},
+			{
+				"start": "BL",
+				"end": "BL",
+				"hit": "L"
+			}
+		],
+		"properties": [
+			"breaking"
+		],
+		"power": "strong",
+		"frames": 19,
+		"advhit": 11,
+		"advguard": 11,
+		"barehand": true,
+		"sword": true
+	},
+	{
+		"name": "Parry Shove",
+		"style": "forsaken",
+		"vert": "high",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "FL",
+				"end": "BR",
+				"hit": "R"
+			}
+		],
+		"properties": [
+			"parry"
+		],
+		"power": "medium",
+		"frames": 19,
+		"advhit": 10,
+		"advguard": 4,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Axe Kick",
+		"style": "forsaken",
+		"vert": "mid",
+		"horiz": "vert",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "FL",
+				"hit": "R"
+			},
+			{
+				"start": "BL",
+				"end": "FR",
+				"hit": "L"
+			}
+		],
+		"properties": [],
+		"power": "strong",
+		"frames": 20,
+		"advhit": 11,
+		"advguard": 7,
+		"barehand": true,
+		"sword": false
+	},
+	{
+		"name": "Axe Kick",
+		"style": "forsaken",
+		"vert": "mid",
+		"horiz": "vert",
+		"stances": [
+			{
+				"start": "BL",
+				"end": "FR",
+				"hit": "L"
+			}
+		],
+		"properties": [],
+		"power": "strong",
+		"frames": 20,
+		"advhit": 11,
+		"advguard": 7,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Knee Strike",
+		"style": "forsaken",
+		"vert": "mid",
+		"horiz": "vert",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "FL",
+				"hit": "L"
+			},
+			{
+				"start": "BL",
+				"end": "FR",
+				"hit": "R"
+			}
+		],
+		"properties": [
+			"breaking",
+			"jumping"
+		],
+		"power": "strong",
+		"frames": 20,
+		"advhit": 12,
+		"advguard": 12,
+		"barehand": true,
+		"sword": true
+	},
+	{
+		"name": "Drunken Smash",
+		"style": "stagger",
+		"vert": "high",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "FL",
+				"hit": "L"
+			},
+			{
+				"start": "BL",
+				"end": "FR",
+				"hit": "R"
+			}
+		],
+		"properties": [],
+		"power": "strong",
+		"frames": 20,
+		"advhit": 13,
+		"advguard": 5,
+		"barehand": true,
+		"sword": false
+	},
+	{
+		"name": "Front Kick",
+		"style": "kahlt",
+		"vert": "mid",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "FL",
+				"hit": "R"
+			},
+			{
+				"start": "FL",
+				"end": "FR",
+				"hit": "L"
+			}
+		],
+		"properties": [
+			"breaking"
+		],
+		"power": "strong",
+		"frames": 20,
+		"advhit": 12,
+		"advguard": 12,
+		"barehand": true,
+		"sword": true
+	},
+	{
+		"name": "Twist Hips Slash",
+		"style": "forsaken",
+		"vert": "mid",
+		"horiz": "vert",
+		"stances": [
+			{
+				"start": "BL",
+				"end": "FL",
+				"hit": "R"
+			}
+		],
+		"properties": [],
+		"power": "strong",
+		"frames": 20,
+		"advhit": 13,
+		"advguard": 5,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Spinning Flute Swing",
+		"style": "stagger",
+		"vert": "high",
+		"horiz": "horiz",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "FR",
+				"hit": "L"
+			},
+			{
+				"start": "BL",
+				"end": "FL",
+				"hit": "R"
+			}
+		],
+		"properties": [],
+		"power": "strong",
+		"frames": 20,
+		"advhit": 12,
+		"advguard": 4,
+		"barehand": true,
+		"sword": false
+	},
+	{
+		"name": "Guts Punch",
+		"style": "faejin",
+		"vert": "mid",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "FR",
+				"hit": "R"
+			},
+			{
+				"start": "BL",
+				"end": "FL",
+				"hit": "L"
+			}
+		],
+		"properties": [],
+		"power": "strong",
+		"frames": 20,
+		"advhit": 12,
+		"advguard": 6,
+		"barehand": true,
+		"sword": false
+	},
+	{
+		"name": "Guts Punch",
+		"style": "faejin",
+		"vert": "mid",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "BL",
+				"end": "FL",
+				"hit": "L"
+			}
+		],
+		"properties": [],
+		"power": "strong",
+		"frames": 20,
+		"advhit": 12,
+		"advguard": 6,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Hammer Kick",
+		"style": "windfall",
+		"vert": "mid",
+		"horiz": "vert",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "FL",
+				"hit": "R"
+			},
+			{
+				"start": "FL",
+				"end": "FR",
+				"hit": "L"
+			}
+		],
+		"properties": [
+			"breaking"
+		],
+		"power": "strong",
+		"frames": 20,
+		"advhit": 12,
+		"advguard": 12,
+		"barehand": true,
+		"sword": true
+	},
+	{
+		"name": "Parry Reverse Low Slash",
+		"style": "kahlt",
+		"vert": "low",
+		"horiz": "horiz",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "BR",
+				"hit": "L"
+			}
+		],
+		"properties": [
+			"parry"
+		],
+		"power": "medium",
+		"frames": 20,
+		"advhit": 10,
+		"advguard": 3,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Plexus Elbow",
+		"style": "faejin",
+		"vert": "mid",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "BR",
+				"hit": "L"
+			},
+			{
+				"start": "FL",
+				"end": "BL",
+				"hit": "R"
+			}
+		],
+		"properties": [
+			"breaking"
+		],
+		"power": "strong",
+		"frames": 20,
+		"advhit": 12,
+		"advguard": 12,
+		"barehand": true,
+		"sword": false
+	},
+	{
+		"name": "Plexus Elbow",
+		"style": "faejin",
+		"vert": "mid",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "BR",
+				"hit": "L"
+			}
+		],
+		"properties": [
+			"breaking"
+		],
+		"power": "strong",
+		"frames": 20,
+		"advhit": 12,
+		"advguard": 12,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Surging Palm",
+		"style": "windfall",
+		"vert": "mid",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "BL",
+				"hit": "L"
+			},
+			{
+				"start": "BL",
+				"end": "BR",
+				"hit": "R"
+			}
+		],
+		"properties": [
+			"strafing"
+		],
+		"power": "strong",
+		"frames": 20,
+		"advhit": 12,
+		"advguard": 5,
+		"barehand": true,
+		"sword": false
+	},
+	{
+		"name": "Surging Palm",
+		"style": "windfall",
+		"vert": "mid",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "BL",
+				"end": "BR",
+				"hit": "R"
+			}
+		],
+		"properties": [
+			"strafing"
+		],
+		"power": "strong",
+		"frames": 20,
+		"advhit": 12,
+		"advguard": 5,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Twist Parry Strike",
+		"style": "forsaken",
+		"vert": "high",
+		"horiz": "horiz",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "BR",
+				"hit": "R"
+			},
+			{
+				"start": "BL",
+				"end": "BL",
+				"hit": "L"
+			}
+		],
+		"properties": [
+			"parry"
+		],
+		"power": "medium",
+		"frames": 20,
+		"advhit": 9,
+		"advguard": 4,
+		"barehand": true,
+		"sword": false
+	},
+	{
+		"name": "Twist Parry Strike",
+		"style": "forsaken",
+		"vert": "high",
+		"horiz": "horiz",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "BR",
+				"hit": "R"
+			}
+		],
+		"properties": [
+			"parry"
+		],
+		"power": "medium",
+		"frames": 20,
+		"advhit": 9,
+		"advguard": 4,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Parry Pommel Bash",
+		"style": "kahlt",
+		"vert": "mid",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "FR",
+				"hit": "R"
+			}
+		],
+		"properties": [
+			"parry"
+		],
+		"power": "medium",
+		"frames": 20,
+		"advhit": 11,
+		"advguard": 4,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "360 Tornado Kick",
+		"style": "forsaken",
+		"vert": "high",
+		"horiz": "horiz",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "BR",
+				"hit": "R"
+			},
+			{
+				"start": "FL",
+				"end": "BL",
+				"hit": "L"
+			}
+		],
+		"properties": [
+			"jumping"
+		],
+		"power": "strong",
+		"frames": 21,
+		"advhit": 12,
+		"advguard": -1,
+		"barehand": true,
+		"sword": true
+	},
+	{
+		"name": "Jump Out Elbow",
+		"style": "kahlt",
+		"vert": "mid",
+		"horiz": "vert",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "BR",
+				"hit": "L"
+			},
+			{
+				"start": "FL",
+				"end": "BL",
+				"hit": "R"
+			}
+		],
+		"properties": [
+			"breaking",
+			"jumping"
+		],
+		"power": "strong",
+		"frames": 21,
+		"advhit": 13,
+		"advguard": 13,
+		"barehand": true,
+		"sword": false
+	},
+	{
+		"name": "Jump Out Elbow",
+		"style": "kahlt",
+		"vert": "mid",
+		"horiz": "vert",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "BR",
+				"hit": "L"
+			}
+		],
+		"properties": [
+			"breaking",
+			"jumping"
+		],
+		"power": "strong",
+		"frames": 21,
+		"advhit": 13,
+		"advguard": 13,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Drunken Paw",
+		"style": "stagger",
+		"vert": "high",
+		"horiz": "horiz",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "BR",
+				"hit": "L"
+			},
+			{
+				"start": "FL",
+				"end": "BL",
+				"hit": "R"
+			}
+		],
+		"properties": [
+			"strafing"
+		],
+		"power": "strong",
+		"frames": 21,
+		"advhit": 13,
+		"advguard": 5,
+		"barehand": true,
+		"sword": false
+	},
+	{
+		"name": "Grab Punch",
+		"style": "stagger",
+		"vert": "high",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "FR",
+				"hit": "L"
+			},
+			{
+				"start": "BL",
+				"end": "FL",
+				"hit": "R"
+			}
+		],
+		"properties": [
+			"charging"
+		],
+		"power": "strong",
+		"frames": 21,
+		"advhit": 11,
+		"advguard": 3,
+		"barehand": true,
+		"sword": false
+	},
+	{
+		"name": "Grab Punch",
+		"style": "stagger",
+		"vert": "high",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "BL",
+				"end": "FL",
+				"hit": "R"
+			}
+		],
+		"properties": [
+			"charging"
+		],
+		"power": "strong",
+		"frames": 21,
+		"advhit": 11,
+		"advguard": 3,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Hadrunken",
+		"style": "stagger",
+		"vert": "high",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "FR",
+				"hit": "RL"
+			},
+			{
+				"start": "FL",
+				"end": "FL",
+				"hit": "RL"
+			}
+		],
+		"properties": [
+			"charging"
+		],
+		"power": "strong",
+		"frames": 21,
+		"advhit": 10,
+		"advguard": 4,
+		"barehand": true,
+		"sword": false
+	},
+	{
+		"name": "Swirl Slash",
+		"style": "windfall",
+		"vert": "mid",
+		"horiz": "vert",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "BR",
+				"hit": "L"
+			}
+		],
+		"properties": [
+			"breaking"
+		],
+		"power": "strong",
+		"frames": 21,
+		"advhit": 13,
+		"advguard": 13,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Run-up Strike",
+		"style": "faejin",
+		"vert": "mid",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "BL",
+				"hit": "R"
+			},
+			{
+				"start": "FL",
+				"end": "BR",
+				"hit": "L"
+			}
+		],
+		"properties": [],
+		"power": "strong",
+		"frames": 21,
+		"advhit": 12,
+		"advguard": 5,
+		"barehand": true,
+		"sword": false
+	},
+	{
+		"name": "Run-up Strike",
+		"style": "faejin",
+		"vert": "mid",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "FL",
+				"end": "BR",
+				"hit": "L"
+			}
+		],
+		"properties": [],
+		"power": "strong",
+		"frames": 21,
+		"advhit": 12,
+		"advguard": 5,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Buchinmo",
+		"style": "kahlt",
+		"vert": "mid",
+		"horiz": "vert",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "FR",
+				"hit": "R"
+			}
+		],
+		"properties": [
+			"charging"
+		],
+		"power": "strong",
+		"frames": 21,
+		"advhit": 10,
+		"advguard": 4,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Puropera Cut",
+		"style": "forsaken",
+		"vert": "high",
+		"horiz": "horiz",
+		"stances": [
+			{
+				"start": "FL",
+				"end": "BL",
+				"hit": "R"
+			}
+		],
+		"properties": [],
+		"power": "strong",
+		"frames": 21,
+		"advhit": 13,
+		"advguard": 4,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Side Wind Thrust",
+		"style": "windfall",
+		"vert": "high",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "FL",
+				"end": "FR",
+				"hit": "R"
+			}
+		],
+		"properties": [
+			"strafing"
+		],
+		"power": "strong",
+		"frames": 21,
+		"advhit": 13,
+		"advguard": 5,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Stumble Slash",
+		"style": "stagger",
+		"vert": "mid",
+		"horiz": "vert",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "FL",
+				"hit": "R"
+			}
+		],
+		"properties": [],
+		"power": "strong",
+		"frames": 21,
+		"advhit": 13,
+		"advguard": 6,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Charged Haymaker",
+		"style": "kahlt",
+		"vert": "high",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "FL",
+				"hit": "R"
+			},
+			{
+				"start": "FL",
+				"end": "FR",
+				"hit": "L"
+			}
+		],
+		"properties": [
+			"charging"
+		],
+		"power": "strong",
+		"frames": 22,
+		"advhit": 10,
+		"advguard": 5,
+		"barehand": true,
+		"sword": false
+	},
+	{
+		"name": "Charged Haymaker",
+		"style": "kahlt",
+		"vert": "high",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "FL",
+				"end": "FR",
+				"hit": "L"
+			}
+		],
+		"properties": [
+			"charging"
+		],
+		"power": "strong",
+		"frames": 22,
+		"advhit": 10,
+		"advguard": 5,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Falcon Punch",
+		"style": "forsaken",
+		"vert": "high",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "FR",
+				"hit": "R"
+			},
+			{
+				"start": "FL",
+				"end": "FL",
+				"hit": "L"
+			}
+		],
+		"properties": [
+			"jumping"
+		],
+		"power": "strong",
+		"frames": 22,
+		"advhit": 13,
+		"advguard": 6,
+		"barehand": true,
+		"sword": false
+	},
+	{
+		"name": "Falcon Punch",
+		"style": "forsaken",
+		"vert": "high",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "FL",
+				"end": "FL",
+				"hit": "L"
+			}
+		],
+		"properties": [
+			"jumping"
+		],
+		"power": "strong",
+		"frames": 22,
+		"advhit": 13,
+		"advguard": 6,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Furious Uppercut",
+		"style": "forsaken",
+		"vert": "mid",
+		"horiz": "vert",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "BL",
+				"hit": "R"
+			},
+			{
+				"start": "FL",
+				"end": "BR",
+				"hit": "L"
+			}
+		],
+		"properties": [
+			"charging"
+		],
+		"power": "strong",
+		"frames": 22,
+		"advhit": 12,
+		"advguard": 3,
+		"barehand": true,
+		"sword": false
+	},
+	{
+		"name": "Furious Uppercut",
+		"style": "forsaken",
+		"vert": "mid",
+		"horiz": "vert",
+		"stances": [
+			{
+				"start": "FL",
+				"end": "BR",
+				"hit": "L"
+			}
+		],
+		"properties": [
+			"charging"
+		],
+		"power": "strong",
+		"frames": 22,
+		"advhit": 12,
+		"advguard": 3,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Spinning High Kick",
+		"style": "forsaken",
+		"vert": "high",
+		"horiz": "horiz",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "BR",
+				"hit": "L"
+			},
+			{
+				"start": "FL",
+				"end": "BL",
+				"hit": "R"
+			}
+		],
+		"properties": [],
+		"power": "strong",
+		"frames": 22,
+		"advhit": 14,
+		"advguard": 4,
+		"barehand": true,
+		"sword": true
+	},
+	{
+		"name": "Forward Lean Slash",
+		"style": "stagger",
+		"vert": "high",
+		"horiz": "horiz",
+		"stances": [
+			{
+				"start": "BL",
+				"end": "FL",
+				"hit": "L"
+			}
+		],
+		"properties": [],
+		"power": "strong",
+		"frames": 22,
+		"advhit": 14,
+		"advguard": 3,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Obvious Slash",
+		"style": "stagger",
+		"vert": "mid",
+		"horiz": "vert",
+		"stances": [
+			{
+				"start": "FL",
+				"end": "FL",
+				"hit": ""
+			}
+		],
+		"properties": [],
+		"power": "strong",
+		"frames": 22,
+		"advhit": 14,
+		"advguard": 5,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Reverse Sharp Slash",
+		"style": "kahlt",
+		"vert": "high",
+		"horiz": "horiz",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "BL",
+				"hit": "R"
+			}
+		],
+		"properties": [],
+		"power": "strong",
+		"frames": 22,
+		"advhit": 13,
+		"advguard": 5,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Seven Star Thrust",
+		"style": "windfall",
+		"vert": "mid",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "FL",
+				"hit": "L"
+			}
+		],
+		"properties": [
+			"strafing"
+		],
+		"power": "strong",
+		"frames": 22,
+		"advhit": 14,
+		"advguard": 5,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Thunder Slash",
+		"style": "forsaken",
+		"vert": "mid",
+		"horiz": "vert",
+		"stances": [
+			{
+				"start": "BL",
+				"end": "BL",
+				"hit": "R"
+			}
+		],
+		"properties": [],
+		"power": "strong",
+		"frames": 23,
+		"advhit": 14,
+		"advguard": 5,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Horse Kick",
+		"style": "faejin",
+		"vert": "mid",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "BR",
+				"hit": "R"
+			},
+			{
+				"start": "BL",
+				"end": "BL",
+				"hit": "L"
+			}
+		],
+		"properties": [],
+		"power": "strong",
+		"frames": 23,
+		"advhit": 13,
+		"advguard": 8,
+		"barehand": true,
+		"sword": true
+	},
+	{
+		"name": "Jumped Spin Kick",
+		"style": "kahlt",
+		"vert": "high",
+		"horiz": "horiz",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "BL",
+				"hit": "R"
+			},
+			{
+				"start": "BL",
+				"end": "BR",
+				"hit": "L"
+			}
+		],
+		"properties": [
+			"jumping"
+		],
+		"power": "strong",
+		"frames": 23,
+		"advhit": 12,
+		"advguard": 6,
+		"barehand": true,
+		"sword": true
+	},
+	{
+		"name": "Spinning Wide Hook",
+		"style": "forsaken",
+		"vert": "high",
+		"horiz": "horiz",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "FR",
+				"hit": "L"
+			},
+			{
+				"start": "BL",
+				"end": "FL",
+				"hit": "R"
+			}
+		],
+		"properties": [],
+		"power": "strong",
+		"frames": 23,
+		"advhit": 14,
+		"advguard": 3,
+		"barehand": true,
+		"sword": false
+	},
+	{
+		"name": "Spinning Wide Hook",
+		"style": "forsaken",
+		"vert": "high",
+		"horiz": "horiz",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "FR",
+				"hit": "L"
+			}
+		],
+		"properties": [],
+		"power": "strong",
+		"frames": 23,
+		"advhit": 14,
+		"advguard": 3,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Upper Elbow",
+		"style": "kahlt",
+		"vert": "high",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "BL",
+				"hit": "L"
+			},
+			{
+				"start": "BL",
+				"end": "BR",
+				"hit": "R"
+			}
+		],
+		"properties": [],
+		"power": "strong",
+		"frames": 23,
+		"advhit": 14,
+		"advguard": 5,
+		"barehand": true,
+		"sword": false
+	},
+	{
+		"name": "Upper Elbow",
+		"style": "kahlt",
+		"vert": "high",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "BL",
+				"end": "BR",
+				"hit": "R"
+			}
+		],
+		"properties": [],
+		"power": "strong",
+		"frames": 23,
+		"advhit": 14,
+		"advguard": 5,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Body Slicing",
+		"style": "kahlt",
+		"vert": "mid",
+		"horiz": "vert",
+		"stances": [
+			{
+				"start": "FL",
+				"end": "BL",
+				"hit": "R"
+			}
+		],
+		"properties": [
+			"breaking"
+		],
+		"power": "strong",
+		"frames": 23,
+		"advhit": 13,
+		"advguard": 14,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Collar Chop",
+		"style": "windfall",
+		"vert": "high",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "BR",
+				"hit": "R"
+			},
+			{
+				"start": "BL",
+				"end": "BL",
+				"hit": "L"
+			}
+		],
+		"properties": [
+			"breaking"
+		],
+		"power": "strong",
+		"frames": 24,
+		"advhit": 15,
+		"advguard": 15,
+		"barehand": true,
+		"sword": false
+	},
+	{
+		"name": "Collar Chop",
+		"style": "windfall",
+		"vert": "high",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "BR",
+				"hit": "R"
+			}
+		],
+		"properties": [
+			"breaking"
+		],
+		"power": "strong",
+		"frames": 24,
+		"advhit": 15,
+		"advguard": 15,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "One Inch Punch",
+		"style": "faejin",
+		"vert": "mid",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "FR",
+				"hit": "L"
+			},
+			{
+				"start": "FL",
+				"end": "FL",
+				"hit": "R"
+			}
+		],
+		"properties": [
+			"breaking"
+		],
+		"power": "strong",
+		"frames": 24,
+		"advhit": 15,
+		"advguard": 15,
+		"barehand": true,
+		"sword": false
+	},
+	{
+		"name": "One Inch Punch",
+		"style": "faejin",
+		"vert": "mid",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "FR",
+				"end": "FR",
+				"hit": "L"
+			}
+		],
+		"properties": [
+			"breaking"
+		],
+		"power": "strong",
+		"frames": 24,
+		"advhit": 15,
+		"advguard": 15,
+		"barehand": false,
+		"sword": true
+	},
+	{
+		"name": "Spiral Palm",
+		"style": "windfall",
+		"vert": "mid",
+		"horiz": "thrust",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "FR",
+				"hit": "R"
+			},
+			{
+				"start": "BL",
+				"end": "FL",
+				"hit": "L"
+			}
+		],
+		"properties": [
+			"breaking"
+		],
+		"power": "strong",
+		"frames": 24,
+		"advhit": 15,
+		"advguard": 15,
+		"barehand": true,
+		"sword": false
+	},
+	{
+		"name": "Parry Slash",
+		"style": "forsaken",
+		"vert": "low",
+		"horiz": "horiz",
+		"stances": [
+			{
+				"start": "BR",
+				"end": "FL",
+				"hit": "L"
+			}
+		],
+		"properties": [
+			"parry"
+		],
+		"power": "strong",
+		"frames": 24,
+		"advhit": 13,
+		"advguard": 6,
+		"barehand": false,
+		"sword": true
+	}
+]
